@@ -13,8 +13,8 @@ This project is a React-based web application designed to display a pricing tabl
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/ascend-agency-pricing.git
-    cd ascend-agency-pricing
+    git clone https://github.com/mahnoor-zamir/Ascend-Agency.git
+    cd Ascend-Agency
     ```
 
 2. **Install dependencies**:
