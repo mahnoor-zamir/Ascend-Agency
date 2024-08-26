@@ -1,4 +1,4 @@
-# Ascend Agency Dashbboard
+# Ascend Agency Dashboard
 
 This project is a React-based web application designed to display a pricing table for different publication options. The UI is styled with Tailwind CSS.
 ## Features
