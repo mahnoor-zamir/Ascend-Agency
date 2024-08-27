@@ -80,8 +80,6 @@ const PRBundles = () => {
 
   return (
     <div className="pr-bundles">
-      <Header />
-      <ButtonGroup />
       {bundles.map((bundle, index) => (
         <BundleSection key={index} {...bundle} />
       ))}
