@@ -1,10 +1,9 @@
-# Ascend Agency Pricing Page
+# Ascend Agency Dashboard
 
-This project is a React-based web application designed to display a pricing table for different publication options. The UI is styled with Tailwind CSS, and the table component is reusable across multiple tabs.
-
+This project is a React-based web application designed to display a pricing table for different publication options. The UI is styled with Tailwind CSS.
 ## Features
 
-- **Reusable Table Component**: A flexible and reusable table component that can be used across different tabs.
+- **Table Component**: A flexible and reusable table component that can be used across different tabs.
 - **Custom Color Scheme**: The UI follows a specific color palette to maintain a consistent and visually appealing design.
 - **Responsive Design**: The layout is responsive and adapts to different screen sizes.
 - **Filter and Search**: Users can filter publications by name, price, region, and genre.
@@ -14,8 +13,8 @@ This project is a React-based web application designed to display a pricing tabl
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/ascend-agency-pricing.git
-    cd ascend-agency-pricing
+    git clone https://github.com/mahnoor-zamir/Ascend-Agency.git
+    cd Ascend-Agency
     ```
 
 2. **Install dependencies**:
