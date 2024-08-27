@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import TabContent from './components/TabContent';
-
 import Navbar from './components/Navbar';
 import PricingHeader from './components/PricingHeader';
-import './App.css';
 import FilterSection from './components/FilterSection';
+import PRBundles from './components/prBundles';
+import PrintPage from './components/PrintPage'; 
+import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('publications');
@@ -37,9 +38,14 @@ function App() {
       </nav>
 
       <div className="content">
-        {/* <Sidebar /> */}
-        <FilterSection/>
-        <TabContent activeTab={activeTab} />
+        <FilterSection />
+        {activeTab === 'prBundles' ? (
+          <PRBundles />
+        ) : activeTab === 'print' ? (
+          <PrintPage />
+        ) : (
+          <TabContent activeTab={activeTab} />
+        )}
       </div>
     </div>
   );
