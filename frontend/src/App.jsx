@@ -1,15 +1,45 @@
-import React from 'react';
-import Header from './components/Header';
+import React, { useState } from 'react';
+import TabContent from './components/TabContent';
+
+import Navbar from './components/Navbar';
+import PricingHeader from './components/PricingHeader';
+import './App.css';
 import FilterSection from './components/FilterSection';
-import PublicationsTable from './components/PublicationsTable';
 
 function App() {
+  const [activeTab, setActiveTab] = useState('publications');
+
+  const tabs = [
+    { id: 'publications', label: 'Publications' },
+    { id: 'television', label: 'Television' },
+    { id: 'listicles', label: 'Listicles' },
+    { id: 'bestSellers', label: 'Best Sellers' },
+    { id: 'prBundles', label: 'PR Bundles' },
+    { id: 'print', label: 'Print' },
+    { id: 'socialPost', label: 'Social Post' }
+  ];
+
   return (
-    <div className="App bg-gray-100 min-h-screen">
-      <Header />
-      <div className="container mx-auto p-4">
-        <FilterSection />
-        <PublicationsTable />
+    <div className="app">
+      <Navbar />
+      <PricingHeader />
+
+      <nav className="tabs">
+        {tabs.map(tab => (
+          <button
+            key={tab.id}
+            className={`tab ${activeTab === tab.id ? 'active' : ''}`}
+            onClick={() => setActiveTab(tab.id)}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </nav>
+
+      <div className="content">
+        {/* <Sidebar /> */}
+        <FilterSection/>
+        <TabContent activeTab={activeTab} />
       </div>
     </div>
   );
