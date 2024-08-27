@@ -1,48 +1,97 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './FilterSection.css';
 
 function FilterSection() {
+  const [minPrice, setMinPrice] = useState(1000);
+  const [maxPrice, setMaxPrice] = useState(100000);
+
+  const handleMinPriceChange = (e) => {
+    const value = Math.min(e.target.value, maxPrice - 1);
+    setMinPrice(value);
+  };
+
+  const handleMaxPriceChange = (e) => {
+    const value = Math.max(e.target.value, minPrice + 1);
+    setMaxPrice(value);
+  };
+
   return (
-    <div className="bg-white p-4 rounded-md shadow-md mb-6">
-      <div className="flex space-x-4 mb-4">
-        <input 
-          type="text" 
-          placeholder="Search publication name" 
-          className="border border-gray-300 p-2 rounded-md w-full" 
-        />
-        <select className="border border-gray-300 p-2 rounded-md">
-          <option value="price-asc">Price (Asc)</option>
-          <option value="price-desc">Price (Desc)</option>
-        </select>
+    <div className="filter-section">
+      <div className="filter-group">
+        <label className="filter-label">Publication name</label>
+        <input type="text" placeholder="Search publication name" className="search-input" />
       </div>
-      <div className="flex space-x-4 mb-4">
-        <input 
-          type="range" 
-          min="0" 
-          max="100000" 
-          className="w-full" 
-        />
-        <select className="border border-gray-300 p-2 rounded-md">
-          <option value="">Select regions</option>
-          <option value="us">United States</option>
-          <option value="uk">United Kingdom</option>
-          <option value="ca">Canada</option>
-          {/* Add more region options as needed */}
-        </select>
-      </div>
-      <div className="flex flex-wrap space-x-4">
-        <label className="flex items-center space-x-2">
-          <input type="checkbox" className="form-checkbox" />
-          <span>News</span>
-        </label>
-        <label className="flex items-center space-x-2">
-          <input type="checkbox" className="form-checkbox" />
-          <span>Business</span>
-        </label>
-        <label className="flex items-center space-x-2">
-          <input type="checkbox" className="form-checkbox" />
-          <span>Lifestyle</span>
-        </label>
-        {/* Add more genres as needed */}
+
+      <div className="filter-group">
+      <label className="filter-label">Sort by</label>
+  
+  <select className="sort-select">
+    <option>Price (Asc)</option>
+    <option>Price (Desc)</option>
+    <option>Domain Authority (Asc)</option>
+    <option>Domain Authority (Desc)</option>
+    <option>Domain Rating (Asc)</option>
+    <option>Domain Rating (Desc)</option>
+  </select>
+</div>
+
+<div className="filter-group">
+  <label className="filter-label">Price range</label>
+  <div className="price-range">
+    <input
+      type="range"
+      min="0"
+      max="100000"
+      value={minPrice}
+      onChange={handleMinPriceChange}
+      className="price-slider min-slider"
+    />
+    <input
+      type="range"
+      min="0"
+      max="100000"
+      value={maxPrice}
+      onChange={handleMaxPriceChange}
+      className="price-slider max-slider"
+    />
+    <div className="price-values">
+      <span>${minPrice}</span>
+      <span>${maxPrice}</span>
+    </div>
+  </div>
+</div>
+
+<div className="filter-group">
+  <label className="filter-label">Select regions</label>
+  <select className="regions-select">
+    <option>California</option>
+    <option>United States</option>
+    <option>Utah</option>
+    <option>New York</option>
+    <option>Global</option>
+    <option>Illinois</option>
+    <option>Oregon</option>
+    <option>Texas</option>
+    <option>Georgia</option>
+  </select>
+</div>
+
+      <div className="filter-group">
+        <label className="filter-label">Select genres</label>
+        <div className="genres">
+          <button className="genre-button">News</button>
+          <button className="genre-button">Business</button>
+          <button className="genre-button">Entertainment</button>
+          <button className="genre-button">Luxury</button>
+          <button className="genre-button">Lifestyle</button>
+          <button className="genre-button">Tech</button>
+          <button className="genre-button">Music</button>
+          <button className="genre-button">Fashion</button>
+          <button className="genre-button">Sports</button>
+          <button className="genre-button">Real Estate</button>
+          <button className="genre-button">Political</button>
+          <button className="genre-button">Gaming</button>
+        </div>
       </div>
     </div>
   );
