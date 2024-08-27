@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import PricingHeader from './components/PricingHeader';
 import FilterSection from './components/FilterSection';
 import PRBundles from './components/prBundles';
+import PrintPage from './components/PrintPage'; 
 import './App.css';
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
         <FilterSection />
         {activeTab === 'prBundles' ? (
           <PRBundles />
+        ) : activeTab === 'print' ? (
+          <PrintPage />
         ) : (
           <TabContent activeTab={activeTab} />
         )}
