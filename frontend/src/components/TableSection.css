@@ -1,0 +1,95 @@
+
+
+  .table-section {
+    padding: 20px;
+    max-width: 1080px;
+    overflow-x: auto; 
+  }
+  
+  .table-header {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    background-color: #ffffff ;
+    text-align: left;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  .styled-table thead th {
+    background-color: #ffffff ;
+    color: #ff0000; /* Red color for the header text */
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .publication-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .publication-cell img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .styled-table img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Optional: Adjustments for better spacing in certain columns */
+  .styled-table td:nth-child(11),
+  .styled-table td:nth-child(12),
+  .styled-table td:nth-child(13) {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      padding: 10px; /* Reduce padding on smaller screens */
+      font-size: 14px; /* Adjust font size for better readability */
+    }
+  
+    .table-section {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    th, td {
+      padding: 8px; /* Further reduce padding on small screens */
+      font-size: 12px; /* Adjust font size */
+    }
+  
+    table {
+      font-size: 12px; /* Make the whole table smaller for better fit */
+    }
+  
+    .table-section {
+      padding: 10px; /* Reduce the padding around the table */
+    }
+  } 
+  
