@@ -1,6 +1,6 @@
 import React from 'react';
 import TableComponent from './TableComponent';
-import './TabContent.css';
+
 import './PricingHeader.css';
 function TabContent({ activeTab }) {
   return (
