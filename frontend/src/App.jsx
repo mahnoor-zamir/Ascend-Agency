@@ -5,6 +5,7 @@ import PricingHeader from './components/PricingHeader';
 import FilterSection from './components/FilterSection';
 import PRBundles from './components/prBundles';
 import PrintPage from './components/PrintPage'; 
+import SocialPostTab from './components/SocialPostTab';
 import './App.css';
 
 function App() {
@@ -38,11 +39,16 @@ function App() {
       </nav>
 
       <div className="content">
-        <FilterSection />
+        {/* Conditionally render the FilterSection based on the active tab */}
+        {activeTab !== 'socialPost' && <FilterSection />}
+
+        {/* Render the appropriate tab content */}
         {activeTab === 'prBundles' ? (
           <PRBundles />
         ) : activeTab === 'print' ? (
           <PrintPage />
+        ) : activeTab === 'socialPost' ? (
+          <SocialPostTab />
         ) : (
           <TabContent activeTab={activeTab} />
         )}
