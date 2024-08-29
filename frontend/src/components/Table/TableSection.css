@@ -3,7 +3,8 @@
   max-width: 1200px;
   /* overflow-x: auto;  */
   /* white-space: nowrap; */
-  width:100%;
+  width:140%;
+  /* width:80px; */
 }
 
 .table-header {
@@ -34,6 +35,7 @@
   color: #ff0000; /* Red color for the header text */
   text-transform: uppercase;
   font-weight: bold;
+ 
 }
 
 .styled-table tbody tr {
