@@ -1,0 +1,68 @@
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .select-box {
+    text-align: center;
+    padding: 20px;
+    width: 450px;
+    background-color:  #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .business-title {
+    margin-bottom: 40px; /* Increased space between ASCENDAGENCY and Select a business */
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .bold {
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .or-text {
+    color: #aaa; /* Light grey color */
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .select-subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .business-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .business-button:hover {
+    background-color: red;;
+  }
+  
+  .sign-in-another a {
+    color: #d00;
+    text-decoration: none;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+  }
+  
+  .sign-in-another a:hover {
+    opacity: 0.6; /* Faint effect on hover */
+  }
+  
