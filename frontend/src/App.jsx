@@ -1,10 +1,10 @@
 // App.js
 import React, { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import PricingHeader from './components/PricingHeader';
-import FilterSection from './components/FilterSection';
-import TabContent from './components/TabContent';
+import Navbar from './components/Navbar/Navbar.jsx';
+import PricingHeader from './components/Header/PricingHeader.jsx';
+import FilterSection from './components/Filter/FilterSection.jsx';
+import TabContent from './components/TabContent/TabContent.jsx';
 
 function App() {
   const [activeTab, setActiveTab] = useState('publications');
