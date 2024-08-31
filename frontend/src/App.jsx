@@ -5,7 +5,9 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import PricingHeader from './components/Header/PricingHeader.jsx';
 import FilterSection from './components/Filter/FilterSection.jsx';
 import TabContent from './components/TabContent/TabContent.jsx';
-
+import PRBundles from './components/PRBundles/PRBundles.jsx';
+import PrintPage from './components/PrintPage/PrintPage.jsx'; 
+import SocialPostTab from './components/SocialPost/SocialPostTab.jsx';
 function App() {
   const [activeTab, setActiveTab] = useState('publications');
 
@@ -46,6 +48,12 @@ function App() {
         return <TabContent activeTab={activeTab}/>;
       case 'bestSellers':
         return <TabContent activeTab={activeTab}/>;
+      case 'prBundles':
+          return <PRBundles />;
+      case 'print':
+        return <PrintPage />;
+        case 'socialPost':
+          return <SocialPostTab />;
       default:
         return null;
     }
