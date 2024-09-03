@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding: 30px;
   background-color: #e0e6ed;
   text-align: center;
 }
@@ -28,7 +28,7 @@ body {
 
 .tab.active {
   background-color: #e62e3e;
-  color: white;
+  color: rgb(255, 71, 71);
 }
 
 .content {
