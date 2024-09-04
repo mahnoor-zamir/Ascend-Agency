@@ -35,31 +35,7 @@ function FilterSection() {
   </select>
 </div>
 
-<div className="filter-group">
-  <label className="filter-label">Price range</label>
-  <div className="price-range">
-    <input
-      type="range"
-      min="0"
-      max="100000"
-      value={minPrice}
-      onChange={handleMinPriceChange}
-      className="price-slider min-slider"
-    />
-    <input
-      type="range"
-      min="0"
-      max="100000"
-      value={maxPrice}
-      onChange={handleMaxPriceChange}
-      className="price-slider max-slider"
-    />
-    <div className="price-values">
-      <span>${minPrice}</span>
-      <span>${maxPrice}</span>
-    </div>
-  </div>
-</div>
+
 
 <div className="filter-group">
   <label className="filter-label">Select regions</label>
