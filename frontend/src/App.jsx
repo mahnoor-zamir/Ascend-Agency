@@ -6,8 +6,8 @@ import PricingHeader from './components/Header/PricingHeader.jsx';
 import FilterSection from './components/Filter/FilterSection.jsx';
 import TabContent from './components/TabContent/TabContent.jsx';
 import PRBundles from './components/PRBundles/PRBundles.jsx';
-import PrintPage from './components/PrintPage/PrintPage.jsx'; 
-import SocialPostTab from './components/SocialPost/SocialPostTab.jsx';
+import PrintPage from './components/PrintPage/PrintPage.jsx';
+// import SocialPostTab from './components/SocialPost/SocialPostTab.jsx';
 function App() {
   const [activeTab, setActiveTab] = useState('publications');
 
@@ -15,10 +15,10 @@ function App() {
     { id: 'publications', label: 'Publications' },
     { id: 'television', label: 'Television' },
     { id: 'listicles', label: 'Listicles' },
-    { id: 'bestSellers', label: 'Best Sellers' },
+    { id: 'bestsellers', label: 'Best Sellers' },
     { id: 'prBundles', label: 'PR Bundles' },
     { id: 'print', label: 'Print' },
-    { id: 'socialPost', label: 'Social Post' }
+    { id: 'socialpost', label: 'Social Post' }
   ];
   const renderContent = () => {
     switch (activeTab) {
@@ -26,34 +26,38 @@ function App() {
         return (
           <>
             <FilterSection />
-            <TabContent activeTab={activeTab}/>
+            <TabContent activeTab={activeTab} />
           </>
         );
       case 'television':
         return (
           <>
-          <div className="filter-section">
-            <div className="filter-group">
-              <label className="filter-label">Search by TV</label>
-              <input type="text" placeholder="Enter TV name" className="search-input" />
+            <div className="filter-section">
+              <div className="filter-group">
+                <label className="filter-label">Search by TV</label>
+                <input type="text" placeholder="Enter TV name" className="search-input" />
+              </div>
+              <p>Turn Around Time: 2-4 Weeks</p>
+              <p>Segment Times vary between 2-4 minutes</p>
+              <p>Zoom & In Person Options Available</p>
             </div>
-            <p>Turn Around Time: 2-4 Weeks</p>
-            <p>Segment Times vary between 2-4 minutes</p>
-            <p>Zoom & In Person Options Available</p>
-          </div>
-          <TabContent activeTab={activeTab}/>
+            <TabContent activeTab={activeTab} />
           </>
         );
       case 'listicles':
-        return <TabContent activeTab={activeTab}/>;
+        return <TabContent activeTab={activeTab} />;
       case 'bestSellers':
-        return <TabContent activeTab={activeTab}/>;
+        return <TabContent activeTab={activeTab} />;
+      case 'socialpost':
+        return <TabContent activeTab={activeTab} />;
+      case 'bestsellers':
+        return <TabContent activeTab={activeTab} />;
       case 'prBundles':
-          return <PRBundles />;
+        return <PRBundles />;
       case 'print':
         return <PrintPage />;
-        case 'socialPost':
-          return <SocialPostTab />;
+      // case 'socialPost':
+      //   return <SocialPostTab />;
       default:
         return null;
     }
@@ -73,11 +77,11 @@ function App() {
             {tab.label}
           </button>
         ))}
-        
+
       </nav>
-     
+
       <div className="content">{renderContent()}</div>
-      
+
     </div>
   );
 }

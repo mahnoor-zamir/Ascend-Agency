@@ -9,10 +9,10 @@ function TabContent({ activeTab }) {
       {activeTab === 'publications' && <TableComponent tableType="publications" />}
       {activeTab === 'television' && <TableComponent tableType="television" />}
       {activeTab === 'listicles' && <TableComponent tableType="listicles" />}
-      {activeTab === 'bestSellers' && <TableComponent tableType="bestSellers" />}
+      {activeTab === 'bestsellers' && <TableComponent tableType="bestsellers" />}
       {activeTab === 'prBundles' && <TableComponent tableType="prBundles" />}
       {activeTab === 'print' && <TableComponent tableType="print" />}
-      {activeTab === 'socialPost' && <TableComponent tableType="socialPost" />}
+      {activeTab === 'socialpost' && <TableComponent tableType="socialpost" />}
     </div>
   );
 }
