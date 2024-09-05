@@ -1,12 +1,12 @@
-/* src/components/FilterSection.css */
+
 .filter-section {
-  background-color: white;
+  background-color: #ffffff;
   width:20%;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  /* border: 1px solid #ddd;
+  border-radius: 10px; */
   margin-right: 20px;
-  
+    font-family: 'Alumni Sans', sans-serif; 
 }
 
 .filter-group {
@@ -18,7 +18,7 @@
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 0px;
   background-color: white;
   color: #333;
   cursor: pointer;
@@ -41,7 +41,7 @@
   padding: 10px;
   margin-top: 5px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* .price-range {
@@ -139,7 +139,55 @@
   flex-wrap: wrap;
   gap: 10px; /* Adds space between buttons */
 }
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  width: 235px;
+  text-align: left;
+  border-radius: 0px;
+}
+
+.dropdown-button:focus {
+  outline: none;
+  border-color: #f8e9e9;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 235px;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f8e9e9;
+  color: red;
+ 
+}
+
+.dropdown-menu li.selected {
+  background-color: #f8e9e9;
+  color: red;
+}
 .genre-button {
   margin-bottom: 10px; /* Extra spacing below each row */
   padding: 10px 15px;
