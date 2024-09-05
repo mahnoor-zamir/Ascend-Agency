@@ -1,33 +1,32 @@
 /* src/components/PricingHeader.css */
 .pricing-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    background-color: #f0f4f7;
-    border-bottom: 1px solid #F9F9F9;
-    font-family: 'Alumni Sans', sans-serif;
-    font-weight: 500; 
-  }
-  
-  .pricing-header h1 {
-    font-size: 24px;
-    margin: 0;
-    color: #333;
-  }
-  
-  .pricing-header .buttons {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .pricing-header .buttons button {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #f0f4f7;
+  border-bottom: 1px solid #F9F9F9;
+  font-family: 'Alumni Sans', sans-serif;
+  font-weight: 500; 
+}
+
+.pricing-header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.pricing-header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.pricing-header .buttons button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
