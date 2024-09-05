@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img src="/your-logo-url.png" alt="Ascend Agency Logo" className="logo" />
-      <a href="#" className="logout">Log Out</a>
     </nav>
   );
 }

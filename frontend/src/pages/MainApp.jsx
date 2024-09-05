@@ -1,6 +1,5 @@
 // App.js
 import React, { useState } from 'react';
-// import './App.css'; // Uncomment this if you are using the CSS file
 import Navbar from '../components/Navbar/Navbar.jsx';
 import PricingHeader from '../components/Header/PricingHeader.jsx';
 import FilterSection from '../components/Filter/FilterSection.jsx';
@@ -84,3 +83,4 @@ function MainApp() {
 }
 
 export default MainApp;
+
