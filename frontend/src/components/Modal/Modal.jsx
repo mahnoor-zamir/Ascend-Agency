@@ -17,3 +17,4 @@ const Modal = ({ isOpen, onClose }) => {
 };
 
 export default Modal;
+
