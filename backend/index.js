@@ -11,7 +11,6 @@ app.get('/', (req, res) => {
   res.send('Connected to the MySQL database');
 });
 
-// Corrected route handlers
 app.use('/api/publications', publicationRoutes);
 app.use('/api/television', televisionRoutes);
 app.use('/api/listicles', listicleRoutes);

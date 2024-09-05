@@ -7,7 +7,7 @@ import FilterSection from '../components/Filter/FilterSection.jsx';
 import TabContent from '../components/TabContent/TabContent.jsx';
 import PRBundles from '../components/PRBundles/PRBundles.jsx';
 import PrintPage from '../components/PrintPage/PrintPage.jsx'; 
-import SocialPostTab from '../components/SocialPost/SocialPostTab.jsx';
+// import SocialPostTab from '../components/SocialPost/SocialPostTab.jsx';
 
 function MainApp() {
   const [activeTab, setActiveTab] = useState('publications');
@@ -55,7 +55,7 @@ function MainApp() {
       case 'print':
         return <PrintPage />;
       case 'socialPost':
-        return <SocialPostTab />;
+          return <TabContent activeTab={activeTab}/>;
       default:
         return null;
     } // <- Make sure this closing brace is here
