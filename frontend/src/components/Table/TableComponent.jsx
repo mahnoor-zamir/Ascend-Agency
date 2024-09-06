@@ -29,7 +29,6 @@ const TableComponent = ({ tableType }) => {
         }
         const response = await fetch(endpoint);
         const result = await response.json();
-        console.log(result); // Add this line
         setData(result);
       } catch (error) {
         console.error('Error fetching data:', error);
