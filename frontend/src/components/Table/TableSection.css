@@ -28,6 +28,7 @@
   text-align: left;
   border: 1px solid #ddd;
   vertical-align: middle;
+  min-width: 70px;
 }
 
 .styled-table thead th {
@@ -43,18 +44,21 @@
 }
 
 .styled-table tbody tr:hover {
-  background-color: #f1f1f1;
+  background-color: #d5d4d4;
 }
 
 .publication-cell {
   display: flex;
+  position: relative;
   align-items: center;
+  padding: 22px !important;
 }
 
 .publication-cell img {
   width: 40px;
   height: 40px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .styled-table img {
@@ -67,6 +71,138 @@
 .styled-table td:nth-child(12),
 .styled-table td:nth-child(13) {
   text-align: center;
+}
+
+.star-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  color: #000000;
+}
+
+.star-icon.favorite {
+  color: gold;
+}
+
+.styled-table td.genres-cell {
+  padding: 0 10px;
+}
+
+.genre-item {
+  background-color: rgb(240, 240, 240);
+  border-radius: 3px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding:1px 5px;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  width: max-content;
+}
+.genre-tooltip {
+  cursor: pointer;
+  position: relative;
+}
+
+
+.genre-tooltip .question-icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.genre-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the icon */
+  left: 50%;
+  margin-left: -60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.genre-tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.heading-tooltip {
+  cursor: pointer;
+  position: relative;
+}
+
+.heading-tooltip .question-icon {
+  position: absolute;
+  color: #6d6d6d;
+  right: -5px;
+  top: -18px;
+}
+
+.heading-tooltip .heading-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -100%; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading-tooltip:hover .heading-text {
+  visibility: visible;
+}
+
+.heading-tooltip .heading-text .heading {
+  color: #ff0000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.heading-tooltip .heading-text p {
+  color: #333;
+  font-size: 11px;
+  font-weight: 200;
+}
+
+.image-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.image-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the text */
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.image-icon {
+  cursor: pointer;
 }
 
 /* @media (max-width: 768px) {
