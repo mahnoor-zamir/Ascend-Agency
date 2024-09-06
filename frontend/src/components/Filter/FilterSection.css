@@ -31,8 +31,9 @@
 .filter-group label {
   display: block;
   font-weight: bold;
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-family: 'Alumni Sans', sans-serif; 
 }
 
 .filter-group input[type="text"],
@@ -44,96 +45,15 @@
   border-radius: 0px;
 }
 
-/* .price-range {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.price-input {
-  width: 25%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
 
-.price-slider {
-  width: 50%;
-}
- */
- /* Price Range Slider Styling */
-.price-range {
-  margin: 20px 0;
-  text-align: center;
-  
 
-}
-
-.slider-wrapper {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.price-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 8px;
-  background-color: #ddd;
-  border-radius: 5px;
-  outline: none;
-}
-
-.min-slider::-webkit-slider-thumb,
-.max-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border: 2px solid #000;
-  cursor: pointer;
-  border-radius: 0; /* Square thumbs */
-}
-
-.min-slider::-moz-range-thumb,
-.max-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border: 2px solid #000;
-  cursor: pointer;
-  border-radius: 0; /* Square thumbs */
-}
-
-/* Min and Max Price Values */
-.price-values {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  font-size: 16px;
-  color: #333;
-}
-
-.min-value,
-.max-value {
-  font-weight: bold;
-  width: 50%;
-  text-align: center;
-}
 
 /* Other filter section styles */
 .filter-group {
   margin-bottom: 25px;
 }
 
-.filter-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 8px;
-  font-size: 18px;
-  color: #333;
-}
 .genres {
   display: flex;
   flex-wrap: wrap;
@@ -175,7 +95,7 @@
   padding: 10px;
   font-size: 16px;
   color: #333;
-  cursor: pointer;
+  cursor: pointer
 }
 
 .dropdown-menu li:hover {
@@ -189,14 +109,74 @@
   color: red;
 }
 .genre-button {
-  margin-bottom: 10px; /* Extra spacing below each row */
-  padding: 10px 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #656161;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 2px 15px;
   cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin:-3px;}
+
+.filter-options {
+  background-color: #656161;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 2px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin:2px;
 }
 
-.genre-button:hover {
-  background-color: #e9e9e9;
+.type-button{
+  background-color: #656161;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 2px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin:2px;
+}
+
+.genre-button.selected, .type-button.selected,.filter-options.active {
+  background-color: #d9534f; /* Red background for selected */
+}
+
+.genre-button:hover, .type-button:hover,.filter-options:hover {
+  background-color: #d7322c;
+}
+
+.genres, .types {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.region-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.region-tag {
+  background-color: #555;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.region-tag button {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
 }
