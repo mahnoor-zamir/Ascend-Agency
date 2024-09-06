@@ -7,50 +7,85 @@ const TableComponent = ({ tableType }) => {
   const [data, setData] = useState([]);
   const [favorites, setFavorites] = useState([]);
 
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       let dummyData;
+  //       switch (tableType) {
+  //         case 'publications':
+  //           dummyData = [
+  //             { publication: 'Pub 1', genres: ['Tech', 'News'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US', 'Global'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
+  //             { publication: 'Pub 2', genres: ['Entertainment', 'Sports', 'Health'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
+  //           ];
+  //           break;
+  //         case 'television':
+  //           dummyData = [
+  //             { affiliate: 'Affiliate 1', calls: 100, state: 'CA', market: 'Market 1', program_name: 'Program 1', location: ['Location 1'], time: '10:00 AM', rate: '$500' },
+  //             { affiliate: 'Affiliate 2', calls: 150, state: 'NY', market: 'Market 2', program_name: 'Program 2', location: ['Location 2'], time: '11:00 AM', rate: '$600' },
+  //           ];
+  //           break;
+  //         case 'listicles':
+  //           dummyData = [
+  //             { publication: 'Pub 1', genres: ['Genre 1'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
+  //             { publication: 'Pub 2', genres: ['Genre 2', 'Genre 3', 'Genre 4'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
+  //           ];
+  //           break;
+  //         case 'socialpost':
+  //           dummyData = [
+  //             { publication_name: 'Pub 1', platform: 'Platform 1', price: '$100', tat: '1 week' },
+  //             { publication_name: 'Pub 2', platform: 'Platform 2', price: '$200', tat: '2 weeks' },
+  //           ];
+  //           break;
+  //         case 'bestsellers':
+  //           dummyData = [
+  //             { publication: 'Pub 1', genres: ['Genre 1'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
+  //             { publication: 'Pub 2', genres: ['Genre 2', 'Genre 3', 'Genre 4'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
+  //           ];
+  //           break;
+  //         default:
+  //           return;
+  //       }
+  //       setData(dummyData);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   };
+  
+  //   fetchData();
+  // }, [tableType]);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        let dummyData;
+        let endpoint;
         switch (tableType) {
           case 'publications':
-            dummyData = [
-              { publication: 'Pub 1', genres: ['Tech', 'News'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US', 'Global'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
-              { publication: 'Pub 2', genres: ['Entertainment', 'Sports', 'Health'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
-            ];
+            endpoint = '/api/publications';
             break;
           case 'television':
-            dummyData = [
-              { affiliate: 'Affiliate 1', calls: 100, state: 'CA', market: 'Market 1', program_name: 'Program 1', location: ['Location 1'], time: '10:00 AM', rate: '$500' },
-              { affiliate: 'Affiliate 2', calls: 150, state: 'NY', market: 'Market 2', program_name: 'Program 2', location: ['Location 2'], time: '11:00 AM', rate: '$600' },
-            ];
+            endpoint = '/api/television';
             break;
           case 'listicles':
-            dummyData = [
-              { publication: 'Pub 1', genres: ['Genre 1'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
-              { publication: 'Pub 2', genres: ['Genre 2', 'Genre 3', 'Genre 4'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
-            ];
+            endpoint = '/api/listicles';
             break;
           case 'socialpost':
-            dummyData = [
-              { publication_name: 'Pub 1', platform: 'Platform 1', price: '$100', tat: '1 week' },
-              { publication_name: 'Pub 2', platform: 'Platform 2', price: '$200', tat: '2 weeks' },
-            ];
+            endpoint = '/api/socialposts';
             break;
           case 'bestsellers':
-            dummyData = [
-              { publication: 'Pub 1', genres: ['Genre 1'], price: '$100', da: 50, dr: 60, tat: '1 week', region: ['US'], sponsored: true, indexed: true, do_follow: true, example: 'Example 1', image: 'image1.png', niches: 'Niche 1' },
-              { publication: 'Pub 2', genres: ['Genre 2', 'Genre 3', 'Genre 4'], price: '$200', da: 55, dr: 65, tat: '2 weeks', region: ['EU'], sponsored: false, indexed: true, do_follow: false, example: 'Example 2', image: 'image2.png', niches: 'Niche 2' },
-            ];
+            endpoint = '/api/bestsellers';
             break;
           default:
             return;
         }
-        setData(dummyData);
+        const response = await fetch(endpoint);
+        const result = await response.json();
+        console.log(result); // Add this line
+        setData(result);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
     };
-  
+
     fetchData();
   }, [tableType]);
   
