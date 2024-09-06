@@ -3,8 +3,10 @@ import React, { useState } from 'react';
 import SelectBusinessPage from './components/BusinessPage/BusinessPage.jsx';
 import MainApp from './pages/MainApp.jsx';
 import LoginPage from './components/Login/Login.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
 import Modal from './components/Modal/Modal.jsx'; // Import your Modal component
 import './App.css';
+
 
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -18,6 +20,11 @@ function App() {
         } else {
             alert('Invalid email or password');
         }
+    };
+
+    const handleLogout = () => {
+        setIsAuthenticated(false);
+        setIsBusinessSelected(false);
     };
 
     const handleBusinessSelection = () => {
@@ -39,6 +46,7 @@ function App() {
 
     return (
         <div>
+            <Navbar onLogout={handleLogout} />
             <MainApp />
             <Modal isOpen={isModalOpen} onClose={handleCloseModal} /> {/* Modal component */}
         </div>

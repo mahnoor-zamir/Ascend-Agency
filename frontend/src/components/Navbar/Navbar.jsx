@@ -2,10 +2,11 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ onLogout }) => {
   return (
     <nav className="navbar">
       <img src="/your-logo-url.png" alt="Ascend Agency Logo" className="logo" />
+      <button className="logout-button" onClick={onLogout}>LOG OUT</button>
     </nav>
   );
 }

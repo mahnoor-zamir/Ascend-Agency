@@ -79,7 +79,6 @@ function MainApp() {
 
     return (
         <div className="app">
-            <Navbar />
             <PricingHeader />
 
             <nav>
