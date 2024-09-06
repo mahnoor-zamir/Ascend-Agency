@@ -6,7 +6,8 @@ import FilterSection from '../components/Filter/FilterSection.jsx';
 import TabContent from '../components/TabContent/TabContent.jsx';
 import PRBundles from '../components/PRBundles/PRBundles.jsx';
 import PrintPage from '../components/PrintPage/PrintPage.jsx';
-
+import TelevisionFilterSection from '../components/Filter/TelevisionFilter.jsx';
+import SocialPostFilter from '../components/Filter/SocialPostFilter.jsx';
 function MainApp() {
     const [activeTab, setActiveTab] = useState('publications');
 
@@ -32,7 +33,7 @@ function MainApp() {
             case 'television':
                 return (
                     <>
-                        <div className="filter-section">
+                        {/* <div className="filter-section">
                             <div className="filter-group">
                                 <label className="filter-label">Search by TV</label>
                                 <input type="text" placeholder="Enter TV name" className="search-input" />
@@ -40,7 +41,8 @@ function MainApp() {
                             <p>Turn Around Time: 2-4 Weeks</p>
                             <p>Segment Times vary between 2-4 minutes</p>
                             <p>Zoom & In Person Options Available</p>
-                        </div>
+                        </div> */}
+                        <TelevisionFilterSection/>
                         <TabContent activeTab={activeTab} />
                     </>
                 );
@@ -53,7 +55,22 @@ function MainApp() {
             case 'print':
                 return <PrintPage />;
             case 'socialpost':
-                return <TabContent activeTab={activeTab} />;
+             
+                return (
+                  <>
+                      {/* <div className="filter-section">
+                          <div className="filter-group">
+                              <label className="filter-label">Search by TV</label>
+                              <input type="text" placeholder="Enter TV name" className="search-input" />
+                          </div>
+                          <p>Turn Around Time: 2-4 Weeks</p>
+                          <p>Segment Times vary between 2-4 minutes</p>
+                          <p>Zoom & In Person Options Available</p>
+                      </div> */}
+                      <SocialPostFilter/>
+                      <TabContent activeTab={activeTab} />
+                  </>
+              );
 
             default:
                 return null;
