@@ -1,6 +1,5 @@
 // App.js
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar/Navbar.jsx';
 import PricingHeader from '../components/Header/PricingHeader.jsx';
 import FilterSection from '../components/Filter/FilterSection.jsx';
 import TabContent from '../components/TabContent/TabContent.jsx';
@@ -79,7 +78,6 @@ function MainApp() {
 
     return (
         <div className="app">
-            <Navbar />
             <PricingHeader />
 
             <nav>
@@ -93,7 +91,7 @@ function MainApp() {
                     </button>
                 ))}
             </nav>
-
+            <div className="line" style={{ backgroundColor: 'lightgrey', width: '98%', height: '1px', margin: '0 auto', marginTop: '10px' }}></div>
             <div className="content">{renderContent()}</div>
         </div>
     );

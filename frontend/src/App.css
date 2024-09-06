@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #f0f4f7;
   /* font-family: 'Alumni Sans', sans-serif; */
-    font-weight: 10000; 
+  font-weight: 10000; 
 }
 
 .header {
@@ -16,21 +16,26 @@ body {
 .tabs {
   display: flex;
   justify-content: center;
-  background-color: white;
-  border-bottom: 1px solid #ccc;
+  background-color: #f0f4f7;
 }
 
 .tab {
-  padding: 10px 20px;
+  padding: 5px 5px;
   border: none;
-  background-color: #fff;
+  background-color: #f0f4f7;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 4;
+  margin-left: 20px;
+  border-radius: 1px;
+}
+.tab:hover {
+  background-color: rgba(252, 223, 223, 0.3);
+  color: #e62e3e;
 }
 
 .tab.active {
-  background-color: #e62e3e;
-  color: white;
+  background-color: rgb(252, 223, 223);
+  color: #e62e3e;
 }
 
 .content {

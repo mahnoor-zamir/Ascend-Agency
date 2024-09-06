@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
+  margin-top: 30px;
   background-color: #f0f4f7;
   border-bottom: 1px solid #F9F9F9;
   font-family: 'Alumni Sans', sans-serif;
@@ -11,7 +12,7 @@
 }
 
 .pricing-header h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0;
   color: #333;
 }
@@ -25,8 +26,8 @@
   background-color: red;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 14px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
 }
