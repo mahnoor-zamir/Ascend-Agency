@@ -1,1612 +1,1611 @@
-PUBLICATION,GENRES,PRICE,DA,DR,TAT,REGION,SPONSORED,INDEXED,DO FOLLOW
-CEO Weekly,5 genres,$75,28,69,2-4 Days,United States,Discrete,Yes,Yes
-Celebrity News,3 genres,$75,54,43,2-4 Days,United States,Discrete,Yes,Yes
-World Reporter,3 genres,$75,56,50,2-4 Days,United States,Discrete,Yes,Yes
-Hood Critic,Music,$75,11,25,1-3 Days,"United States
+CEO Weekly,5 genres,$75 ,28,69,2-4 Days,United States,Discrete,Yes,Yes
+Celebrity News,3 genres,$75 ,54,43,2-4 Days,United States,Discrete,Yes,Yes
+World Reporter,3 genres,$75 ,56,50,2-4 Days,United States,Discrete,Yes,Yes
+Hood Critic,Music,$75 ,11,25,1-3 Days,"United States
 Utah",No,Yes,Yes
-BLK News,3 genres,$75,52,44,2-4 Days,"New York
+BLK News,3 genres,$75 ,52,44,2-4 Days,"New York
 United States",Discrete,Yes,Yes
-NY Wire,4 genres,$75,56,53,2-4 Days,"New York
+NY Wire,4 genres,$75 ,56,53,2-4 Days,"New York
 United States",Discrete,Yes,Yes
-Daily Scanner,5 genres,$75,67,59,1 Day,United States,No,Yes,No
-Entertainment Monthly News,3 genres,$75,56,53,2-4 Days,Global,Discrete,Yes,Yes
-LA Collide,4 genres,$75,11,12,1-3 Days,"California
+Daily Scanner,5 genres,$75 ,67,59,1 Day,United States,No,Yes,No
+Entertainment Monthly News,3 genres,$75 ,56,53,2-4 Days,Global,Discrete,Yes,Yes
+LA Collide,4 genres,$75 ,11,12,1-3 Days,"California
 United States",Discrete,Yes,No
-Influencer Daily,3 genres,$75,60,52,2-4 Days,Global,Discrete,Yes,Yes
-Chicago Journal,4 genres,$75,52,56,2-4 Days,"Illinois
+Influencer Daily,3 genres,$75 ,60,52,2-4 Days,Global,Discrete,Yes,Yes
+Chicago Journal,4 genres,$75 ,52,56,2-4 Days,"Illinois
 United States",Discrete,Yes,Yes
-Artist Weekly,Music,$75,55,56,2-4 Days,United States,Discrete,Yes,Yes
-Market Daily,3 genres,$75,59,45,2-4 Days,United States,Discrete,Yes,Yes
-Portland News,4 genres,$75,57,42,2-4 Days,"Oregon
+Artist Weekly,Music,$75 ,55,56,2-4 Days,United States,Discrete,Yes,Yes
+Market Daily,3 genres,$75 ,59,45,2-4 Days,United States,Discrete,Yes,Yes
+Portland News,4 genres,$75 ,57,42,2-4 Days,"Oregon
 United States",Discrete,Yes,Yes
-Entertainment Post,Entertainment,$75,55,46,2-4 Days,United States,Discrete,Yes,Yes
-Cali Post,NewsMusic,$75,60,55,1-3 Days,"California
+Entertainment Post,Entertainment,$75 ,55,46,2-4 Days,United States,Discrete,Yes,Yes
+Cali Post,NewsMusic,$75 ,60,55,1-3 Days,"California
 United States",No,Yes,Yes
-Economic Insider,BusinessNews,$75,55,50,2-4 Days,United States,Discrete,Yes,Yes
-Medium,News,$75,95,94,1 Day,Global,No,Yes,No
-US Insider,4 genres,$75,57,54,2-4 Days,Global,Discrete,Yes,Yes
-US Reporter,6 genres,$75,56,60,2-4 Days,Global,Discrete,Yes,Yes
-Texas Today,News,$75,57,48,2-4 Days,"Texas
+Economic Insider,BusinessNews,$75 ,55,50,2-4 Days,United States,Discrete,Yes,Yes
+Medium,News,$75 ,95,94,1 Day,Global,No,Yes,No
+US Insider,4 genres,$75 ,57,54,2-4 Days,Global,Discrete,Yes,Yes
+US Reporter,6 genres,$75 ,56,60,2-4 Days,Global,Discrete,Yes,Yes
+Texas Today,News,$75 ,57,48,2-4 Days,"Texas
 United States",Discrete,Yes,Yes
-Networth.us,Business,$75,56,26,2-4 Days,United States,Discrete,Yes,Yes
-Music Observer,Music,$75,60,44,2-4 Days,Global,Discrete,Yes,Yes
-Famous Times,3 genres,$75,60,50,2-4 Days,"California
+Networth.us,Business,$75 ,56,26,2-4 Days,United States,Discrete,Yes,Yes
+Music Observer,Music,$75 ,60,44,2-4 Days,Global,Discrete,Yes,Yes
+Famous Times,3 genres,$75 ,60,50,2-4 Days,"California
 United States",Discrete,Yes,Yes
-LA Entertainment Weekly,Entertainment,$75,63,22,1 Day,"California
+LA Entertainment Weekly,Entertainment,$75 ,63,22,1 Day,"California
 United States",No,Yes,No
-24 Hip Hop,3 genres,$75,31,47,1-3 Days,Global,No,Yes,No
-Real Estate Today,3 genres,$75,18,50,2-4 Days,Global,Discrete,Yes,Yes
-Voyage New York,4 genres,$75,56,48,2-4 Days,"New York
+24 Hip Hop,3 genres,$75 ,31,47,1-3 Days,Global,No,Yes,No
+Real Estate Today,3 genres,$75 ,18,50,2-4 Days,Global,Discrete,Yes,Yes
+Voyage New York,4 genres,$75 ,56,48,2-4 Days,"New York
 United States",Discrete,Yes,Yes
-Atlanta Wire,3 genres,$75,57,45,2-4 Days,"Georgia
+Atlanta Wire,3 genres,$75 ,57,45,2-4 Days,"Georgia
 United States",Discrete,Yes,Yes
-Disrupt Magazine,5 genres,$75,41,73,2-3 Weeks,Global,No,Yes,No
-NY Weekly,3 genres,$75,57,75,2-4 Days,"New York
+Disrupt Magazine,5 genres,$75 ,41,73,2-3 Weeks,Global,No,Yes,No
+NY Weekly,3 genres,$75 ,57,75,2-4 Days,"New York
 United States",Discrete,Yes,Yes
-California Gazette,NewsBusiness,$75,64,52,2-4 Days,"California
+California Gazette,NewsBusiness,$75 ,64,52,2-4 Days,"California
 United States",Discrete,Yes,Yes
-Wall Street Times,3 genres,$75,54,46,2-4 Days,"New York
+Wall Street Times,3 genres,$75 ,54,46,2-4 Days,"New York
 United States",Discrete,Yes,Yes
-LA Wire,3 genres,$75,57,65,2-4 Days,"California
+LA Wire,3 genres,$75 ,57,65,2-4 Days,"California
 United States",Discrete,Yes,Yes
-HipHopSince1987,Music,$75,58,58,3 Days,Global,No,Yes,Yes
-California Observer,4 genres,$75,54,41,1-3 Days,California,No,Yes,Yes
-NY Times Mag,NewsLifestyle,$75,18,32,1 Day,"New York
+HipHopSince1987,Music,$75 ,58,58,3 Days,Global,No,Yes,Yes
+California Observer,4 genres,$75 ,54,41,1-3 Days,California,No,Yes,Yes
+NY Times Mag,NewsLifestyle,$75 ,18,32,1 Day,"New York
 United States",No,Yes,No
-Miami Wire,5 genres,$75,17,53,2-4 Days,"Florida
+Miami Wire,5 genres,$75 ,17,53,2-4 Days,"Florida
 United States",Discrete,Yes,Yes
-Women's Journal,NewsLifestyle,$75,55,55,2-4 Days,United States,Discrete,Yes,No
-US Business News,BusinessNews,$75,57,52,2-4 Days,United States,Discrete,Yes,Yes
-Vents Magazine,3 genres,$80,64,77,1-3 Days,United States,No,Yes,Yes
-Film Daily,Entertainment,$80,64,73,1 Week,United States,No,Yes,Yes
-Self Growth,Lifestyle,$80,63,77,1 Day,Global,No,Yes,No
-Mark Meets,Music,$100,68,74,1 Day,United Kingdom,No,Yes,Yes
-The Sustainable Post,News,$100,62,36,3 Days,"United States
+Women's Journal,NewsLifestyle,$75 ,55,55,2-4 Days,United States,Discrete,Yes,No
+US Business News,BusinessNews,$75 ,57,52,2-4 Days,United States,Discrete,Yes,Yes
+Vents Magazine,3 genres,$80 ,64,77,1-3 Days,United States,No,Yes,Yes
+Film Daily,Entertainment,$80 ,64,73,1 Week,United States,No,Yes,Yes
+Self Growth,Lifestyle,$80 ,63,77,1 Day,Global,No,Yes,No
+Mark Meets,Music,$100 ,68,74,1 Day,United Kingdom,No,Yes,Yes
+The Sustainable Post,News,$100 ,62,36,3 Days,"United States
 Global",No,Yes,Yes
-Restaurant Portals,Lifestyle,$100,62,12,3-5 Days,United States,No,Yes,Yes
-Cryptonexa,Web 3,$100,56,38,3-5 Days,Global,No,Yes,Yes
-Elite Luxury News,3 genres,$100,59,70,1-3 Days,"United States
+Restaurant Portals,Lifestyle,$100 ,62,12,3-5 Days,United States,No,Yes,Yes
+Cryptonexa,Web 3,$100 ,56,38,3-5 Days,Global,No,Yes,Yes
+Elite Luxury News,3 genres,$100 ,59,70,1-3 Days,"United States
 Global",No,Yes,Yes
-Miami Weekly,3 genres,$100,57,70,1 Day,"Florida
+Miami Weekly,3 genres,$100 ,57,70,1 Day,"Florida
 United States",Discrete,Yes,No
-Opulence Magazine,News,$100,38,26,3 Days,United Kingdom,No,Yes,Yes
-Ravish Magazine,News,$100,56,56,3 Days,United Kingdom,No,Yes,Yes
-MetaPress,News,$100,77,81,1-3 Days,United States,No,Yes,Yes
-Platter Share,Lifestyle,$100,56,33,3 Days,United States,No,Yes,Yes
-The Influential,3 genres,$100,58,36,3 Days,"Global
+Opulence Magazine,News,$100 ,38,26,3 Days,United Kingdom,No,Yes,Yes
+Ravish Magazine,News,$100 ,56,56,3 Days,United Kingdom,No,Yes,Yes
+MetaPress,News,$100 ,77,81,1-3 Days,United States,No,Yes,Yes
+Platter Share,Lifestyle,$100 ,56,33,3 Days,United States,No,Yes,Yes
+The Influential,3 genres,$100 ,58,36,3 Days,"Global
 United States",No,Yes,Yes
-Home Design Looks,NewsReal Estate,$100,51,39,3-5 Days,United States,No,Yes,Yes
-Cali Weekly,News,$100,58,70,1 Day,"California
+Home Design Looks,NewsReal Estate,$100 ,51,39,3-5 Days,United States,No,Yes,Yes
+Cali Weekly,News,$100 ,58,70,1 Day,"California
 United States",Discrete,Yes,No
-Muzique Magazine,Music,$100,55,50,1-3 Days,Global,No,Yes,Yes
+Muzique Magazine,Music,$100 ,55,50,1-3 Days,Global,No,Yes,Yes
 "CEO Magazine
-New",Business,$100,38,1,1-3 Days,United States,Discrete,Yes,Yes
-Elite Music News,Music,$100,51,15,1-3 Days,"Global
+New",Business,$100 ,38,1,1-3 Days,United States,Discrete,Yes,Yes
+Elite Music News,Music,$100 ,51,15,1-3 Days,"Global
 United States",No,Yes,Yes
-The Pinnacle List,News,$100,54,59,3 Days,United States,No,Yes,Yes
+The Pinnacle List,News,$100 ,54,59,3 Days,United States,No,Yes,Yes
 "Exec Magazine
-New",News,$100,38,1,1-3 Days,United States,Discrete,Yes,Yes
-Explainopedia,News,$100,24,45,3 Days,United States,No,Yes,Yes
-Huff Mag,Lifestyle,$100,62,34,1 Day,Global,No,Yes,No
-Restaurant WebX,Lifestyle,$100,60,43,3-5 Days,United States,No,Yes,Yes
-Broke & Chic,FashionLifestyle,$100,39,44,1-3 Days,Global,No,Yes,No
-The Bragging Mommy,NewsLifestyle,$100,37,51,3-5 Days,United States,No,Yes,Yes
-Fox Interviewer,News,$100,57,57,1 Week,Global,No,Yes,No
-Ignite Magazine,News,$100,37,17,3 Days,United Kingdom,No,Yes,Yes
+New",News,$100 ,38,1,1-3 Days,United States,Discrete,Yes,Yes
+Explainopedia,News,$100 ,24,45,3 Days,United States,No,Yes,Yes
+Huff Mag,Lifestyle,$100 ,62,34,1 Day,Global,No,Yes,No
+Restaurant WebX,Lifestyle,$100 ,60,43,3-5 Days,United States,No,Yes,Yes
+Broke & Chic,FashionLifestyle,$100 ,39,44,1-3 Days,Global,No,Yes,No
+The Bragging Mommy,NewsLifestyle,$100 ,37,51,3-5 Days,United States,No,Yes,Yes
+Fox Interviewer,News,$100 ,57,57,1 Week,Global,No,Yes,No
+Ignite Magazine,News,$100 ,37,17,3 Days,United Kingdom,No,Yes,Yes
 "Boss Today
-New",Business,$100,38,1,1-3 Days,United States,Discrete,Yes,Yes
-West Hollywood Weekly,3 genres,$100,53,70,3-5 Days,"California
+New",Business,$100 ,38,1,1-3 Days,United States,Discrete,Yes,Yes
+West Hollywood Weekly,3 genres,$100 ,53,70,3-5 Days,"California
 United States",No,Yes,Yes
 "NY Magazine
-New",News,$100,37,1,1-3 Days,United States,Discrete,Yes,Yes
-Curious Mind Magazine,News,$100,64,54,3-5 Days,United States,No,Yes,Yes
-Elite Property News,3 genres,$100,60,36,3-5 Days,"Global
+New",News,$100 ,37,1,1-3 Days,United States,Discrete,Yes,Yes
+Curious Mind Magazine,News,$100 ,64,54,3-5 Days,United States,No,Yes,Yes
+Elite Property News,3 genres,$100 ,60,36,3-5 Days,"Global
 United States",No,Yes,Yes
-Restaurant Web Experts,Lifestyle,$100,62,53,3-5 Days,United States,No,Yes,Yes
-Futuristic Architecture,Real EstateLifestyle,$100,77,61,3 Days,United States,No,Yes,Yes
-LIT. Magazine,News,$100,37,19,3 Days,United Kingdom,No,Yes,Yes
-Hamptons Weekly,News,$100,64,70,1 Day,"New York
+Restaurant Web Experts,Lifestyle,$100 ,62,53,3-5 Days,United States,No,Yes,Yes
+Futuristic Architecture,Real EstateLifestyle,$100 ,77,61,3 Days,United States,No,Yes,Yes
+LIT. Magazine,News,$100 ,37,19,3 Days,United Kingdom,No,Yes,Yes
+Hamptons Weekly,News,$100 ,64,70,1 Day,"New York
 United States",Discrete,Yes,No
-Resto Guides,Lifestyle,$100,64,20,3-5 Days,United States,No,Yes,Yes
-News Today,News,$100,66,31,3-5 Days,United Kingdom,No,Yes,Yes
-Dubai Weekly,News,$100,66,70,3 Days,"Middle East
+Resto Guides,Lifestyle,$100 ,64,20,3-5 Days,United States,No,Yes,Yes
+News Today,News,$100 ,66,31,3-5 Days,United Kingdom,No,Yes,Yes
+Dubai Weekly,News,$100 ,66,70,3 Days,"Middle East
 UAE",No,Yes,Yes
-LA Voice,News,$100,59,70,1 Day,"California
+LA Voice,News,$100 ,59,70,1 Day,"California
 United States",Discrete,Yes,No
-Restaurant Web Expert,Lifestyle,$100,62,51,3-5 Days,United States,No,Yes,Yes
-Momma Cuisine,Lifestyle,$100,34,37,3 Days,United States,No,Yes,Yes
-Mom Blog Society,Lifestyle,$100,37,63,3 Days,United States,No,Yes,Yes
-GISuser,Tech,$100,50,68,3 Days,United States,No,Yes,Yes
+Restaurant Web Expert,Lifestyle,$100 ,62,51,3-5 Days,United States,No,Yes,Yes
+Momma Cuisine,Lifestyle,$100 ,34,37,3 Days,United States,No,Yes,Yes
+Mom Blog Society,Lifestyle,$100 ,37,63,3 Days,United States,No,Yes,Yes
+GISuser,Tech,$100 ,50,68,3 Days,United States,No,Yes,Yes
 "VC Magazine
-New",NewsBusiness,$100,39,1,1-3 Days,United States,Discrete,Yes,Yes
-Cooking Instilettos,Lifestyle,$100,67,55,3-5 Days,United States,No,Yes,Yes
-The Beverly Weekly,3 genres,$100,62,32,3-5 Days,"California
+New",NewsBusiness,$100 ,39,1,1-3 Days,United States,Discrete,Yes,Yes
+Cooking Instilettos,Lifestyle,$100 ,67,55,3-5 Days,United States,No,Yes,Yes
+The Beverly Weekly,3 genres,$100 ,62,32,3-5 Days,"California
 United States",No,Yes,Yes
 "Luxury Miami Magazine
-Staff",Luxury,$100,37,60,2-3 Days,Florida,No,Yes,No
-LA Examiner,News,$100,61,70,1 Day,"California
+Staff",Luxury,$100 ,37,60,2-3 Days,Florida,No,Yes,No
+LA Examiner,News,$100 ,61,70,1 Day,"California
 United States",Discrete,Yes,No
-Tech Bullion,Tech,$100,63,79,1 Week,United States,No,Yes,Yes
+Tech Bullion,Tech,$100 ,63,79,1 Week,United States,No,Yes,Yes
 "CEO Official Mag
-Staff",Business,$100,37,62,2-3 Days,United States,No,Yes,No
-Restaurant Snapshot,Lifestyle,$100,63,53,3-5 Days,United States,No,Yes,Yes
-The Texas Developer,News,$100,57,38,3 Days,"Texas
+Staff",Business,$100 ,37,62,2-3 Days,United States,No,Yes,No
+Restaurant Snapshot,Lifestyle,$100 ,63,53,3-5 Days,United States,No,Yes,Yes
+The Texas Developer,News,$100 ,57,38,3 Days,"Texas
 United States",No,Yes,Yes
-Crave Magazine,News,$100,54,40,3 Days,United Kingdom,No,Yes,Yes
-The Influence Journal,News,$100,60,51,3 Days,"Global
+Crave Magazine,News,$100 ,54,40,3 Days,United Kingdom,No,Yes,Yes
+The Influence Journal,News,$100 ,60,51,3 Days,"Global
 United States",No,Yes,Yes
-Weed Times,News,$100,57,70,1 Day,Global,Discrete,Yes,No
-Nano Biz Tech,Tech,$125,59,46,3-5 Days,United States,No,Yes,Yes
-Style Beauty Health,FashionLifestyle,$125,62,42,3-5 Days,United States,No,Yes,Yes
-Luxury Travel Magazine,Lifestyle,$125,53,71,1-3 Days,United States,No,Yes,Yes
-Kivo Daily,BusinessTech,$125,60,65,2-4 Days,"United States
+Weed Times,News,$100 ,57,70,1 Day,Global,Discrete,Yes,No
+Nano Biz Tech,Tech,$125 ,59,46,3-5 Days,United States,No,Yes,Yes
+Style Beauty Health,FashionLifestyle,$125 ,62,42,3-5 Days,United States,No,Yes,Yes
+Luxury Travel Magazine,Lifestyle,$125 ,53,71,1-3 Days,United States,No,Yes,Yes
+Kivo Daily,BusinessTech,$125 ,60,65,2-4 Days,"United States
 Global",No,Yes,Yes
 "Load2Learn
-New",News,$125,40,,1-3 Days,United Kingdom,No,Yes,Yes
-The UBJ,BusinessNews,$125,58,56,1 Week,Global,No,Yes,No
+New",News,$125 ,40,,1-3 Days,United Kingdom,No,Yes,Yes
+The UBJ,BusinessNews,$125 ,58,56,1 Week,Global,No,Yes,No
 "Scotland B2B
-New",News,$125,33,42,2-3 Days,United Kingdom,No,Yes,Yes
-Market Business News,3 genres,$125,71,77,3 Days,Global,No,Yes,No
+New",News,$125 ,33,42,2-3 Days,United Kingdom,No,Yes,Yes
+Market Business News,3 genres,$125 ,71,77,3 Days,Global,No,Yes,No
 "Infopool
-New",News,$125,60,43,3-5 Days,United Kingdom,No,Yes,Yes
-Geek Insider,NewsTech,$125,47,56,3-5 Days,United States,No,Yes,Yes
-ABC Money,NewsBusiness,$125,67,59,3-5 Days,United Kingdom,No,Yes,Yes
-Holly Health Fitness,Lifestyle,$125,58,41,3-5 Days,United States,No,Yes,Yes
-Go Web Md,Tech,$125,55,35,3-5 Days,United States,No,Yes,Yes
+New",News,$125 ,60,43,3-5 Days,United Kingdom,No,Yes,Yes
+Geek Insider,NewsTech,$125 ,47,56,3-5 Days,United States,No,Yes,Yes
+ABC Money,NewsBusiness,$125 ,67,59,3-5 Days,United Kingdom,No,Yes,Yes
+Holly Health Fitness,Lifestyle,$125 ,58,41,3-5 Days,United States,No,Yes,Yes
+Go Web Md,Tech,$125 ,55,35,3-5 Days,United States,No,Yes,Yes
 "The Naptime Reviewer
-New",Lifestyle,$125,35,50,2-3 Days,United States,No,Yes,Yes
+New",Lifestyle,$125 ,35,50,2-3 Days,United States,No,Yes,Yes
 "The Dedicated House
-New",Lifestyle,$125,33,53,1-3 Days,United States,No,Yes,Yes
-Flare Magazine,Lifestyle,$125,37,33,3-5 Days,United Kingdom,No,Yes,Yes
-The Reddit Blog,News,$125,57,34,3-5 Days,United States,No,Yes,Yes
-Digital Fitness World,NewsLifestyle,$125,56,38,3-5 Days,United States,No,Yes,Yes
-The Marketing Pilot,NewsBusiness,$125,58,42,3-5 Days,United States,No,Yes,Yes
-Beautyation,3 genres,$125,55,41,3 Days,United States,No,Yes,Yes
-Healthcares Blog,Lifestyle,$125,58,38,3-5 Days,United States,No,Yes,Yes
-Stephi Lareine,NewsLifestyle,$125,60,42,3-5 Days,United Kingdom,No,Yes,Yes
-Next Web Blog,Tech,$125,56,40,3-5 Days,United States,No,Yes,Yes
-Infinity Else,News,$125,35,35,3-5 Days,United Kingdom,No,Yes,Yes
-Big Time Daily,News,$125,54,64,5 Days,United States,No,Yes,Yes
-Design By Sully,Lifestyle,$145,56,55,3 Days,United States,No,Yes,Yes
+New",Lifestyle,$125 ,33,53,1-3 Days,United States,No,Yes,Yes
+Flare Magazine,Lifestyle,$125 ,37,33,3-5 Days,United Kingdom,No,Yes,Yes
+The Reddit Blog,News,$125 ,57,34,3-5 Days,United States,No,Yes,Yes
+Digital Fitness World,NewsLifestyle,$125 ,56,38,3-5 Days,United States,No,Yes,Yes
+The Marketing Pilot,NewsBusiness,$125 ,58,42,3-5 Days,United States,No,Yes,Yes
+Beautyation,3 genres,$125 ,55,41,3 Days,United States,No,Yes,Yes
+Healthcares Blog,Lifestyle,$125 ,58,38,3-5 Days,United States,No,Yes,Yes
+Stephi Lareine,NewsLifestyle,$125 ,60,42,3-5 Days,United Kingdom,No,Yes,Yes
+Next Web Blog,Tech,$125 ,56,40,3-5 Days,United States,No,Yes,Yes
+Infinity Else,News,$125 ,35,35,3-5 Days,United Kingdom,No,Yes,Yes
+Big Time Daily,News,$125 ,54,64,5 Days,United States,No,Yes,Yes
+Design By Sully,Lifestyle,$145 ,56,55,3 Days,United States,No,Yes,Yes
 "High Net Worth Magazine
-Staff",5 genres,$150,8,59,1 Day,United States,No,Yes,Yes
-Oh My Dish (Netherlands),Lifestyle,$150,28,28,3-5 Days,Netherlands,No,Yes,Yes
-Oh My Dish,Lifestyle,$150,41,51,3 Days,United States,No,Yes,Yes
-Shibley Smiles,News,$150,46,54,3-5 Days,United States,No,Yes,Yes
-LA Guest List,5 genres,$150,40,45,3 Days,"California
+Staff",5 genres,$150 ,8,59,1 Day,United States,No,Yes,Yes
+Oh My Dish (Netherlands),Lifestyle,$150 ,28,28,3-5 Days,Netherlands,No,Yes,Yes
+Oh My Dish,Lifestyle,$150 ,41,51,3 Days,United States,No,Yes,Yes
+Shibley Smiles,News,$150 ,46,54,3-5 Days,United States,No,Yes,Yes
+LA Guest List,5 genres,$150 ,40,45,3 Days,"California
 United States",No,Yes,No
-Now Hip Hop,Music,$150,21,8,1-3 Days,United States,No,Yes,Yes
-The Hype Magazine,EntertainmentMusic,$150,64,72,1 Week,United States,No,Yes,Yes
-Asset Digest,News,$150,53,30,1-3 Days,United States,No,Yes,Yes
-Madison Graph,News,$150,51,41,1-3 Days,United States,No,Yes,Yes
-San Francisco Tribune,News,$150,54,7,3-5 Days,"California
+Now Hip Hop,Music,$150 ,21,8,1-3 Days,United States,No,Yes,Yes
+The Hype Magazine,EntertainmentMusic,$150 ,64,72,1 Week,United States,No,Yes,Yes
+Asset Digest,News,$150 ,53,30,1-3 Days,United States,No,Yes,Yes
+Madison Graph,News,$150 ,51,41,1-3 Days,United States,No,Yes,Yes
+San Francisco Tribune,News,$150 ,54,7,3-5 Days,"California
 United States",No,Yes,Yes
-Psychreg,Lifestyle,$150,51,73,3 Days,United States,No,Yes,Yes
-Los Angeles Tribune,News,$150,28,61,3-5 Days,"California
+Psychreg,Lifestyle,$150 ,51,73,3 Days,United States,No,Yes,Yes
+Los Angeles Tribune,News,$150 ,28,61,3-5 Days,"California
 United States",No,Yes,Yes
-Belmont Star,News,$150,52,36,1-3 Days,United States,No,Yes,Yes
-Political Anthropologist,Political,$150,20,12,1-3 Days,Europe,No,Yes,Yes
-Fairmont Post,News,$150,18,37,1-3 Days,United States,No,Yes,Yes
-Girl Cooks World,Lifestyle,$150,49,53,3-5 Days,United States,No,Yes,Yes
-Biz Dispatch,Business,$150,55,19,1-3 Days,United States,No,Yes,Yes
-Economy Standard,Business,$150,54,31,1-3 Days,United States,No,Yes,Yes
-Companies Digest,Business,$150,56,37,1-3 Days,United States,No,Yes,Yes
+Belmont Star,News,$150 ,52,36,1-3 Days,United States,No,Yes,Yes
+Political Anthropologist,Political,$150 ,20,12,1-3 Days,Europe,No,Yes,Yes
+Fairmont Post,News,$150 ,18,37,1-3 Days,United States,No,Yes,Yes
+Girl Cooks World,Lifestyle,$150 ,49,53,3-5 Days,United States,No,Yes,Yes
+Biz Dispatch,Business,$150 ,55,19,1-3 Days,United States,No,Yes,Yes
+Economy Standard,Business,$150 ,54,31,1-3 Days,United States,No,Yes,Yes
+Companies Digest,Business,$150 ,56,37,1-3 Days,United States,No,Yes,Yes
 "Transit Tomorrow
-Staff",3 genres,$150,57,17,1-3 Days,United States,No,Yes,Yes
-Daily RX,Lifestyle,$150,49,54,3 Days,United States,No,Yes,Yes
-Healthcare Business Today,News,$150,45,73,3-5 Days,United States,No,Yes,Yes
+Staff",3 genres,$150 ,57,17,1-3 Days,United States,No,Yes,Yes
+Daily RX,Lifestyle,$150 ,49,54,3 Days,United States,No,Yes,Yes
+Healthcare Business Today,News,$150 ,45,73,3-5 Days,United States,No,Yes,Yes
 "Nohoarts District
-New",News,$150,47,64,2-3 Days,United States,No,Yes,Yes
-Ritz Herald News,4 genres,$150,57,67,1-3 Days,Canada,No,Yes,Yes
+New",News,$150 ,47,64,2-3 Days,United States,No,Yes,Yes
+Ritz Herald News,4 genres,$150 ,57,67,1-3 Days,Canada,No,Yes,Yes
 "Meditech Today
-Staff",3 genres,$150,56,26,1-3 Days,United States,No,Yes,Yes
-My Face Hunter,Lifestyle,$150,72,55,3 Days,United States,No,Yes,Yes
-Kellys Thoughts On Things,Lifestyle,$150,48,65,3-5 Days,United States,No,Yes,Yes
-Get World Beauty,NewsFashion,$150,55,38,3 Days,United States,No,Yes,Yes
-European Financial Review,Business,$150,46,62,1-3 Days,Europe,No,Yes,Yes
-Innov8tiv,Tech,$150,48,62,3 Days,United States,No,Yes,Yes
-Our Kid Things,Lifestyle,$150,46,49,3-5 Days,United States,No,Yes,Yes
-Chiang Rai Times,News,$150,80,70,3-5 Days,Global,No,Yes,No
-European Business Review,Business,$150,56,79,1-3 Days,Europe,No,Yes,Yes
-Brands Journal,Business,$150,53,36,1-3 Days,United States,No,Yes,Yes
-The Luxe Insider,Luxury,$150,28,28,1-3 Days,Global,No,Yes,Yes
-Fintech Herald,Business,$150,55,33,1-3 Days,United States,No,Yes,Yes
-New York Street Food,Lifestyle,$150,66,46,3-5 Days,New York,No,Yes,Yes
-Wealth Tribune,News,$150,54,26,1-3 Days,United States,No,Yes,Yes
-International Releases,News,$150,54,26,1-3 Days,United States,No,Yes,Yes
-The Boss Magazine,News,$150,51,73,1-3 Days,United States,No,Yes,Yes
-Startup Observer,Business,$150,57,30,1-3 Days,United States,No,Yes,Yes
-Lincoln Citizen,News,$150,52,36,1-3 Days,United States,No,Yes,Yes
+Staff",3 genres,$150 ,56,26,1-3 Days,United States,No,Yes,Yes
+My Face Hunter,Lifestyle,$150 ,72,55,3 Days,United States,No,Yes,Yes
+Kellys Thoughts On Things,Lifestyle,$150 ,48,65,3-5 Days,United States,No,Yes,Yes
+Get World Beauty,NewsFashion,$150 ,55,38,3 Days,United States,No,Yes,Yes
+European Financial Review,Business,$150 ,46,62,1-3 Days,Europe,No,Yes,Yes
+Innov8tiv,Tech,$150 ,48,62,3 Days,United States,No,Yes,Yes
+Our Kid Things,Lifestyle,$150 ,46,49,3-5 Days,United States,No,Yes,Yes
+Chiang Rai Times,News,$150 ,80,70,3-5 Days,Global,No,Yes,No
+European Business Review,Business,$150 ,56,79,1-3 Days,Europe,No,Yes,Yes
+Brands Journal,Business,$150 ,53,36,1-3 Days,United States,No,Yes,Yes
+The Luxe Insider,Luxury,$150 ,28,28,1-3 Days,Global,No,Yes,Yes
+Fintech Herald,Business,$150 ,55,33,1-3 Days,United States,No,Yes,Yes
+New York Street Food,Lifestyle,$150 ,66,46,3-5 Days,New York,No,Yes,Yes
+Wealth Tribune,News,$150 ,54,26,1-3 Days,United States,No,Yes,Yes
+International Releases,News,$150 ,54,26,1-3 Days,United States,No,Yes,Yes
+The Boss Magazine,News,$150 ,51,73,1-3 Days,United States,No,Yes,Yes
+Startup Observer,Business,$150 ,57,30,1-3 Days,United States,No,Yes,Yes
+Lincoln Citizen,News,$150 ,52,36,1-3 Days,United States,No,Yes,Yes
 "Smartech Daily
-Staff",3 genres,$150,56,31,1-3 Days,United States,No,Yes,Yes
-Homes Creative,Real Estate,$150,52,32,3 Days,United States,No,Yes,Yes
-Blockchain Tribune,Web 3,$150,54,29,1-3 Days,United States,No,Yes,Yes
-Luxury Advisor,News,$150,53,33,1-3 Days,United States,No,Yes,Yes
-Palm Bay Herald,News,$150,51,23,1-3 Days,United States,No,Yes,Yes
-Entrepreneur Tribune,Business,$150,52,35,1-3 Days,United States,No,Yes,Yes
-Technology Dispatch,Tech,$150,54,59,1-3 Days,United States,No,Yes,Yes
-Business Express,Business,$150,62,51,1-3 Days,United States,No,Yes,Yes
-Techgyd,Tech,$150,75,54,1-3 Days,United States,No,Yes,Yes
-Off The MRKT,NewsReal Estate,$150,33,60,3-5 Days,United States,No,Yes,Yes
-Trading Herald,Business,$150,51,24,1-3 Days,United States,No,Yes,Yes
-Cultr Magazine,7 genres,$150,34,50,1-2 Days,Global,No,Yes,Yes
-World Financial Review,Business,$150,49,73,1-3 Days,Global,No,Yes,Yes
-Markets Herald,Business,$150,56,61,1-3 Days,United States,No,Yes,Yes
+Staff",3 genres,$150 ,56,31,1-3 Days,United States,No,Yes,Yes
+Homes Creative,Real Estate,$150 ,52,32,3 Days,United States,No,Yes,Yes
+Blockchain Tribune,Web 3,$150 ,54,29,1-3 Days,United States,No,Yes,Yes
+Luxury Advisor,News,$150 ,53,33,1-3 Days,United States,No,Yes,Yes
+Palm Bay Herald,News,$150 ,51,23,1-3 Days,United States,No,Yes,Yes
+Entrepreneur Tribune,Business,$150 ,52,35,1-3 Days,United States,No,Yes,Yes
+Technology Dispatch,Tech,$150 ,54,59,1-3 Days,United States,No,Yes,Yes
+Business Express,Business,$150 ,62,51,1-3 Days,United States,No,Yes,Yes
+Techgyd,Tech,$150 ,75,54,1-3 Days,United States,No,Yes,Yes
+Off The MRKT,NewsReal Estate,$150 ,33,60,3-5 Days,United States,No,Yes,Yes
+Trading Herald,Business,$150 ,51,24,1-3 Days,United States,No,Yes,Yes
+Cultr Magazine,7 genres,$150 ,34,50,1-2 Days,Global,No,Yes,Yes
+World Financial Review,Business,$150 ,49,73,1-3 Days,Global,No,Yes,Yes
+Markets Herald,Business,$150 ,56,61,1-3 Days,United States,No,Yes,Yes
 "Financial Tech Times
-Staff",5 genres,$150,56,29,1-3 Days,United States,No,Yes,Yes
-Hudson Weekly,News,$150,54,55,1-3 Days,"United States
+Staff",5 genres,$150 ,56,29,1-3 Days,United States,No,Yes,Yes
+Hudson Weekly,News,$150 ,54,55,1-3 Days,"United States
 New York",No,Yes,Yes
-Online World Herald,News,$150,54,23,1-3 Days,United States,No,Yes,Yes
-Richest Magazine,News,$150,58,70,1 Day,Global,Discrete,Yes,No
-Bit Rebels,TechWeb 3,$150,65,72,3 Days,United States,No,Yes,Yes
-House Sit World,Lifestyle,$150,57,50,3 Days,United States,No,Yes,Yes
-All China Review,News,$150,30,22,1-3 Days,China,No,Yes,Yes
-Now Entertainment,EntertainmentMusic,$175,62,44,3 Days,Global,No,Yes,Yes
-Music News,Music,$175,66,72,3 Days,Global,No,Yes,No
-Professors House,News,$200,55,51,3 Days,United States,No,Yes,Yes
-EDM Sauce,Music,$200,76,59,3 Days,Global,No,Yes,No
-Adapt Network,News,$200,72,65,3-5 Days,United States,No,Yes,Yes
-AllHipHop,Music,$200,73,73,3 Days,Global,No,Yes,No
-Magnetic Mag,Music,$200,75,70,3 Days,Global,Discrete,Yes,No
-Home Town Station,News,$200,66,75,3-5 Days,United States,No,Yes,Yes
-Good Men Project,NewsLifestyle,$200,82,79,1 Week,Global,No,Yes,Yes
-IB Times (AP),7 genres,$200,74,72,1 Week,Asia Pacific,No,Yes,No
-We Rave You,Music,$200,56,64,1 Week,Global,No,Yes,No
-The Up Coming,NewsLifestyle,$200,65,72,3-5 Days,United Kingdom,No,Yes,Yes
-The Coaching Magazine,BusinessLifestyle,$200,56,11,3 Days,United States,No,Yes,Yes
-1883 Magazine,News,$200,53,61,3 Days,United States,No,Yes,Yes
-Deadline News,News,$200,74,68,3 Days,United Kingdom,No,Yes,No
-Art Daily,EntertainmentLifestyle,$200,65,78,1-3 Days,Global,No,Yes,Yes
-Patch.com,News,$200,91,90,3-5 Days,United States,Yes,Yes,No
-Mom The Mag,Lifestyle,$200,56,2.8,1-3 Days,United States,No,Yes,No
-ZyCrypto,Web 3,$200,51,72,1 Week,Global,Discrete,Yes,No
-Anglotopia,News,$200,62,57,3 Days,Illinois,No,Yes,Yes
-Fine Homes and Living,Real Estate,$200,44,63,3 Days,United States,No,Yes,Yes
-I Love South Africa,News,$200,18,5,3-5 Days,Africa,No,Yes,Yes
+Online World Herald,News,$150 ,54,23,1-3 Days,United States,No,Yes,Yes
+Richest Magazine,News,$150 ,58,70,1 Day,Global,Discrete,Yes,No
+Bit Rebels,TechWeb 3,$150 ,65,72,3 Days,United States,No,Yes,Yes
+House Sit World,Lifestyle,$150 ,57,50,3 Days,United States,No,Yes,Yes
+All China Review,News,$150 ,30,22,1-3 Days,China,No,Yes,Yes
+Now Entertainment,EntertainmentMusic,$175 ,62,44,3 Days,Global,No,Yes,Yes
+Music News,Music,$175 ,66,72,3 Days,Global,No,Yes,No
+Professors House,News,$200 ,55,51,3 Days,United States,No,Yes,Yes
+EDM Sauce,Music,$200 ,76,59,3 Days,Global,No,Yes,No
+Adapt Network,News,$200 ,72,65,3-5 Days,United States,No,Yes,Yes
+AllHipHop,Music,$200 ,73,73,3 Days,Global,No,Yes,No
+Magnetic Mag,Music,$200 ,75,70,3 Days,Global,Discrete,Yes,No
+Home Town Station,News,$200 ,66,75,3-5 Days,United States,No,Yes,Yes
+Good Men Project,NewsLifestyle,$200 ,82,79,1 Week,Global,No,Yes,Yes
+IB Times (AP),7 genres,$200 ,74,72,1 Week,Asia Pacific,No,Yes,No
+We Rave You,Music,$200 ,56,64,1 Week,Global,No,Yes,No
+The Up Coming,NewsLifestyle,$200 ,65,72,3-5 Days,United Kingdom,No,Yes,Yes
+The Coaching Magazine,BusinessLifestyle,$200 ,56,11,3 Days,United States,No,Yes,Yes
+1883 Magazine,News,$200 ,53,61,3 Days,United States,No,Yes,Yes
+Deadline News,News,$200 ,74,68,3 Days,United Kingdom,No,Yes,No
+Art Daily,EntertainmentLifestyle,$200 ,65,78,1-3 Days,Global,No,Yes,Yes
+Patch.com,News,$200 ,91,90,3-5 Days,United States,Yes,Yes,No
+Mom The Mag,Lifestyle,$200 ,56,2.8,1-3 Days,United States,No,Yes,No
+ZyCrypto,Web 3,$200 ,51,72,1 Week,Global,Discrete,Yes,No
+Anglotopia,News,$200 ,62,57,3 Days,Illinois,No,Yes,Yes
+Fine Homes and Living,Real Estate,$200 ,44,63,3 Days,United States,No,Yes,Yes
+I Love South Africa,News,$200 ,18,5,3-5 Days,Africa,No,Yes,Yes
 "Neon Music
-Lowered",Music,$200,63,55,3-5 Days,Global,No,Yes,Yes
-SA Promo,News,$250,38,34,3-5 Days,Africa,No,Yes,Yes
-The Source,Music,$250,82,76,1-3 Days,"United States
+Lowered",Music,$200 ,63,55,3-5 Days,Global,No,Yes,Yes
+SA Promo,News,$250 ,38,34,3-5 Days,Africa,No,Yes,Yes
+The Source,Music,$250 ,82,76,1-3 Days,"United States
 New York",No,Yes,No
-CelebMix,3 genres,$250,63,64,3 Days,Global,No,Yes,No
-Australian Times,News,$250,56,56,3-5 Days,Australia,No,Yes,Yes
+CelebMix,3 genres,$250 ,63,64,3 Days,Global,No,Yes,No
+Australian Times,News,$250 ,56,56,3-5 Days,Australia,No,Yes,Yes
 "Business Insight
-New",BusinessNews,$250,38,1,1-3 Days,United States,Discrete,Yes,Yes
-EarMilk,Music,$250,60,72,1-2 Weeks,Global,No,Yes,No
-Washington Independent,News,$250,61,70,3-5 Days,"Washington DC
+New",BusinessNews,$250 ,38,1,1-3 Days,United States,Discrete,Yes,Yes
+EarMilk,Music,$250 ,60,72,1-2 Weeks,Global,No,Yes,No
+Washington Independent,News,$250 ,61,70,3-5 Days,"Washington DC
 United States",No,Yes,Yes
-Deal Magazine,3 genres,$250,59,70,1 Day,Global,Discrete,Yes,No
+Deal Magazine,3 genres,$250 ,59,70,1 Day,Global,Discrete,Yes,No
 "MSN
-Raised",News,$250,94,92,1-3 Days,United States,No,Maybe,Yes
-Rap Reviews,Music,$250,50,45,1-3 Days,Global,No,Yes,Yes
+Raised",News,$250 ,94,92,1-3 Days,United States,No,Maybe,Yes
+Rap Reviews,Music,$250 ,50,45,1-3 Days,Global,No,Yes,Yes
 "Indie Hackers
-New",News,$250,54,80,3-5 Days,United States,No,Yes,Yes
-The Santa Clarita Valley Signal,News,$250,76,75,3-5 Days,California,No,Yes,Yes
-Digital Music News,Music,$250,76,77,1 Week,Global,No,Yes,No
+New",News,$250 ,54,80,3-5 Days,United States,No,Yes,Yes
+The Santa Clarita Valley Signal,News,$250 ,76,75,3-5 Days,California,No,Yes,Yes
+Digital Music News,Music,$250 ,76,77,1 Week,Global,No,Yes,No
 "TheCeo.in
-New",Business,$275,34,64,3-5 Days,India,No,Yes,Yes
-Newport Beach Independent,News,$300,44,56,1 Week,"California
+New",Business,$275 ,34,64,3-5 Days,India,No,Yes,Yes
+Newport Beach Independent,News,$300 ,44,56,1 Week,"California
 United States",No,Yes,Yes
-Science Times,Tech,$300,64,75,2-3 Days,United States,No,Yes,Yes
-California Business Journal,3 genres,$300,40,70,1 Week,"California
+Science Times,Tech,$300 ,64,75,2-3 Days,United States,No,Yes,Yes
+California Business Journal,3 genres,$300 ,40,70,1 Week,"California
 United States",No,Yes,Yes
-Outlook India,News,$300,91,88,1 Week,India,No,Yes,No
-University Herald,News,$300,64,67,2-3 Days,United States,No,Yes,Yes
-Money Times,Business,$300,28,29,1-3 Days,United States,No,Yes,Yes
-Latitude 33 Magazine,Real EstateLifestyle,$300,5,2.6,1 Week,"California
+Outlook India,News,$300 ,91,88,1 Week,India,No,Yes,No
+University Herald,News,$300 ,64,67,2-3 Days,United States,No,Yes,Yes
+Money Times,Business,$300 ,28,29,1-3 Days,United States,No,Yes,Yes
+Latitude 33 Magazine,Real EstateLifestyle,$300 ,5,2.6,1 Week,"California
 United States",No,Yes,Yes
 "Global Banking & Finance
-Lowered",BusinessTech,$300,81,79,3-5 Days,United States,No,Yes,No
-Laguna Beach Independent,News,$300,53,57,1 Week,"California
+Lowered",BusinessTech,$300 ,81,79,3-5 Days,United States,No,Yes,No
+Laguna Beach Independent,News,$300 ,53,57,1 Week,"California
 United States",No,Yes,Yes
-Lawyer Herald,News,$300,52,41,2-3 Days,United States,No,Yes,Yes
-Coastal Real Estate Guide,Real Estate,$300,19,25,1 Week,"California
+Lawyer Herald,News,$300 ,52,41,2-3 Days,United States,No,Yes,Yes
+Coastal Real Estate Guide,Real Estate,$300 ,19,25,1 Week,"California
 United States",No,Yes,Yes
-Fashion Week Daily,3 genres,$300,69,74,3-5 Days,Global,No,Yes,No
-VC Post,4 genres,$300,62,62,1-3 Days,Global,No,Yes,No
-Parent Herald,News,$300,62,65,2-3 Days,United States,No,Yes,Yes
-Game n Guide,Gaming,$300,63,47,2-3 Days,United States,No,Yes,Yes
-Fintech Finance News,Business,$300,39,73,1-3 Days,United States,No,Yes,Yes
+Fashion Week Daily,3 genres,$300 ,69,74,3-5 Days,Global,No,Yes,No
+VC Post,4 genres,$300 ,62,62,1-3 Days,Global,No,Yes,No
+Parent Herald,News,$300 ,62,65,2-3 Days,United States,No,Yes,Yes
+Game n Guide,Gaming,$300 ,63,47,2-3 Days,United States,No,Yes,Yes
+Fintech Finance News,Business,$300 ,39,73,1-3 Days,United States,No,Yes,Yes
 "Yahoo News/Finance
-Press Release",NewsBusiness,$300,93,92,3-5 Days,Global,Discrete,Yes,No
-KPop Starz,Music,$300,82,61,2-3 Days,United States,No,Yes,Yes
-Science World Report,News,$300,65,67,2-3 Days,United States,No,Yes,Yes
-Billboard Argentina,Music,$300,37,37,3 Days,Argentina,No,Yes,No
-Finance Digest,Business,$300,64,71,3-5 Days,United States,No,Yes,Yes
-Latin Post,6 genres,$300,66,70,1-3 Days,Global,No,Yes,No
-Laguna Beach Magazine,FashionLifestyle,$300,27,40,1 Week,"California
+Press Release",NewsBusiness,$300 ,93,92,3-5 Days,Global,Discrete,Yes,No
+KPop Starz,Music,$300 ,82,61,2-3 Days,United States,No,Yes,Yes
+Science World Report,News,$300 ,65,67,2-3 Days,United States,No,Yes,Yes
+Billboard Argentina,Music,$300 ,37,37,3 Days,Argentina,No,Yes,No
+Finance Digest,Business,$300 ,64,71,3-5 Days,United States,No,Yes,Yes
+Latin Post,6 genres,$300 ,66,70,1-3 Days,Global,No,Yes,No
+Laguna Beach Magazine,FashionLifestyle,$300 ,27,40,1 Week,"California
 United States",No,Yes,Yes
-Young Health Magazine,Lifestyle,$300,53,43,2-3 Days,United States,No,Yes,Yes
+Young Health Magazine,Lifestyle,$300 ,53,43,2-3 Days,United States,No,Yes,Yes
 "Street Insider
-Press Release",NewsBusiness,$300,83,80,3-5 Days,United States,Discrete,Yes,No
-Newport Beach Magazine,News,$300,32,39,1 Week,"California
+Press Release",NewsBusiness,$300 ,83,80,3-5 Days,United States,Discrete,Yes,No
+Newport Beach Magazine,News,$300 ,32,39,1 Week,"California
 United States",No,Yes,Yes
-Motor Times,News,$300,6,18,2-3 Days,United States,No,Yes,Yes
-Dancing Astronaut,Music,$300,62,66,3 Days,Global,No,Yes,No
+Motor Times,News,$300 ,6,18,2-3 Days,United States,No,Yes,Yes
+Dancing Astronaut,Music,$300 ,62,66,3 Days,Global,No,Yes,No
 "Khaleej Times
-Press Release",News,$325,87,83,5 Days,"UAE
+Press Release",News,$325 ,87,83,5 Days,"UAE
 Middle East",No,Yes,Yes
 "Digital Journal
-Contributor",4 genres,$325,87,87,1-3 Days,Global,No,Yes,Yes
+Contributor",4 genres,$325 ,87,87,1-3 Days,Global,No,Yes,Yes
 "Business Insider / Yahoo / AP News
-Press Release",3 genres,$350,94,92,3-5 Days,United States,Discrete,Yes,No
-Pulse.com.gh,News,$350,78,71,2-3 Days,Ghana,No,Yes,No
-Pulse.ng,News,$350,85,76,2-3 Days,Nigeria,No,Yes,No
+Press Release",3 genres,$350 ,94,92,3-5 Days,United States,Discrete,Yes,No
+Pulse.com.gh,News,$350 ,78,71,2-3 Days,Ghana,No,Yes,No
+Pulse.ng,News,$350 ,85,76,2-3 Days,Nigeria,No,Yes,No
 "Block Telegraph
-Staff",4 genres,$350,65,58,1 Day,Global,No,Yes,Yes
-Pulse.ug,News,$350,37,34,2-3 Days,Uganda,No,Yes,No
-Pulse Sports,Sports,$350,53,49,2-3 Days,Nigeria,No,Yes,No
-PulseSports.co.ke,Sports,$350,36,36,2-3 Days,Kenya,No,Yes,No
-Retail Insider,FashionLifestyle,$350,57,74,1-3 Days,United States,No,Yes,Yes
-Pulse.sn,News,$350,35,33,2-3 Days,Senegal,No,Yes,No
-Notion Online,Music,$350,45,63,1 Week,Global,No,Yes,No
-PulseLive.co.ke,News,$350,56,61,2-3 Days,Kenya,No,Yes,No
-PulseSports.ug,Sports,$350,36,25,2-3 Days,Uganda,No,Yes,No
+Staff",4 genres,$350 ,65,58,1 Day,Global,No,Yes,Yes
+Pulse.ug,News,$350 ,37,34,2-3 Days,Uganda,No,Yes,No
+Pulse Sports,Sports,$350 ,53,49,2-3 Days,Nigeria,No,Yes,No
+PulseSports.co.ke,Sports,$350 ,36,36,2-3 Days,Kenya,No,Yes,No
+Retail Insider,FashionLifestyle,$350 ,57,74,1-3 Days,United States,No,Yes,Yes
+Pulse.sn,News,$350 ,35,33,2-3 Days,Senegal,No,Yes,No
+Notion Online,Music,$350 ,45,63,1 Week,Global,No,Yes,No
+PulseLive.co.ke,News,$350 ,56,61,2-3 Days,Kenya,No,Yes,No
+PulseSports.ug,Sports,$350 ,36,25,2-3 Days,Uganda,No,Yes,No
 "AP News
-Press Release",News,$350,92,91,3-5 Days,Global,Discrete,Yes,No
-The South African,News,$350,79,75,1 Week,Africa,No,Yes,No
+Press Release",News,$350 ,92,91,3-5 Days,Global,Discrete,Yes,No
+The South African,News,$350 ,79,75,1 Week,Africa,No,Yes,No
 "TechStory.in
-New",NewsTech,$350,66,73,3-5 Days,India,No,Yes,Yes
-Super Crypto News,Web 3,$350,33,40,3-5 Days,Global,Discrete,Yes,No
-HackerNoon,4 genres,$400,87,88,1 Week,Global,No,Yes,No
-IT Security Guru,Tech,$400,50,67,2-3 Days,United Kingdom,No,Yes,Yes
-London Loves Business,Business,$400,59,73,3-5 Days,United Kingdom,No,Yes,Yes
+New",NewsTech,$350 ,66,73,3-5 Days,India,No,Yes,Yes
+Super Crypto News,Web 3,$350 ,33,40,3-5 Days,Global,Discrete,Yes,No
+HackerNoon,4 genres,$400 ,87,88,1 Week,Global,No,Yes,No
+IT Security Guru,Tech,$400 ,50,67,2-3 Days,United Kingdom,No,Yes,Yes
+London Loves Business,Business,$400 ,59,73,3-5 Days,United Kingdom,No,Yes,Yes
 "Women Stuff
-New",Lifestyle,$400,33,34,1-3 Days,Africa,No,Yes,Yes
+New",Lifestyle,$400 ,33,34,1-3 Days,Africa,No,Yes,Yes
 "Men Stuff
-New",Lifestyle,$400,36,28,1-3 Days,Africa,Discrete,Yes,Yes
+New",Lifestyle,$400 ,36,28,1-3 Days,Africa,Discrete,Yes,Yes
 "CoinPedia
-Press Release",Web 3,$400,48,75,3 Days,Global,Discrete,Yes,No
-Las Vegas Optic,News,$425,44,45,3-5 Days,"Nevada
+Press Release",Web 3,$400 ,48,75,3 Days,Global,Discrete,Yes,No
+Las Vegas Optic,News,$425 ,44,45,3-5 Days,"Nevada
 United States",No,Yes,Yes
-I Want The News,News,$425,38,33,3-5 Days,"Wisconsin
+I Want The News,News,$425 ,38,33,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-Verona Press,News,$425,39,54,3-5 Days,"Wisconsin
+Verona Press,News,$425 ,39,54,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-Ripon Press,News,$425,40,50,3-5 Days,"Wisconsin
+Ripon Press,News,$425 ,40,50,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-River Falls Journal,News,$425,50,41,3-5 Days,"Wisconsin
+River Falls Journal,News,$425 ,50,41,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-Star Observer,News,$425,53,54,3-5 Days,"Wisconsin
+Star Observer,News,$425 ,53,54,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-Saint Albans Messenger,News,$425,46,57,3-5 Days,"Vermont
+Saint Albans Messenger,News,$425 ,46,57,3-5 Days,"Vermont
 United States",No,Yes,Yes
-The Mountain Mail,News,$425,50,57,3-5 Days,"Colorado
+The Mountain Mail,News,$425 ,50,57,3-5 Days,"Colorado
 United States",No,Yes,Yes
-Courier Hub,News,$425,23,28,3-5 Days,"Wisconsin
+Courier Hub,News,$425 ,23,28,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-Sheboygan Sun,News,$425,32,33,3-5 Days,"Wisconsin
+Sheboygan Sun,News,$425 ,32,33,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-City Sun Times,NewsBusiness,$425,31,50,3-5 Days,"Arizona
+City Sun Times,NewsBusiness,$425 ,31,50,3-5 Days,"Arizona
 United States",No,Yes,Yes
-Essex Reporter,News,$425,33,43,3-5 Days,"Vermont
+Essex Reporter,News,$425 ,33,43,3-5 Days,"Vermont
 United States",No,Yes,Yes
-Colchester Sun,News,$425,29,33,3-5 Days,"Vermont
+Colchester Sun,News,$425 ,29,33,3-5 Days,"Vermont
 United States",No,Yes,Yes
-Milton Independent,News,$425,38,43,3-5 Days,"Vermont
+Milton Independent,News,$425 ,38,43,3-5 Days,"Vermont
 United States",No,Yes,Yes
-Oregon Observer,News,$425,28,27,3-5 Days,"Wisconsin
+Oregon Observer,News,$425 ,28,27,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-The Chaffee County Times,News,$425,41,49,3-5 Days,"Colorado
+The Chaffee County Times,News,$425 ,41,49,3-5 Days,"Colorado
 United States",No,Yes,Yes
-The Flume,News,$425,42,36,3-5 Days,"Colorado
+The Flume,News,$425 ,42,36,3-5 Days,"Colorado
 United States",No,Yes,Yes
-Fitchburg Star,News,$425,24,20,3-5 Days,"Wisconsin
+Fitchburg Star,News,$425 ,24,20,3-5 Days,"Wisconsin
 United States",No,Yes,Yes
-The Guide,News,$425,28,18,3-5 Days,"Delaware
+The Guide,News,$425 ,28,18,3-5 Days,"Delaware
 United States",No,Yes,Yes
-Gazette Leader,News,$425,26,41,3-5 Days,"Virginia
+Gazette Leader,News,$425 ,26,41,3-5 Days,"Virginia
 United States",Yes,Yes,Yes
-Hastings Star Gazette,News,$425,46,38,3-5 Days,"Minnesota
+Hastings Star Gazette,News,$425 ,46,38,3-5 Days,"Minnesota
 United States",No,Yes,Yes
-Queen Creek Sun Times,News,$425,23,39,3-5 Days,"Arizona
+Queen Creek Sun Times,News,$425 ,23,39,3-5 Days,"Arizona
 United States",Yes,Yes,Yes
-Republican Eagle,News,$425,56,50,3-5 Days,"Minnesota
+Republican Eagle,News,$425 ,56,50,3-5 Days,"Minnesota
 United States",No,Yes,Yes
-Herald Democrat,News,$425,35,44,3-5 Days,"Texas
+Herald Democrat,News,$425 ,35,44,3-5 Days,"Texas
 United States",No,Yes,Yes
-Cannon Falls Beacon,News,$425,23,34,3-5 Days,"Minnesota
+Cannon Falls Beacon,News,$425 ,23,34,3-5 Days,"Minnesota
 United States",No,Yes,Yes
-Flaunt Magazine,4 genres,$450,67,76,2-4 Weeks,"United States
+Flaunt Magazine,4 genres,$450 ,67,76,2-4 Weeks,"United States
 California",No,Yes,Yes
-Apple News (Syndication from Grit Daily),News,$450,99,97,3-5 Days,United States,No,No,No
-Tidbits of Experience,Lifestyle,$450,63,37,3-5 Days,United States,No,Yes,Yes
-Contrast Magazine,3 genres,$450,30,6,3-5 Days,Global,No,Yes,No
+Apple News (Syndication from Grit Daily),News,$450 ,99,97,3-5 Days,United States,No,No,No
+Tidbits of Experience,Lifestyle,$450 ,63,37,3-5 Days,United States,No,Yes,Yes
+Contrast Magazine,3 genres,$450 ,30,6,3-5 Days,Global,No,Yes,No
 "CEO World Biz
-Contributor",Business,$450,71,77,1-2 Days,United States,No,Yes,No
+Contributor",Business,$450 ,71,77,1-2 Days,United States,No,Yes,No
 "Grit Daily
-Staff",4 genres,$450,68,75,1 Day,Global,No,Yes,No
-Metropolitan Design Magazine,Real Estate,$450,13,16,1-3 Days,Global,No,Yes,Yes
-Upscale Living,Real EstateLifestyle,$450,70,65,1-3 Days,Global,No,Yes,Yes
-Athletech News,SportsLifestyle,$450,26,58,3-5 Days,"California
+Staff",4 genres,$450 ,68,75,1 Day,Global,No,Yes,No
+Metropolitan Design Magazine,Real Estate,$450 ,13,16,1-3 Days,Global,No,Yes,Yes
+Upscale Living,Real EstateLifestyle,$450 ,70,65,1-3 Days,Global,No,Yes,Yes
+Athletech News,SportsLifestyle,$450 ,26,58,3-5 Days,"California
 United States",No,Yes,Yes
-Unfinished Man,3 genres,$450,70,55,3 Days,United States,No,Yes,Yes
-Tech Round,NewsTech,$450,50,76,3-5 Days,United Kingdom,No,Yes,Yes
-Bourbon and Boots,Lifestyle,$450,48,52,3-5 Days,United States,No,Yes,Yes
-Business Insider Africa,3 genres,$450,94,92,1 Week,Africa,No,Yes,Yes
-Financial Feeds,Business,$450,49,71,1-3 Days,United States,No,Yes,Yes
-Geek Extreme,3 genres,$450,67,49,3 Days,Global,No,Yes,Yes
-Sheen Magazine,3 genres,$450,44,69,1-3 Days,Global,No,Yes,Yes
+Unfinished Man,3 genres,$450 ,70,55,3 Days,United States,No,Yes,Yes
+Tech Round,NewsTech,$450 ,50,76,3-5 Days,United Kingdom,No,Yes,Yes
+Bourbon and Boots,Lifestyle,$450 ,48,52,3-5 Days,United States,No,Yes,Yes
+Business Insider Africa,3 genres,$450 ,94,92,1 Week,Africa,No,Yes,Yes
+Financial Feeds,Business,$450 ,49,71,1-3 Days,United States,No,Yes,Yes
+Geek Extreme,3 genres,$450 ,67,49,3 Days,Global,No,Yes,Yes
+Sheen Magazine,3 genres,$450 ,44,69,1-3 Days,Global,No,Yes,Yes
 "NewsBTC
-Press Release",Web 3,$500,81,81,1-3 Days,Global,Discrete,Yes,No
-Broadway World,Music,$500,86,87,1-3 Days,United States,No,Yes,No
-U.Today,Web 3,$500,53,76,1 Week,"UAE
+Press Release",Web 3,$500 ,81,81,1-3 Days,Global,Discrete,Yes,No
+Broadway World,Music,$500 ,86,87,1-3 Days,United States,No,Yes,No
+U.Today,Web 3,$500 ,53,76,1 Week,"UAE
 Global",Discrete,Yes,No
 "Phoenix New Times
-6 Month Lifespan",News,$500,74,79,3 Days,"Arizona
+6 Month Lifespan",News,$500 ,74,79,3 Days,"Arizona
 United States",Yes,Yes,Yes
 "Bitcoinist
-Press Release",Web 3,$500,81,80,1-3 Days,Global,Discrete,Yes,No
-Times of Malta,News,$500,77,79,3-5 Days,Europe,Discrete,Yes,Yes
-The Royal Observer,News,$500,31,27,1 Week,Global,No,Yes,Yes
-Pasadena Magazine,FashionLifestyle,$500,40,48,1 Week,"California
+Press Release",Web 3,$500 ,81,80,1-3 Days,Global,Discrete,Yes,No
+Times of Malta,News,$500 ,77,79,3-5 Days,Europe,Discrete,Yes,Yes
+The Royal Observer,News,$500 ,31,27,1 Week,Global,No,Yes,Yes
+Pasadena Magazine,FashionLifestyle,$500 ,40,48,1 Week,"California
 United States",No,Yes,Yes
-IB Times (UK),3 genres,$500,90,83,3-5 Days,United Kingdom,No,Yes,No
+IB Times (UK),3 genres,$500 ,90,83,3-5 Days,United Kingdom,No,Yes,No
 "Swagger Magazine
-Staff",5 genres,$500,62,63,1-3 Days,United States,No,Yes,Yes
+Staff",5 genres,$500 ,62,63,1-3 Days,United States,No,Yes,Yes
 "West Word
-6 Month Lifespan",News,$500,77,81,3 Days,"Colorado
+6 Month Lifespan",News,$500 ,77,81,3 Days,"Colorado
 United States",Yes,Yes,Yes
-SF Weekly,News,$500,73,80,1-3 Days,"California
+SF Weekly,News,$500 ,73,80,1-3 Days,"California
 United States",No,Yes,Yes
 "Miami New Times
-6 Month Lifespan",News,$500,78,80,3 Days,"Florida
+6 Month Lifespan",News,$500 ,78,80,3 Days,"Florida
 United States",Yes,Yes,Yes
 "Live Mint
-Raised",News,$500,91,88,1 Week,India,Discrete,Yes,No
-Womens Golf Journal,Sports,$500,28,29,1 Week,"Global
+Raised",News,$500 ,91,88,1 Week,India,Discrete,Yes,No
+Womens Golf Journal,Sports,$500 ,28,29,1 Week,"Global
 United States",No,Yes,Yes
-Morning Honey,LifestyleNews,$500,29,36,1 Week,Global,No,Yes,Yes
-Galore Magazine,4 genres,$500,76,67,1-3 Days,United States,No,Yes,Yes
-Female First,4 genres,$500,78,74,1-3 Days,United Kingdom,No,Yes,No
-SF Examiner,News,$500,82,80,1-3 Days,"California
+Morning Honey,LifestyleNews,$500 ,29,36,1 Week,Global,No,Yes,Yes
+Galore Magazine,4 genres,$500 ,76,67,1-3 Days,United States,No,Yes,Yes
+Female First,4 genres,$500 ,78,74,1-3 Days,United Kingdom,No,Yes,No
+SF Examiner,News,$500 ,82,80,1-3 Days,"California
 United States",No,Yes,Yes
 "Dallas Observer
-6 Month Lifespan",News,$500,78,79,3 Days,"Texas
+6 Month Lifespan",News,$500 ,78,79,3 Days,"Texas
 United States",Yes,Yes,Yes
-Front Page Detectives,News,$500,35,26,1 Week,Global,No,Yes,Yes
+Front Page Detectives,News,$500 ,35,26,1 Week,Global,No,Yes,Yes
 "TaxScan.in
-New",Business,$550,36,55,3-5 Days,India,No,Yes,Yes
+New",Business,$550 ,36,55,3-5 Days,India,No,Yes,Yes
 "Daily Pioneer
-New",News,$550,77,76,3-5 Days,United States,No,Yes,Yes
-Village Voice,5 genres,$550,85,83,1 Day,"New York
+New",News,$550 ,77,76,3-5 Days,United States,No,Yes,Yes
+Village Voice,5 genres,$550 ,85,83,1 Day,"New York
 United States",Discrete,Yes,No
-Orange Coast Magazine,Lifestyle,$550,55,68,1 Week,"California
+Orange Coast Magazine,Lifestyle,$550 ,55,68,1 Week,"California
 United States",No,Yes,Yes
-LA Weekly,6 genres,$550,76,84,1 Day,"California
+LA Weekly,6 genres,$550 ,76,84,1 Day,"California
 United States",No,Yes,No
 "Fast Company Africa
-Staff",BusinessTech,$550,36,44,1 Week,"Africa
+Staff",BusinessTech,$550 ,36,44,1 Week,"Africa
 Global",Yes,Yes,No
-Irvine Weekly,Lifestyle,$550,35,50,1 Day,"California
+Irvine Weekly,Lifestyle,$550 ,35,50,1 Day,"California
 United States",Discrete,Yes,No
-Bust Magazine,5 genres,$550,73,74,1 Day,Global,Discrete,Yes,No
-CoinSpeaker,Web 3,$550,73,76,3 Days,Global,Discrete,Yes,No
-OC Weekly,News,$550,72,75,1-3 Days,California,Discrete,Yes,No
+Bust Magazine,5 genres,$550 ,73,74,1 Day,Global,Discrete,Yes,No
+CoinSpeaker,Web 3,$550 ,73,76,3 Days,Global,Discrete,Yes,No
+OC Weekly,News,$550 ,72,75,1-3 Days,California,Discrete,Yes,No
 "San Diego Reader
-Raised",News,$550,76,76,3 Days,"California
+Raised",News,$550 ,76,76,3 Days,"California
 United States",No,Yes,No
-JPost,4 genres,$600,91,87,1 Week,Israel,Discrete,Yes,Yes
-Cryptopolitan,Web 3,$600,51,75,3 Days,Global,Discrete,Yes,No
-Inquirer,NewsBusiness,$600,89,84,3-5 Days,Philippines,Discrete,Yes,No
-Haute Beauty,5 genres,$600,78,77,1-2 Weeks,"Florida
+JPost,4 genres,$600 ,91,87,1 Week,Israel,Discrete,Yes,Yes
+Cryptopolitan,Web 3,$600 ,51,75,3 Days,Global,Discrete,Yes,No
+Inquirer,NewsBusiness,$600 ,89,84,3-5 Days,Philippines,Discrete,Yes,No
+Haute Beauty,5 genres,$600 ,78,77,1-2 Weeks,"Florida
 United States",Discrete,Yes,Yes
 "StockTwits
-New",News,$600,76,78,1-3 Days,United States,No,Yes,Yes
-Washington Times,News,$600,90,86,1 Week,"Washington State
+New",News,$600 ,76,78,1-3 Days,United States,No,Yes,Yes
+Washington Times,News,$600 ,90,86,1 Week,"Washington State
 United States",Yes,Yes,Yes
-Haute Residence,LuxuryReal Estate,$600,49,63,1-2 Weeks,United States,Discrete,Yes,Yes
-Haute Living,8 genres,$600,78,77,1-2 Weeks,"Florida
+Haute Residence,LuxuryReal Estate,$600 ,49,63,1-2 Weeks,United States,Discrete,Yes,Yes
+Haute Living,8 genres,$600 ,78,77,1-2 Weeks,"Florida
 United States",Discrete,Yes,Yes
-Haute Time,5 genres,$600,56,51,1-2 Weeks,United States,Discrete,Yes,Yes
+Haute Time,5 genres,$600 ,56,51,1-2 Weeks,United States,Discrete,Yes,Yes
 "Crypto News
-Press Release",Web 3,$650,61,81,3 Days,Global,Discrete,Yes,Yes
-Daily Caller,4 genres,$650,88,82,1-3 Days,Global,No,Yes,Yes
-FXStreet,Web 3,$650,79,79,3-5 Days,Global,Yes,Yes,No
-Tech Times,3 genres,$650,83,83,1-3 Days,Global,No,Yes,Yes
-IB Times (JP),NewsBusiness,$650,45,32,3-5 Days,"Japan
+Press Release",Web 3,$650 ,61,81,3 Days,Global,Discrete,Yes,Yes
+Daily Caller,4 genres,$650 ,88,82,1-3 Days,Global,No,Yes,Yes
+FXStreet,Web 3,$650 ,79,79,3-5 Days,Global,Yes,Yes,No
+Tech Times,3 genres,$650 ,83,83,1-3 Days,Global,No,Yes,Yes
+IB Times (JP),NewsBusiness,$650 ,45,32,3-5 Days,"Japan
 Global",Yes,Yes,No
-IB Times (UAE),4 genres,$650,11,18,1-2 Weeks,"UAE
+IB Times (UAE),4 genres,$650 ,11,18,1-2 Weeks,"UAE
 Middle East",Yes,Yes,No
-LEO Weekly,News,$700,59,68,3-5 Days,Kentucky,No,Yes,Yes
-Citybeat,News,$700,64,73,1-3 Days,Ohio,No,Yes,Yes
-Metro Times,News,$700,76,78,1-3 Days,"Michigan
+LEO Weekly,News,$700 ,59,68,3-5 Days,Kentucky,No,Yes,Yes
+Citybeat,News,$700 ,64,73,1-3 Days,Ohio,No,Yes,Yes
+Metro Times,News,$700 ,76,78,1-3 Days,"Michigan
 United States",No,Yes,Yes
-SC Now,News,$750,64,71,1 Week,"South Carolina
+SC Now,News,$750 ,64,71,1 Week,"South Carolina
 United States",No,Yes,Yes
-Billings Gazette,News,$750,73,77,1 Week,"Montana
+Billings Gazette,News,$750 ,73,77,1 Week,"Montana
 United States",No,Yes,Yes
-Daily Press,News,$750,78,77,2 Weeks,"Virginia
+Daily Press,News,$750 ,78,77,2 Weeks,"Virginia
 United States",Yes,No,No
-Lake Geneva Regional News,News,$750,49,56,1 Week,"Wisconsin
+Lake Geneva Regional News,News,$750 ,49,56,1 Week,"Wisconsin
 United States",No,Yes,Yes
-Elko Daily Free Press,News,$750,64,70,1 Week,"Nevada
+Elko Daily Free Press,News,$750 ,64,70,1 Week,"Nevada
 United States",No,Yes,Yes
 "Benzinga
-Contributor",3 genres,$750,87,86,1 Week,United States,No,Yes,Yes
+Contributor",3 genres,$750 ,87,86,1 Week,United States,No,Yes,Yes
 "The Tempe Tribune
-New",News,$750,11,31,1-3 Days,"United States
+New",News,$750 ,11,31,1-3 Days,"United States
 Arizona",No,Yes,Yes
-The Beatrice Daily Sun,News,$750,56,57,1 Week,"Nebraska
+The Beatrice Daily Sun,News,$750 ,56,57,1 Week,"Nebraska
 United States",No,Yes,Yes
 "Arroyo
-New",News,$750,54,63,1-3 Days,"United States
+New",News,$750 ,54,63,1-3 Days,"United States
 California",No,Yes,Yes
 "Bradenton Herald
-NewPress Release",News,$750,76,74,3-5 Days,Florida,Discrete,Maybe,No
-The Times and Democrat,News,$750,64,70,1 Week,"South Carolina
+NewPress Release",News,$750 ,76,74,3-5 Days,Florida,Discrete,Maybe,No
+The Times and Democrat,News,$750 ,64,70,1 Week,"South Carolina
 United States",No,Yes,Yes
 "San Clemente Times
-New",News,$750,58,52,1-3 Days,"California
+New",News,$750 ,58,52,1-3 Days,"California
 United States",No,Yes,Yes
 "Peoria Times
-New",News,$750,41,48,1-3 Days,"United States
+New",News,$750 ,41,48,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Casper Star Tribune,News,$750,68,76,1 Week,"Wyoming
+Casper Star Tribune,News,$750 ,68,76,1 Week,"Wyoming
 United States",No,Yes,Yes
 "The Capistrano Dispatch
-New",News,$750,58,52,1-3 Days,"United States
+New",News,$750 ,58,52,1-3 Days,"United States
 California",No,Yes,Yes
 "Camarillo Acorn
-New",News,$750,47,51,1-3 Days,"United States
+New",News,$750 ,47,51,1-3 Days,"United States
 California",No,Yes,Yes
 "The Olympian
-NewPress Release",3 genres,$750,71,74,1 Week,Washington State,Discrete,Maybe,No
-Hartford Courant,News,$750,83,83,3-5 Days,"Connecticut
+NewPress Release",3 genres,$750 ,71,74,1 Week,Washington State,Discrete,Maybe,No
+Hartford Courant,News,$750 ,83,83,3-5 Days,"Connecticut
 United States",Yes,No,No
-L'Officiel Austria,4 genres,$750,38,54,1 Week,"Europe
+L'Officiel Austria,4 genres,$750 ,38,54,1 Week,"Europe
 Global",No,Yes,Yes
-Independent Record,News,$750,70,73,1 Week,"Montana
+Independent Record,News,$750 ,70,73,1 Week,"Montana
 United States",No,Yes,Yes
 "West Valley View
-New",News,$750,43,52,1-3 Days,"United States
+New",News,$750 ,43,52,1-3 Days,"United States
 Arizona",No,Yes,Yes
 "Foothills News
-New",News,$750,50,59,1-3 Days,"United States
+New",News,$750 ,50,59,1-3 Days,"United States
 Arizona",No,Yes,Yes
 "Coingape
-Press Release",Web 3,$750,57,76,3 Days,Global,Discrete,Yes,No
-Moline Dispatch & Rock Island Argus,News,$750,64,71,1 Week,"Iowa
+Press Release",Web 3,$750 ,57,76,3 Days,Global,Discrete,Yes,No
+Moline Dispatch & Rock Island Argus,News,$750 ,64,71,1 Week,"Iowa
 Illinois
 United States",No,Yes,Yes
-The Daily Nonpareil,News,$750,59,66,1 Week,"Iowa
+The Daily Nonpareil,News,$750 ,59,66,1 Week,"Iowa
 United States",No,Yes,Yes
 "Inside Tucson Business
-New",News,$750,50,59,1-3 Days,"United States
+New",News,$750 ,50,59,1-3 Days,"United States
 Arizona",No,Yes,Yes
-STL Today,News,$750,86,84,1 Week,"Missouri
+STL Today,News,$750 ,86,84,1 Week,"Missouri
 United States",No,Yes,Yes
-Journal Gazette & Times-Courier,News,$750,60,59,1 Week,"Illinois
+Journal Gazette & Times-Courier,News,$750 ,60,59,1 Week,"Illinois
 United States",No,Yes,Yes
 "Tucson Weekly
-New",News,$750,68,72,1-3 Days,"Arizona
+New",News,$750 ,68,72,1-3 Days,"Arizona
 United States",No,Yes,Yes
-The Journal Times,News,$750,67,73,1 Week,"Wisconsin
+The Journal Times,News,$750 ,67,73,1 Week,"Wisconsin
 United States",No,Yes,Yes
 "Playa Vista Magazine
-New",News,$750,23,32,1-3 Days,"United States
+New",News,$750 ,23,32,1-3 Days,"United States
 California",No,Yes,Yes
-SWVA Today,News,$750,53,56,1 Week,"Virginia
+SWVA Today,News,$750 ,53,56,1 Week,"Virginia
 United States",No,Yes,Yes
-The Press of Atlantic City,News,$750,73,77,1 Week,"New Jersey
+The Press of Atlantic City,News,$750 ,73,77,1 Week,"New Jersey
 United States",No,Yes,Yes
 "Simi Valley Acorn
-New",News,$750,50,52,1-3 Days,United States,No,Yes,Yes
-Waterloo-Cedar Falls Courier,News,$750,75,73,1 Week,"Iowa
+New",News,$750 ,50,52,1-3 Days,United States,No,Yes,Yes
+Waterloo-Cedar Falls Courier,News,$750 ,75,73,1 Week,"Iowa
 United States",No,Yes,Yes
 "Phoenix College Times
-New",News,$750,51,56,1-3 Days,"United States
+New",News,$750 ,51,56,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Mooresville Tribune,News,$750,53,55,1 Week,"North Carolina
+Mooresville Tribune,News,$750 ,53,55,1 Week,"North Carolina
 United States",No,Yes,Yes
 "Belleville News-Democrat
-NewPress Release",News,$750,72,73,3-5 Days,Illinois,Discrete,Maybe,No
+NewPress Release",News,$750 ,72,73,3-5 Days,Illinois,Discrete,Maybe,No
 "Kansas.com
-NewPress Release",News,$750,80,78,3-5 Days,"United States
+NewPress Release",News,$750 ,80,78,3-5 Days,"United States
 Kansas",Discrete,Maybe,No
-IB Times (AU),5 genres,$750,69,71,3-5 Days,Australia,Yes,Yes,No
-The Muscatine Journal,News,$750,59,55,1 Week,"Iowa
+IB Times (AU),5 genres,$750 ,69,71,3-5 Days,Australia,Yes,Yes,No
+The Muscatine Journal,News,$750 ,59,55,1 Week,"Iowa
 United States",No,Yes,Yes
 "Charlotte Observer
-NewPress Release",News,$750,86,82,3-5 Days,North Carolina,Discrete,Maybe,No
+NewPress Release",News,$750 ,86,82,3-5 Days,North Carolina,Discrete,Maybe,No
 "The Sacramento Bee
-NewPress Release",News,$750,85,85,3-5 days,California,Discrete,Maybe,No
-Hickory Daily Record,News,$750,62,66,1 Week,"North Carolina
+NewPress Release",News,$750 ,85,85,3-5 days,California,Discrete,Maybe,No
+Hickory Daily Record,News,$750 ,62,66,1 Week,"North Carolina
 United States",No,Yes,Yes
-The Southern Illinoisan,News,$750,65,71,1 Week,"Illinois
+The Southern Illinoisan,News,$750 ,65,71,1 Week,"Illinois
 United States",No,Yes,Yes
 "Phoenix.org
-New",News,$750,51,56,1-3 Days,"United States
+New",News,$750 ,51,56,1-3 Days,"United States
 Arizona",No,Yes,Yes
 "The Argonaut
-New",News,$750,51,65,1-3 Days,"California
+New",News,$750 ,51,65,1-3 Days,"California
 United States",No,Yes,Yes
-The Citizen Auburn Pub,News,$750,68,72,1 Week,"New York
+The Citizen Auburn Pub,News,$750 ,68,72,1 Week,"New York
 United States",No,Yes,Yes
 "The Modesto Bee
-NewPress Release",News,$750,76,75,3-5 Days,California,Discrete,Maybe,No
-Waco Tribune-Herald,News,$750,72,74,1 Week,"Texas
+NewPress Release",News,$750 ,76,75,3-5 Days,California,Discrete,Maybe,No
+Waco Tribune-Herald,News,$750 ,72,74,1 Week,"Texas
 United States",No,Yes,Yes
-Culpeper Star-Exponent,News,$750,55,61,1 Week,"Virginia
+Culpeper Star-Exponent,News,$750 ,55,61,1 Week,"Virginia
 United States",No,Yes,Yes
 "Centre Daily Times
-NewPress Release",News,$750,73,74,3-5 Days,Pennsylvania,Discrete,Maybe,No
-Wonderwall.com,3 genres,$750,78,59,1 Week,United States,No,Yes,Yes
-Danville Register & Bee,News,$750,59,62,1 Week,"Virginia
+NewPress Release",News,$750 ,73,74,3-5 Days,Pennsylvania,Discrete,Maybe,No
+Wonderwall.com,3 genres,$750 ,78,59,1 Week,United States,No,Yes,Yes
+Danville Register & Bee,News,$750 ,59,62,1 Week,"Virginia
 United States",No,Yes,Yes
-Rapid City Journal,News,$750,72,74,1 Week,"South Dakota
+Rapid City Journal,News,$750 ,72,74,1 Week,"South Dakota
 United States",No,Yes,Yes
-Globe Gazzette,News,$750,75,71,1 Week,"Iowa
+Globe Gazzette,News,$750 ,75,71,1 Week,"Iowa
 United States",No,Yes,Yes
-Albany Democrat-Herald,News,$750,66,66,1 Week,"Oregon
+Albany Democrat-Herald,News,$750 ,66,66,1 Week,"Oregon
 United States",No,Yes,Yes
-Atlantic City Weekly,News,$750,54,54,1 Week,"New Jersey
+Atlantic City Weekly,News,$750 ,54,54,1 Week,"New Jersey
 United States",No,Yes,Yes
 "Myrtle Beach Sun News
-NewPress Release",News,$750,72,73,3-5 Days,"South Carolina
+NewPress Release",News,$750 ,72,73,3-5 Days,"South Carolina
 United States",Discrete,Maybe,No
-Missoulian,News,$750,76,77,1 Week,"Montana
+Missoulian,News,$750 ,76,77,1 Week,"Montana
 United States",No,Yes,Yes
 "Gilbert Sun News
-New",News,$750,39,49,1-3 Days,"California
+New",News,$750 ,39,49,1-3 Days,"California
 United States",No,Yes,Yes
-Wahoo Ashland Waverly,News,$750,40,43,1 Week,"Nebraska
+Wahoo Ashland Waverly,News,$750 ,40,43,1 Week,"Nebraska
 United States",No,Yes,Yes
-Dothan Eagle,News,$750,66,71,1 Week,"Alabama
+Dothan Eagle,News,$750 ,66,71,1 Week,"Alabama
 United States",No,Yes,Yes
 "The Herald Sun
-NewPress Release",News,$750,76,72,3-5 Days,North Carolina,Discrete,Maybe,No
-The Pantagraph,News,$750,68,73,1 Week,"Illinois
+NewPress Release",News,$750 ,76,72,3-5 Days,North Carolina,Discrete,Maybe,No
+The Pantagraph,News,$750 ,68,73,1 Week,"Illinois
 United States",No,Yes,Yes
-Statesville Record & Landmark,News,$750,60,59,1 Week,"North Carolina
+Statesville Record & Landmark,News,$750 ,60,59,1 Week,"North Carolina
 United States",No,Yes,Yes
 "Ledger Enquirer
-NewPress Release",News,$750,75,73,3-5 Days,Georgia,Discrete,Maybe,No
-The Morganton News Herald,News,$750,58,61,1 Week,"North Carolina
+NewPress Release",News,$750 ,75,73,3-5 Days,Georgia,Discrete,Maybe,No
+The Morganton News Herald,News,$750 ,58,61,1 Week,"North Carolina
 United States",No,Yes,Yes
-Winona Daily News,News,$750,61,69,1 Week,"Minnesota
+Winona Daily News,News,$750 ,61,69,1 Week,"Minnesota
 United States",No,Yes,Yes
 "Dana Point Times
-New",News,$750,58,52,1-3 Days,"United States
+New",News,$750 ,58,52,1-3 Days,"United States
 California",No,Yes,Yes
-The Buffalo News,News,$750,76,82,1 Week,"New York
+The Buffalo News,News,$750 ,76,82,1 Week,"New York
 United States",No,Yes,Yes
-Kearney Hub,News,$750,61,65,1 Week,"Nebraska
+Kearney Hub,News,$750 ,61,65,1 Week,"Nebraska
 United States",No,Yes,Yes
-Winston-Salem Journal,News,$750,73,77,1 Week,"North Carolina
+Winston-Salem Journal,News,$750 ,73,77,1 Week,"North Carolina
 United States",No,Yes,Yes
-Omaha World-Herald,News,$750,78,81,1 Week,"Nebraska
+Omaha World-Herald,News,$750 ,78,81,1 Week,"Nebraska
 United States",No,Yes,Yes
 "Ladue News
-New",News,$750,46,67,5-7 Days,Missouri,No,Yes,Yes
+New",News,$750 ,46,67,5-7 Days,Missouri,No,Yes,Yes
 "Desert Times
-New",News,$750,50,59,1-3 Days,"United States
+New",News,$750 ,50,59,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Sun Sentinel,News,$750,88,84,2 Weeks,"Florida
+Sun Sentinel,News,$750 ,88,84,2 Weeks,"Florida
 United States",Yes,No,No
-My Aggie Nation,News,$750,41,31,1 Week,"Texas
+My Aggie Nation,News,$750 ,41,31,1 Week,"Texas
 United States",No,Yes,Yes
 "Ahwatukee Foothills News
-New",News,$750,53,62,1-3 Days,"Arizona
+New",News,$750 ,53,62,1-3 Days,"Arizona
 United States",No,Yes,Yes
 "Pasadena Weekly
-New",News,$750,54,63,1-3 Days,"United States
+New",News,$750 ,54,63,1-3 Days,"United States
 California",No,Yes,Yes
 "VC Reporter
-New",News,$750,54,64,1-3 Days,"California
+New",News,$750 ,54,64,1-3 Days,"California
 United States",No,Yes,Yes
 "Arizonan SanTan Sun
-New",News,$750,35,44,1-3 Days,"United States
+New",News,$750 ,35,44,1-3 Days,"United States
 Arizona",No,Yes,Yes
-The Sentinel,News,$750,69,71,1 Week,"Pennsylvania
+The Sentinel,News,$750 ,69,71,1 Week,"Pennsylvania
 United States",No,Yes,Yes
 "Moorpark Acorn
-New",News,$750,44,45,1-3 Days,"United States
+New",News,$750 ,44,45,1-3 Days,"United States
 California",No,Yes,Yes
 "KNewz
-Staff",4 genres,$750,52,52,1 Week,Global,No,Yes,Yes
-Twin Falls Times-News,News,$750,66,72,1 Week,"Idaho
+Staff",4 genres,$750 ,52,52,1 Week,Global,No,Yes,Yes
+Twin Falls Times-News,News,$750 ,66,72,1 Week,"Idaho
 United States",No,Yes,Yes
-The Daily Progress,News,$750,70,76,1 Week,"Virginia
+The Daily Progress,News,$750 ,70,76,1 Week,"Virginia
 United States",No,Yes,Yes
-The News Virginian,News,$750,48,46,1 Week,"Virginia
+The News Virginian,News,$750 ,48,46,1 Week,"Virginia
 United States",No,Yes,Yes
-Corvallis Gazette Times,News,$750,67,71,1 Week,"Oregon
+Corvallis Gazette Times,News,$750 ,67,71,1 Week,"Oregon
 United States",No,Yes,Yes
 "Crypto Potato
-Press Release",Web 3,$750,60,78,3 Days,Global,Discrete,Yes,No
+Press Release",Web 3,$750 ,60,78,3 Days,Global,Discrete,Yes,No
 "Phoenix Lovin' Life
-New",News,$750,51,56,1-3 Days,"United States
+New",News,$750 ,51,56,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Sioux City Journal,News,$750,73,75,1 Week,"Iowa
+Sioux City Journal,News,$750 ,73,75,1 Week,"Iowa
 United States",No,Yes,Yes
 "Sound of Freedom
-New",News,$750,49,51,1-3 Days,"United States
+New",News,$750 ,49,51,1-3 Days,"United States
 California",No,Yes,Yes
-Tulsa World,News,$750,77,80,1 Week,"Oklahoma
+Tulsa World,News,$750 ,77,80,1 Week,"Oklahoma
 United States",No,Yes,Yes
-The Virginian-Pilot,News,$750,75,81,1 Week,"Virginia
+The Virginian-Pilot,News,$750 ,75,81,1 Week,"Virginia
 United States",Yes,No,No
-Franklin News Post,News,$750,46,46,1 Week,"Virginia
+Franklin News Post,News,$750 ,46,46,1 Week,"Virginia
 United States",No,Yes,Yes
 "The Island Packet
-NewPress Release",News,$750,77,73,3-5 Days,"South Carolina
+NewPress Release",News,$750 ,77,73,3-5 Days,"South Carolina
 United States",Discrete,Maybe,No
 "Idaho Statesman
-NewPress Release",News,$750,76,78,3-5 Days,Idaho,Discrete,Maybe,No
-The Free Lance-Star,News,$750,67,75,1 Week,"Virginia
+NewPress Release",News,$750 ,76,78,3-5 Days,Idaho,Discrete,Maybe,No
+The Free Lance-Star,News,$750 ,67,75,1 Week,"Virginia
 United States",No,Yes,Yes
-Chicago Tribune,News,$750,92,91,2 Weeks,"Illinois
+Chicago Tribune,News,$750 ,92,91,2 Weeks,"Illinois
 United States",Yes,No,No
 "The Telegraph
-NewPress Release",NewsSports,$750,63,73,3-5 Days,"Illinois
+NewPress Release",NewsSports,$750 ,63,73,3-5 Days,"Illinois
 United States",Discrete,Maybe,No
 "The Entertainer! Magazine
-New",News,$750,51,56,1-3 Days,"United States
+New",News,$750 ,51,56,1-3 Days,"United States
 Arizona",No,Yes,Yes
-The Eagle,News,$750,72,72,1 Week,"Texas
+The Eagle,News,$750 ,72,72,1 Week,"Texas
 United States",No,Yes,Yes
-Spin.com,MusicNews,$750,85,80,1 Week,United States,No,Yes,Yes
+Spin.com,MusicNews,$750 ,85,80,1 Week,United States,No,Yes,Yes
 "Merced Sun Star
-NewPress Release",News,$750,66,71,3-5 Days,California,Discrete,Maybe,No
+NewPress Release",News,$750 ,66,71,3-5 Days,California,Discrete,Maybe,No
 "Queencreek Tribune
-New",News,$750,28,35,1-3 Days,"United States
+New",News,$750 ,28,35,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Napa Valley Register,News,$750,79,76,1 Week,"California
+Napa Valley Register,News,$750 ,79,76,1 Week,"California
 United States",No,Yes,Yes
 "The Herald
-NewPress Release",3 genres,$750,71,73,3-5 Days,South Carolina,Discrete,Maybe,No
-The Casper Journal,News,$750,44,38,1 Week,"Wyoming
+NewPress Release",3 genres,$750 ,71,73,3-5 Days,South Carolina,Discrete,Maybe,No
+The Casper Journal,News,$750 ,44,38,1 Week,"Wyoming
 United States",No,Yes,Yes
-LA Mag,News,$750,83,81,1 Week,"California
+LA Mag,News,$750 ,83,81,1 Week,"California
 United States",No,Yes,Yes
 "The Bellingham Herald
-NewPress Release",News,$750,68,73,3-5 Days,Washington State,Discrete,Maybe,No
-Glens Falls Post-Star,News,$750,66,73,1 Week,"New York
+NewPress Release",News,$750 ,68,73,3-5 Days,Washington State,Discrete,Maybe,No
+Glens Falls Post-Star,News,$750 ,66,73,1 Week,"New York
 United States",No,Yes,Yes
-Quad-City Times,News,$750,68,75,1 Week,"Iowa
+Quad-City Times,News,$750 ,68,75,1 Week,"Iowa
 Illinois
 United States",No,Yes,Yes
 "Barchart
-NewPress Release",Business,$750,62,79,3-5 Days,United States,No,Maybe,Yes
+NewPress Release",Business,$750 ,62,79,3-5 Days,United States,No,Maybe,Yes
 "East Valley Tribune
-New",News,$750,64,73,1-3 Days,"Arizona
+New",News,$750 ,64,73,1-3 Days,"Arizona
 United States",No,Yes,Yes
 "Fort Worth Star-Telegram
-NewPress Release",News,$750,83,81,3-5 Days,Texas,Discrete,Maybe,No
-Opelika Auburn News,News,$750,71,67,1 Week,"Alabama
+NewPress Release",News,$750 ,83,81,3-5 Days,Texas,Discrete,Maybe,No
+Opelika Auburn News,News,$750 ,71,67,1 Week,"Alabama
 United States",No,Yes,Yes
 "Ventana Monthly
-New",News,$750,30,37,1-3 Days,"United States
+New",News,$750 ,30,37,1-3 Days,"United States
 California",No,Yes,Yes
 "Sun Herald
-NewPress Release",News,$750,73,75,3-5 Days,Michigan,Discrete,Maybe,No
-CoinCodex,Web 3,$750,54,76,3-5 Days,Global,Discrete,Yes,No
+NewPress Release",News,$750 ,73,75,3-5 Days,Michigan,Discrete,Maybe,No
+CoinCodex,Web 3,$750 ,54,76,3-5 Days,Global,Discrete,Yes,No
 "LADTNews
-New",News,$750,59,68,1-3 Days,"California
+New",News,$750 ,59,68,1-3 Days,"California
 United States",No,Yes,Yes
 "Kansas City Star
-NewPress Release",News,$750,85,83,3-5 Days,Kansas,Discrete,Maybe,No
-The McDowell News,News,$750,52,52,1 Week,"North Carolina
+NewPress Release",News,$750 ,85,83,3-5 Days,Kansas,Discrete,Maybe,No
+The McDowell News,News,$750 ,52,52,1 Week,"North Carolina
 United States",No,Yes,Yes
-Orlando Sentinel,News,$750,87,84,2 Weeks,"Florida
+Orlando Sentinel,News,$750 ,87,84,2 Weeks,"Florida
 United States",Yes,No,No
-News & Record,News,$750,76,76,1 Week,"North Carolina
+News & Record,News,$750 ,76,76,1 Week,"North Carolina
 United States",No,Yes,Yes
-Elle (Ukraine),FashionNews,$750,57,64,1-2 Weeks,Ukraine,No,Yes,No
-The Morning Call,News,$750,81,80,2 Weeks,"Pennsylvania
+Elle (Ukraine),FashionNews,$750 ,57,64,1-2 Weeks,Ukraine,No,Yes,No
+The Morning Call,News,$750 ,81,80,2 Weeks,"Pennsylvania
 United States",Yes,No,No
-Herald & Review,News,$750,66,71,1 Week,"Illinois
+Herald & Review,News,$750 ,66,71,1 Week,"Illinois
 United States",No,Yes,Yes
-Ravalli Republic,News,$750,56,64,1 Week,"Montana
+Ravalli Republic,News,$750 ,56,64,1 Week,"Montana
 United States",No,Yes,Yes
-L'Officiel Cyprus,FashionLifestyle,$750,31,41,1 Week,"Europe
+L'Officiel Cyprus,FashionLifestyle,$750 ,31,41,1 Week,"Europe
 Global",No,Yes,Yes
-Scottsbluff Star-Herald Online,News,$750,61,68,1 week,"Nebraska
+Scottsbluff Star-Herald Online,News,$750 ,61,68,1 week,"Nebraska
 United States",No,Yes,Yes
 "Thousand Oaks Acorn
-New",News,$750,55,62,1-3 Days,United States,No,Yes,Yes
+New",News,$750 ,55,62,1-3 Days,United States,No,Yes,Yes
 "The Acorn
-New",News,$750,52,61,1-3 Days,United States,No,Yes,Yes
+New",News,$750 ,52,61,1-3 Days,United States,No,Yes,Yes
 "Lovin' Life
-New",News,$750,50,59,1-3 Days,"United States
+New",News,$750 ,50,59,1-3 Days,"United States
 Arizona",No,Yes,Yes
-The Roanoke Times,News,$750,74,77,1 Week,"Virginia
+The Roanoke Times,News,$750 ,74,77,1 Week,"Virginia
 United States",No,Yes,Yes
-La Crosse Tribune,News,$750,67,73,1 Week,"Wisconsin
+La Crosse Tribune,News,$750 ,67,73,1 Week,"Wisconsin
 United States",No,Yes,Yes
 "Radar Online
-Staff",4 genres,$750,81,78,1 Week,United States,No,Yes,Yes
-NY Daily News,News,$750,93,89,3-5 Days,"New York
+Staff",4 genres,$750 ,81,78,1 Week,United States,No,Yes,Yes
+NY Daily News,News,$750 ,93,89,3-5 Days,"New York
 United States",Yes,No,No
 "The News Tribune
-NewPress Release",News,$750,76,78,3-5 Days,Washington State,Discrete,Maybe,No
-The News & Advance,News,$750,68,72,1 Week,"Virginia
+NewPress Release",News,$750 ,76,78,3-5 Days,Washington State,Discrete,Maybe,No
+The News & Advance,News,$750 ,68,72,1 Week,"Virginia
 United States",No,Yes,Yes
-Chippewa Herald,News,$750,62,65,1 Week,"Wisconsin
+Chippewa Herald,News,$750 ,62,65,1 Week,"Wisconsin
 United States",No,Yes,Yes
-Bristol Herald Courier,News,$750,66,71,1 Week,"Virginia
+Bristol Herald Courier,News,$750 ,66,71,1 Week,"Virginia
 United States",No,Yes,Yes
-Montana Standard,News,$750,66,72,1 Week,"Montana
+Montana Standard,News,$750 ,66,72,1 Week,"Montana
 United States",No,Yes,Yes
 "The Fresno Bee
-NewPress Release",News,$750,77,78,3-5 Days,California,Discrete,Maybe,No
+NewPress Release",News,$750 ,77,78,3-5 Days,California,Discrete,Maybe,No
 "SanTan Sun News
-New",News,$750,35,44,1-3 Days,"United States
+New",News,$750 ,35,44,1-3 Days,"United States
 Arizona",No,Yes,Yes
-L'Officiel Monaco,4 genres,$750,37,53,1-3 Days,"Monaco
+L'Officiel Monaco,4 genres,$750 ,37,53,1-3 Days,"Monaco
 Global",No,Yes,Yes
-Coin Edition,Web 3,$750,34,61,3-5 Days,Global,Discrete,Yes,No
+Coin Edition,Web 3,$750 ,34,61,3-5 Days,Global,Discrete,Yes,No
 "Lexington Herald-Leader
-NewPress Release",News,$750,85,79,3-5 Days,Kentucky,Discrete,Maybe,No
-Fremont Tribune,News,$750,59,62,1 Week,"Nebraska
+NewPress Release",News,$750 ,85,79,3-5 Days,Kentucky,Discrete,Maybe,No
+Fremont Tribune,News,$750 ,59,62,1 Week,"Nebraska
 United States",No,Yes,Yes
 "The Glendale Star
-New",News,$750,49,51,1-3 Days,"United States
+New",News,$750 ,49,51,1-3 Days,"United States
 California",No,Yes,Yes
-The Columbus Telegram,News,$750,63,64,1 Week,"Nebraska
+The Columbus Telegram,News,$750 ,63,64,1 Week,"Nebraska
 United States",No,Yes,Yes
-Baltimore Sun,News,$750,90,87,3-5 Days,"Maryland
+Baltimore Sun,News,$750 ,90,87,3-5 Days,"Maryland
 United States",Yes,No,No
-The Bismarck Tribune,News,$750,67,75,1 Week,"North Dakota
+The Bismarck Tribune,News,$750 ,67,75,1 Week,"North Dakota
 United States",No,Yes,Yes
-The Daily News,News,$750,69,71,1 Week,"Washington State
+The Daily News,News,$750 ,69,71,1 Week,"Washington State
 United States",No,Yes,Yes
 "Tri-City Herald
-NewPress Release",News,$750,67,74,3-5 Days,Washington State,Discrete,Maybe,No
+NewPress Release",News,$750 ,67,74,3-5 Days,Washington State,Discrete,Maybe,No
 "Airpark News
-New",News,$750,40,58,1-3 Days,"United States
+New",News,$750 ,40,58,1-3 Days,"United States
 Arizona",No,Yes,Yes
 "The News & Observer
-NewPress Release",News,$750,82,83,3-5 Days,South Carolina,Discrete,Maybe,No
+NewPress Release",News,$750 ,82,83,3-5 Days,South Carolina,Discrete,Maybe,No
 "San Luis Obispo Tribune
-NewPress Release",News,$750,76,75,3-5 Days,California,Discrete,Maybe,No
-The Independent Tribune,News,$750,60,64,1 Week,"North Carolina
+NewPress Release",News,$750 ,76,75,3-5 Days,California,Discrete,Maybe,No
+The Independent Tribune,News,$750 ,60,64,1 Week,"North Carolina
 United States",No,Yes,Yes
 "Explorer News
-New",News,$750,50,59,1-3 Days,"United States
+New",News,$750 ,50,59,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Kenosha News,News,$750,69,72,1 Week,"Wisconsin
+Kenosha News,News,$750 ,69,72,1 Week,"Wisconsin
 United States",No,Yes,Yes
 "Hollywood Life
-Staff",EntertainmentLifestyle,$750,90,80,1 Week,"California
+Staff",EntertainmentLifestyle,$750 ,90,80,1 Week,"California
 United States",No,Yes,Yes
-The Grand Island Independant,News,$750,69,70,1 Week,"Nebraska
+The Grand Island Independant,News,$750 ,69,70,1 Week,"Nebraska
 United States",No,Yes,Yes
-The Times of Northwest Indiana,News,$750,74,78,1 Week,"Indiana
+The Times of Northwest Indiana,News,$750 ,74,78,1 Week,"Indiana
 United States",No,Yes,Yes
 "The Mesa Tribune
-New",News,$750,32,44,1-3 Days,"United States
+New",News,$750 ,32,44,1-3 Days,"United States
 Arizona",No,Yes,Yes
-York News-Times,News,$750,59,61,1 Week,"Nebraska
+York News-Times,News,$750 ,59,61,1 Week,"Nebraska
 United States",No,Yes,Yes
-The North Platte Telegraph,News,$750,58,60,1 Week,"Nebraska
+The North Platte Telegraph,News,$750 ,58,60,1 Week,"Nebraska
 United States",No,Yes,Yes
 "Marana News
-New",News,$750,50,59,1-3 Days,"Arizona
+New",News,$750 ,50,59,1-3 Days,"Arizona
 United States",No,Yes,Yes
-Martinsville Bulletin,News,$750,57,64,1 Week,"Virginia
+Martinsville Bulletin,News,$750 ,57,64,1 Week,"Virginia
 United States",No,Yes,Yes
 "Miami Herald
-NewPress Release",7 genres,$750,90,87,1 Week,Florida,Discrete,Maybe,No
+NewPress Release",7 genres,$750 ,90,87,1 Week,Florida,Discrete,Maybe,No
 "Scottsdale Progress
-New",News,$750,40,58,1-3 Days,"Arizona
+New",News,$750 ,40,58,1-3 Days,"Arizona
 United States",No,Yes,Yes
-Lexington Clipper-Herald,News,$750,50,45,1 Week,"Nebraska
+Lexington Clipper-Herald,News,$750 ,50,45,1 Week,"Nebraska
 United States",No,Yes,Yes
-Richmond Times-Dispatch,News,$750,75,81,1 Week,"Virginia
+Richmond Times-Dispatch,News,$750 ,75,81,1 Week,"Virginia
 United States",No,Yes,Yes
 "The State
-NewPress Release",News,$750,80,79,3-5 Days,South Carolina,Discrete,Maybe,No
+NewPress Release",News,$750 ,80,79,3-5 Days,South Carolina,Discrete,Maybe,No
 "The Foothills Focus
-New",News,$750,35,43,1-3 Days,"United States
+New",News,$750 ,35,43,1-3 Days,"United States
 Arizona",No,Yes,Yes
-Lincoln Journal Star,News,$750,73,79,1 Week,"Nebraska
+Lincoln Journal Star,News,$750 ,73,79,1 Week,"Nebraska
 United States",No,Yes,Yes
 "Harper's Bazaar Vietnam
-Staff",4 genres,$750,43,68,1 Week,"Vietnam
+Staff",4 genres,$750 ,43,68,1 Week,"Vietnam
 Global",No,Yes,Yes
-Playboy (Netherlands),NewsEntertainment,$800,37,38,1 Week,Netherlands,No,Yes,Yes
-Mashable (NL),5 genres,$800,93,91,1 Week,Netherlands,No,Yes,Yes
-World Star,Music,$800,76,72,3-5 Days,United States,No,Yes,Yes
+Playboy (Netherlands),NewsEntertainment,$800 ,37,38,1 Week,Netherlands,No,Yes,Yes
+Mashable (NL),5 genres,$800 ,93,91,1 Week,Netherlands,No,Yes,Yes
+World Star,Music,$800 ,76,72,3-5 Days,United States,No,Yes,Yes
 "Gulf Times
-Press Release",News,$800,74,76,1-3 Days,"UAE
+Press Release",News,$800 ,74,76,1-3 Days,"UAE
 Middle East",No,Yes,Yes
-Soap Opera Digest,EntertainmentLifestyle,$850,72,60,1 Week,United States,No,Yes,Yes
-Life & Style,7 genres,$850,78,73,1-2 Weeks,"United States
+Soap Opera Digest,EntertainmentLifestyle,$850 ,72,60,1 Week,United States,No,Yes,Yes
+Life & Style,7 genres,$850 ,78,73,1-2 Weeks,"United States
 Global",No,Yes,No
-In Touch Weekly,5 genres,$850,85,75,1-2 Weeks,"Global
+In Touch Weekly,5 genres,$850 ,85,75,1-2 Weeks,"Global
 United States",No,Yes,No
-Women's World,LifestyleFashion,$850,64,72,1-2 Weeks,"Global
+Women's World,LifestyleFashion,$850 ,64,72,1-2 Weeks,"Global
 United States",No,Yes,No
-Hollywood Unlocked,4 genres,$850,65,53,1-3 Days,"California
+Hollywood Unlocked,4 genres,$850 ,65,53,1-3 Days,"California
 United States",No,Yes,Yes
-First for Women,3 genres,$850,60,70,1-2 Weeks,"Global
+First for Women,3 genres,$850 ,60,70,1-2 Weeks,"Global
 United States",No,Yes,No
-National Enquirer,NewsEntertainment,$850,76,70,3-5 Days,"United States
+National Enquirer,NewsEntertainment,$850 ,76,70,3-5 Days,"United States
 Global",No,Yes,No
-Closer Weekly,4 genres,$850,78,70,1-2 Weeks,"Global
+Closer Weekly,4 genres,$850 ,78,70,1-2 Weeks,"Global
 United States",No,Yes,No
-Daily Comet,News,"$1,000",60,60,1-2 Weeks,"Louisiana
+Daily Comet,News,"$1,000 ",60,60,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Chillicothe Gazette,News,"$1,000",61,63,1-2 Weeks,"Ohio
+Chillicothe Gazette,News,"$1,000 ",61,63,1-2 Weeks,"Ohio
 United States",No,Yes,No
-House & Garden Africa,Real EstateLifestyle,"$1,000",45,48,1-2 Weeks,Africa,No,Yes,No
-The Evening Tribune,News,"$1,000",57,57,1-2 Weeks,"New York
+House & Garden Africa,Real EstateLifestyle,"$1,000 ",45,48,1-2 Weeks,Africa,No,Yes,No
+The Evening Tribune,News,"$1,000 ",57,57,1-2 Weeks,"New York
 United States",No,Yes,No
-Herald Times Reporter,3 genres,"$1,000",60,65,1-2 Weeks,"Wisconsin
+Herald Times Reporter,3 genres,"$1,000 ",60,65,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Cheboygan Daily Tribune,News,"$1,000",52,49,1-2 Weeks,"Michigan
+Cheboygan Daily Tribune,News,"$1,000 ",52,49,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Stevens Point Journal,News,"$1,000",57,62,1-2 Weeks,"Wisconsin
+Stevens Point Journal,News,"$1,000 ",57,62,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Freeport Journal Standard,News,"$1,000",57,58,1-2 Weeks,"Illinois
+Freeport Journal Standard,News,"$1,000 ",57,58,1-2 Weeks,"Illinois
 United States",No,Yes,No
-Daily Messenger,News,"$1,000",60,65,1-2 Weeks,"New York
+Daily Messenger,News,"$1,000 ",60,65,1-2 Weeks,"New York
 United States",No,Yes,No
-The Gadsden Times,News,"$1,000",61,65,1-2 Weeks,"Alabama
+The Gadsden Times,News,"$1,000 ",61,65,1-2 Weeks,"Alabama
 United States",No,Yes,No
-Coshocton Tribune,News,"$1,000",57,59,1-2 Weeks,"Ohio
+Coshocton Tribune,News,"$1,000 ",57,59,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Mediaite,AlcoholPolitical,"$1,000",83,78,3-5 Days,United States,Discrete,Yes,No
-Pal-item,News,"$1,000",58,59,1-2 Weeks,"Indiana
+Mediaite,AlcoholPolitical,"$1,000 ",83,78,3-5 Days,United States,Discrete,Yes,No
+Pal-item,News,"$1,000 ",58,59,1-2 Weeks,"Indiana
 United States",No,Yes,No
-Port Clinton News Herald,News,"$1,000",54,53,1-2 Weeks,"Ohio
+Port Clinton News Herald,News,"$1,000 ",54,53,1-2 Weeks,"Ohio
 United States",No,Yes,No
-The Record Herald,News,"$1,000",55,51,1-2 Weeks,"Pennsylvania
+The Record Herald,News,"$1,000 ",55,51,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Bottle Raiders,Lifestyle,"$1,000",36,50,1 Week,United States,No,Yes,No
+Bottle Raiders,Lifestyle,"$1,000 ",36,50,1 Week,United States,No,Yes,No
 "OK! Magazine
-Staff",5 genres,"$1,000",81,75,3-5 Days,"Global
+Staff",5 genres,"$1,000 ",81,75,3-5 Days,"Global
 United States",No,Yes,Yes
-The Gardener News,News,"$1,000",42,53,1-2 Weeks,"Massachusetts
+The Gardener News,News,"$1,000 ",42,53,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The Daily Jeffersonian,News,"$1,000",50,55,1-2 Weeks,"Ohio
+The Daily Jeffersonian,News,"$1,000 ",50,55,1-2 Weeks,"Ohio
 United States",No,Yes,Yes
-Bucyrus Telegraph-Forum,News,"$1,000",55,54,1-2 Weeks,"Ohio
+Bucyrus Telegraph-Forum,News,"$1,000 ",55,54,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Marshfield News Herald,News,"$1,000",56,54,1-2 Weeks,"Wisconsin
+Marshfield News Herald,News,"$1,000 ",56,54,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Reporter-Times,3 genres,"$1,000",51,51,1-2 Weeks,"Indiana
+Reporter-Times,3 genres,"$1,000 ",51,51,1-2 Weeks,"Indiana
 United States",No,Yes,No
-Tri-County Independent,News,"$1,000",55,52,1-2 Weeks,"Pennsylvania
+Tri-County Independent,News,"$1,000 ",55,52,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Henderson News,News,"$1,000",50,55,1-2 Weeks,"Kentucky
+Henderson News,News,"$1,000 ",50,55,1-2 Weeks,"Kentucky
 United States",No,Yes,Yes
-Inc Australia,NewsBusiness,"$1,000",29,51,1-2 Weeks,Australia,Discrete,Yes,No
-The Daily Record,NewsBusiness,"$1,000",57,66,1-2 Weeks,"Ohio
+Inc Australia,NewsBusiness,"$1,000 ",29,51,1-2 Weeks,Australia,Discrete,Yes,No
+The Daily Record,NewsBusiness,"$1,000 ",57,66,1-2 Weeks,"Ohio
 United States",No,Yes,No
-The Sault News,News,"$1,000",53,53,1-2 Weeks,"Michigan
+The Sault News,News,"$1,000 ",53,53,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Rolling Stone (MENA),NewsEntertainment,"$1,000",92,90,1-2 Weeks,"Africa
+Rolling Stone (MENA),NewsEntertainment,"$1,000 ",92,90,1-2 Weeks,"Africa
 Middle East",No,Yes,Yes
-Canton Daily Ledger,News,"$1,000",51,49,1-2 Weeks,"Illinois
+Canton Daily Ledger,News,"$1,000 ",51,49,1-2 Weeks,"Illinois
 United States",No,Yes,No
-The Progress-Index,News,"$1,000",60,63,1-2 Weeks,"Virginia
+The Progress-Index,News,"$1,000 ",60,63,1-2 Weeks,"Virginia
 United States",No,Yes,No
-Pekin Daily Times,News,"$1,000",55,55,1-2 Weeks,"Illinois
+Pekin Daily Times,News,"$1,000 ",55,55,1-2 Weeks,"Illinois
 United States",No,Yes,No
-Kent Ravenna Record-Courier,News,"$1,000",55,61,1-2 Weeks,"Ohio
+Kent Ravenna Record-Courier,News,"$1,000 ",55,61,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Marie Claire (Netherlands),4 genres,"$1,000",42,60,1 Week,Netherlands,No,Yes,Yes
-Harper's Bazaar (Australia),4 genres,"$1,000",72,73,1-3 Weeks,Australia,No,Yes,Yes
-Attitude,3 genres,"$1,000",76,72,1-2 Weeks,United Kingdom,No,Yes,Yes
+Marie Claire (Netherlands),4 genres,"$1,000 ",42,60,1 Week,Netherlands,No,Yes,Yes
+Harper's Bazaar (Australia),4 genres,"$1,000 ",72,73,1-3 Weeks,Australia,No,Yes,Yes
+Attitude,3 genres,"$1,000 ",76,72,1-2 Weeks,United Kingdom,No,Yes,Yes
 "Robb Report (Africa)
-Under Development",NewsLuxury,"$1,000",82,83,1-2 Weeks,Africa,No,Yes,Yes
-Men's Health (Australia),Lifestyle,"$1,000",63,66,1-3 Weeks,Australia,No,Yes,Yes
-Times Reporter,News,"$1,000",60,65,1-2 Weeks,"Ohio
+Under Development",NewsLuxury,"$1,000 ",82,83,1-2 Weeks,Africa,No,Yes,Yes
+Men's Health (Australia),Lifestyle,"$1,000 ",63,66,1-3 Weeks,Australia,No,Yes,Yes
+Times Reporter,News,"$1,000 ",60,65,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Daily World,News,"$1,000",55,57,1-2 Weeks,"Louisiana
+Daily World,News,"$1,000 ",55,57,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Esquire (Australia),3 genres,"$1,000",35,38,1-3 Weeks,Australia,No,Yes,Yes
-Hillsdale Daily News,News,"$1,000",52,57,1-2 Weeks,"Michigan
+Esquire (Australia),3 genres,"$1,000 ",35,38,1-3 Weeks,Australia,No,Yes,Yes
+Hillsdale Daily News,News,"$1,000 ",52,57,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Coldwater Daily Reporter,News,"$1,000",53,51,1-2 Weeks,"Michigan
+Coldwater Daily Reporter,News,"$1,000 ",53,51,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Times-Mail,News,"$1,000",53,50,1-2 Weeks,"Indiana
+Times-Mail,News,"$1,000 ",53,50,1-2 Weeks,"Indiana
 United States",No,Yes,No
-The Gazette,News,"$1,000",77,80,1 Week,"Colorado
+The Gazette,News,"$1,000 ",77,80,1 Week,"Colorado
 United States",No,Yes,Yes
-Galesburg Register Mail,News,"$1,000",59,66,1-2 Weeks,"Illinois
+Galesburg Register Mail,News,"$1,000 ",59,66,1-2 Weeks,"Illinois
 United States",No,Yes,No
 "Gulf News
-Press Release",News,"$1,000",90,85,1 Week,UAE,No,Yes,Yes
-Pontiac Daily Leader,News,"$1,000",50,48,1-2 Weeks,"Illinois
+Press Release",News,"$1,000 ",90,85,1 Week,UAE,No,Yes,Yes
+Pontiac Daily Leader,News,"$1,000 ",50,48,1-2 Weeks,"Illinois
 United States",No,Yes,No
-Cryptonomist,Web 3,"$1,000",51,72,3 Days,Global,Yes,Yes,No
-The Denver Gazette,News,"$1,000",62,74,1 Week,Colorado,No,Yes,Yes
-J-14 Magazine,5 genres,"$1,000",77,67,1 Week,Global,No,Yes,No
-Soaps In Depth,Entertainment,"$1,000",59,46,1 Week,"Global
+Cryptonomist,Web 3,"$1,000 ",51,72,3 Days,Global,Yes,Yes,No
+The Denver Gazette,News,"$1,000 ",62,74,1 Week,Colorado,No,Yes,Yes
+J-14 Magazine,5 genres,"$1,000 ",77,67,1 Week,Global,No,Yes,No
+Soaps In Depth,Entertainment,"$1,000 ",59,46,1 Week,"Global
 United States",No,Yes,Yes
-Oakridger,News,"$1,000",56,61,1-2 Weeks,"Tennessee
+Oakridger,News,"$1,000 ",56,61,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-Ruidoso News,News,"$1,000",53,57,1-2 Weeks,"New Mexico
+Ruidoso News,News,"$1,000 ",53,57,1-2 Weeks,"New Mexico
 United States",No,Yes,No
-Food And Wine Español,Alcohol,"$1,000",49,55,1-2 Weeks,Mexico,Yes,Yes,No
-The Newport Daily News,News,"$1,000",58,71,1-2 Weeks,"Rhode Island
+Food And Wine Español,Alcohol,"$1,000 ",49,55,1-2 Weeks,Mexico,Yes,Yes,No
+The Newport Daily News,News,"$1,000 ",58,71,1-2 Weeks,"Rhode Island
 United States",No,Yes,No
-The Daily Advertiser,News,"$1,000",68,73,1-2 Weeks,"Louisiana
+The Daily Advertiser,News,"$1,000 ",68,73,1-2 Weeks,"Louisiana
 United States",No,Yes,No
 "NewsMax
-6 Month Lifespan",4 genres,"$1,000",85,82,1 Week,"Global
+6 Month Lifespan",4 genres,"$1,000 ",85,82,1 Week,"Global
 United States",Yes,Yes,No
-Sturgis Journal,3 genres,"$1,000",53,52,1-2 Weeks,"Michigan
+Sturgis Journal,3 genres,"$1,000 ",53,52,1-2 Weeks,"Michigan
 United States",No,Yes,No
 "Realty Times
-Contributor",Real Estate,"$1,000",58,77,1-2 Weeks,United States,No,Yes,No
-Lancaster Eagle-Gazette,News,"$1,000",58,65,1-2 Weeks,"Ohio
+Contributor",Real Estate,"$1,000 ",58,77,1-2 Weeks,United States,No,Yes,No
+Lancaster Eagle-Gazette,News,"$1,000 ",58,65,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Daily American Online,News,"$1,000",57,65,1-2 Weeks,"Pennsylvania
+Daily American Online,News,"$1,000 ",57,65,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
 "Billboard (Africa)
-Under Development",3 genres,"$1,000",92,90,1-2 Weeks,Africa,No,Yes,Yes
-Ashland Times Gazette,News,"$1,000",54,54,1-2 Weeks,"Ohio
+Under Development",3 genres,"$1,000 ",92,90,1-2 Weeks,Africa,No,Yes,Yes
+Ashland Times Gazette,News,"$1,000 ",54,54,1-2 Weeks,"Ohio
 United States",No,Yes,No
 "Elle India
-Staff",3 genres,"$1,000",68,70,1 Week,"India
+Staff",3 genres,"$1,000 ",68,70,1 Week,"India
 Global",No,Yes,Yes
-Watertown Public Opinion,News,"$1,000",56,59,1-2 Weeks,"South Dakota
+Watertown Public Opinion,News,"$1,000 ",56,59,1-2 Weeks,"South Dakota
 United States",No,Yes,No
-The Daily Telegram,News,"$1,000",58,62,1-2 Weeks,"Michigan
+The Daily Telegram,News,"$1,000 ",58,62,1-2 Weeks,"Michigan
 United States",No,Yes,No
-The Alliance Review,News,"$1,000",54,63,1-2 Weeks,"Ohio
+The Alliance Review,News,"$1,000 ",54,63,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Massillon Independent,News,"$1,000",59,62,1-2 Weeks,"Ohio
+Massillon Independent,News,"$1,000 ",59,62,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Corning Leader,News,"$1,000",57,55,1-2 Weeks,"New York
+Corning Leader,News,"$1,000 ",57,55,1-2 Weeks,"New York
 United States",No,Yes,No
-McDonough County Voice,News,"$1,000",50,51,1-2 Weeks,"Illinois
+McDonough County Voice,News,"$1,000 ",50,51,1-2 Weeks,"Illinois
 United States",No,Yes,No
-Examiner-Enterprise,News,"$1,000",59,62,1-2 Weeks,"Oklahoma
+Examiner-Enterprise,News,"$1,000 ",59,62,1-2 Weeks,"Oklahoma
 United States",No,Yes,No
-Kewanee Star Courier,News,"$1,000",48,49,1-2 Weeks,"Illinois
+Kewanee Star Courier,News,"$1,000 ",48,49,1-2 Weeks,"Illinois
 United States",No,Yes,No
-The Marion Star,News,"$1,000",61,62,1-2 Weeks,"Ohio
+The Marion Star,News,"$1,000 ",61,62,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Law & Crime,3 genres,"$1,000",80,75,3-5 Days,Global,Discrete,Yes,No
-Fremont News Messenger,News,"$1,000",57,63,1-2 Weeks,"Ohio
+Law & Crime,3 genres,"$1,000 ",80,75,3-5 Days,Global,Discrete,Yes,No
+Fremont News Messenger,News,"$1,000 ",57,63,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Carlsbad Current Argus,News,"$1,000",60,66,1-2 Weeks,"New Mexico
+Carlsbad Current Argus,News,"$1,000 ",60,66,1-2 Weeks,"New Mexico
 United States",No,Yes,No
-Winter Haven News Chief,News,"$1,000",60,56,1-2 Weeks,"Florida
+Winter Haven News Chief,News,"$1,000 ",60,56,1-2 Weeks,"Florida
 United States",No,Yes,No
-The Times Telegram,3 genres,"$1,000",51,54,1-2 Weeks,"New York
+The Times Telegram,3 genres,"$1,000 ",51,54,1-2 Weeks,"New York
 United States",No,Yes,No
-Wisconsin Rapids Tribune,News,"$1,000",59,62,1-2 Weeks,"Wisconsin
+Wisconsin Rapids Tribune,News,"$1,000 ",59,62,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Ellwood City Ledger,News,"$1,000",54,57,1-2 Weeks,"Pennsylvania
+Ellwood City Ledger,News,"$1,000 ",54,57,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Lincoln Courier,News,"$1,000",53,49,1-2 Weeks,"Illinois
+Lincoln Courier,News,"$1,000 ",53,49,1-2 Weeks,"Illinois
 United States",No,Yes,No
-Smart Company Australia,NewsBusiness,"$1,000",66,80,1-2 Weeks,Australia,Discrete,Yes,No
-Salina Journal,News,"$1,000",60,63,1-2 Weeks,"Kansas
+Smart Company Australia,NewsBusiness,"$1,000 ",66,80,1-2 Weeks,Australia,Discrete,Yes,No
+Salina Journal,News,"$1,000 ",60,63,1-2 Weeks,"Kansas
 United States",No,Yes,No
-Women's Health (Australia),LifestyleSports,"$1,000",59,70,1-3 Weeks,Australia,No,Yes,Yes
-GQ South Africa,6 genres,"$1,150",56,63,1-2 Weeks,Africa,No,Yes,No
-AV Club,Lifestyle,"$1,150",87,82,1 Week,United States,No,Yes,Yes
-Paste Magazine,MusicEntertainment,"$1,150",86,82,1 Week,"Georgia
+Women's Health (Australia),LifestyleSports,"$1,000 ",59,70,1-3 Weeks,Australia,No,Yes,Yes
+GQ South Africa,6 genres,"$1,150 ",56,63,1-2 Weeks,Africa,No,Yes,No
+AV Club,Lifestyle,"$1,150 ",87,82,1 Week,United States,No,Yes,Yes
+Paste Magazine,MusicEntertainment,"$1,150 ",86,82,1 Week,"Georgia
 United States",No,Yes,Yes
-Splinter.com,NewsPolitical,"$1,150",73,72,1 Week,United States,No,Yes,Yes
-Glamour South Africa,6 genres,"$1,150",57,60,1-2 Weeks,Africa,No,Yes,No
-Jezebel.com,EntertainmentLifestyle,"$1,150",84,82,1 Week,United States,No,Yes,Yes
+Splinter.com,NewsPolitical,"$1,150 ",73,72,1 Week,United States,No,Yes,Yes
+Glamour South Africa,6 genres,"$1,150 ",57,60,1-2 Weeks,Africa,No,Yes,No
+Jezebel.com,EntertainmentLifestyle,"$1,150 ",84,82,1 Week,United States,No,Yes,Yes
 "Travel and Leisure Mexico
-New",Lifestyle,"$1,200",19,14,1 Week,Mexico,Discrete,Yes,Yes
-Forbes Mexico,7 genres,"$1,200",89,82,1-2 Weeks,Mexico,Discrete,Yes,No
-Player One,3 genres,"$1,200",74,53,3-5 Days,United States,Yes,Yes,No
-Forbes Colombia,7 genres,"$1,200",61,74,1-2 Weeks,Colombia,Discrete,Yes,Yes
-Entrepreneur (India),6 genres,"$1,200",92,91,1-3 Days,India,No,Yes,No
-Fashion Times,Fashion,"$1,200",59,54,1 Week,"United States
+New",Lifestyle,"$1,200 ",19,14,1 Week,Mexico,Discrete,Yes,Yes
+Forbes Mexico,7 genres,"$1,200 ",89,82,1-2 Weeks,Mexico,Discrete,Yes,No
+Player One,3 genres,"$1,200 ",74,53,3-5 Days,United States,Yes,Yes,No
+Forbes Colombia,7 genres,"$1,200 ",61,74,1-2 Weeks,Colombia,Discrete,Yes,Yes
+Entrepreneur (India),6 genres,"$1,200 ",92,91,1-3 Days,India,No,Yes,No
+Fashion Times,Fashion,"$1,200 ",59,54,1 Week,"United States
 New York",No,Yes,No
-Medical Daily,NewsBusiness,"$1,200",85,82,1 Week,Global,No,Yes,No
-Times of Israel,News,"$1,200",91,87,3-5 Days,Israel,Yes,Yes,No
-Elite Daily,3 genres,"$1,250",89,83,1-2 Weeks,"United States
+Medical Daily,NewsBusiness,"$1,200 ",85,82,1 Week,Global,No,Yes,No
+Times of Israel,News,"$1,200 ",91,87,3-5 Days,Israel,Yes,Yes,No
+Elite Daily,3 genres,"$1,250 ",89,83,1-2 Weeks,"United States
 Global",No,Yes,No
-Fosters Daily Democrat,News,"$1,250",66,73,1-2 Weeks,"New Hampshire
+Fosters Daily Democrat,News,"$1,250 ",66,73,1-2 Weeks,"New Hampshire
 United States",No,Yes,No
-Jackson Sun,News,"$1,250",66,69,1-2 Weeks,"Tennessee
+Jackson Sun,News,"$1,250 ",66,69,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-Herald-Mail Media,News,"$1,250",70,73,1-2 Weeks,"Maryland
+Herald-Mail Media,News,"$1,250 ",70,73,1-2 Weeks,"Maryland
 United States",No,Yes,No
-Utica Observer Dispatch,News,"$1,250",64,72,1-2 Weeks,"New York
+Utica Observer Dispatch,News,"$1,250 ",64,72,1-2 Weeks,"New York
 United States",No,Yes,No
-St. Augustine Record,News,"$1,250",71,73,1-2 Weeks,"Florida
+St. Augustine Record,News,"$1,250 ",71,73,1-2 Weeks,"Florida
 United States",No,Yes,No
-The Monroe News,News,"$1,250",61,67,1-2 Weeks,"Michigan
+The Monroe News,News,"$1,250 ",61,67,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Morris County Daily Record,News,"$1,250",67,73,1-2 Weeks,"New Jersey
+Morris County Daily Record,News,"$1,250 ",67,73,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Lakeland Ledger,News,"$1,250",73,76,1-2 Weeks,"Florida
+Lakeland Ledger,News,"$1,250 ",73,76,1-2 Weeks,"Florida
 United States",No,Yes,No
-Journal Star,News,"$1,250",74,74,1-2 Weeks,"Illinois
+Journal Star,News,"$1,250 ",74,74,1-2 Weeks,"Illinois
 United States",No,Yes,No
-El Paso Times,News,"$1,250",77,75,1-2 Weeks,"Texas
+El Paso Times,News,"$1,250 ",77,75,1-2 Weeks,"Texas
 United States",No,Yes,No
-Ocala StarBanner,News,"$1,250",66,73,1-2 Weeks,"Florida
+Ocala StarBanner,News,"$1,250 ",66,73,1-2 Weeks,"Florida
 United States",No,Yes,No
-Times Herald-Record,News,"$1,250",73,75,1-2 Weeks,"New York
+Times Herald-Record,News,"$1,250 ",73,75,1-2 Weeks,"New York
 United States",No,Yes,No
-The Times Herald,News,"$1,250",66,69,1-2 Weeks,"Michigan
+The Times Herald,News,"$1,250 ",66,69,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Shelby Star,News,"$1,250",60,61,1-2 Weeks,"North Carolina
+Shelby Star,News,"$1,250 ",60,61,1-2 Weeks,"North Carolina
 United States",No,Yes,No
-The Bulletin,News,"$1,250",70,71,1-2 Weeks,"Connecticut
+The Bulletin,News,"$1,250 ",70,71,1-2 Weeks,"Connecticut
 United States",No,Yes,No
-Athens Banner-Herald,News,"$1,250",69,75,1-2 Weeks,"Georgia
+Athens Banner-Herald,News,"$1,250 ",69,75,1-2 Weeks,"Georgia
 United States",No,Yes,No
-Newark Advocate,News,"$1,250",61,70,1-2 Weeks,"Ohio
+Newark Advocate,News,"$1,250 ",61,70,1-2 Weeks,"Ohio
 United States",No,Yes,No
-InStyle Mexico,4 genres,"$1,250",58,58,1-2 Weeks,Mexico,No,Yes,No
-Battle Creek Enquirer,News,"$1,250",66,69,1-2 Weeks,"Michigan
+InStyle Mexico,4 genres,"$1,250 ",58,58,1-2 Weeks,Mexico,No,Yes,No
+Battle Creek Enquirer,News,"$1,250 ",66,69,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Daytona Beach News-Journal,News,"$1,250",69,76,1-2 Weeks,"Florida
+Daytona Beach News-Journal,News,"$1,250 ",69,76,1-2 Weeks,"Florida
 United States",No,Yes,No
-Iowa City Press-Citizen,News,"$1,250",69,72,1-2 Weeks,"Iowa
+Iowa City Press-Citizen,News,"$1,250 ",69,72,1-2 Weeks,"Iowa
 United States",No,Yes,No
-GoUpstate,News,"$1,250",68,73,1-2 Weeks,"South Carolina
+GoUpstate,News,"$1,250 ",68,73,1-2 Weeks,"South Carolina
 United States",No,Yes,No
-The Ames Tribune,News,"$1,250",62,69,1-2 Weeks,"Iowa
+The Ames Tribune,News,"$1,250 ",62,69,1-2 Weeks,"Iowa
 United States",No,Yes,No
-The Spectrum,News,"$1,250",68,71,1-2 Weeks,"Utah
+The Spectrum,News,"$1,250 ",68,71,1-2 Weeks,"Utah
 United States",No,Yes,No
-Northwest Florida Daily News,News,"$1,250",69,73,1-2 Weeks,"Florida
+Northwest Florida Daily News,News,"$1,250 ",69,73,1-2 Weeks,"Florida
 United States",No,Yes,No
-Great Falls Tribune,News,"$1,250",72,74,1-2 Weeks,"Montana
+Great Falls Tribune,News,"$1,250 ",72,74,1-2 Weeks,"Montana
 United States",No,Yes,No
-Columbia Daily Tribune,News,"$1,250",66,75,1-2 Weeks,"Missouri
+Columbia Daily Tribune,News,"$1,250 ",66,75,1-2 Weeks,"Missouri
 United States",No,Yes,No
-VV Daily Press,News,"$1,250",68,70,1-2 Weeks,"California
+VV Daily Press,News,"$1,250 ",68,70,1-2 Weeks,"California
 United States",No,Yes,No
-The Poughkeepsie Journal,News,"$1,250",70,75,1-2 Weeks,"New York
+The Poughkeepsie Journal,News,"$1,250 ",70,75,1-2 Weeks,"New York
 United States",No,Yes,No
-Oshkosh Northwestern,News,"$1,250",61,65,1-2 Weeks,"Wisconsin
+Oshkosh Northwestern,News,"$1,250 ",61,65,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Success.com,3 genres,"$1,250",80,80,6-8 Weeks,United States,Discrete,Yes,No
-The Herald-Times,News,"$1,250",63,70,1-2 Weeks,"Indiana
+Success.com,3 genres,"$1,250 ",80,80,6-8 Weeks,United States,Discrete,Yes,No
+The Herald-Times,News,"$1,250 ",63,70,1-2 Weeks,"Indiana
 United States",No,Yes,No
-Shreveport Times,News,"$1,250",67,74,1-2 Weeks,"Louisiana
+Shreveport Times,News,"$1,250 ",67,74,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Petoskey News-Review,News,"$1,250",62,71,1-2 Weeks,"Michigan
+Petoskey News-Review,News,"$1,250 ",62,71,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Sea Coast Online,News,"$1,250",73,77,1-2 Weeks,"New Hampshire
+Sea Coast Online,News,"$1,250 ",73,77,1-2 Weeks,"New Hampshire
 United States",No,Yes,No
-Argus Leader,News,"$1,250",68,76,1-2 Weeks,"South Dakota
+Argus Leader,News,"$1,250 ",68,76,1-2 Weeks,"South Dakota
 United States",No,Yes,No
-St. Cloud Times,News,"$1,250",71,73,1-2 Weeks,"Minnesota
+St. Cloud Times,News,"$1,250 ",71,73,1-2 Weeks,"Minnesota
 United States",No,Yes,No
-New Jersey Herald,News,"$1,250",71,72,1-2 Weeks,"New Jersey
+New Jersey Herald,News,"$1,250 ",71,72,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Leesburg Daily Commercial,News,"$1,250",71,67,1-2 Weeks,"Florida
+Leesburg Daily Commercial,News,"$1,250 ",71,67,1-2 Weeks,"Florida
 United States",No,Yes,No
-Elle Quebec,3 genres,"$1,250",55,64,1 Week,Canada,No,Yes,Yes
-The Daily Journal,News,"$1,250",63,65,1-2 Weeks,"New Jersey
+Elle Quebec,3 genres,"$1,250 ",55,64,1 Week,Canada,No,Yes,Yes
+The Daily Journal,News,"$1,250 ",63,65,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Recordnet.com,News,"$1,250",66,73,1-2 Weeks,"California
+Recordnet.com,News,"$1,250 ",66,73,1-2 Weeks,"California
 United States",No,Yes,No
-Romper,Lifestyle,"$1,250",77,79,1-2 Weeks,"United States
+Romper,Lifestyle,"$1,250 ",77,79,1-2 Weeks,"United States
 Global",No,Yes,No
-The Dad,Lifestyle,"$1,250",49,50,1-2 Weeks,"United States
+The Dad,Lifestyle,"$1,250 ",49,50,1-2 Weeks,"United States
 Global",No,Yes,No
-Savannah Morning News,News,"$1,250",72,76,1-2 Weeks,"Georgia
+Savannah Morning News,News,"$1,250 ",72,76,1-2 Weeks,"Georgia
 United States",No,Yes,No
-The Topeka Capital-Journal,News,"$1,250",73,77,1-2 Weeks,"Kansas
+The Topeka Capital-Journal,News,"$1,250 ",73,77,1-2 Weeks,"Kansas
 United States",No,Yes,No
-Wilmington Star-News,News,"$1,250",73,75,1-2 Weeks,"North Carolina
+Wilmington Star-News,News,"$1,250 ",73,75,1-2 Weeks,"North Carolina
 United States",No,Yes,No
-The Augusta Chronicle,News,"$1,250",67,74,1-2 Weeks,"Georgia
+The Augusta Chronicle,News,"$1,250 ",67,74,1-2 Weeks,"Georgia
 United States",No,Yes,No
-Tuscaloosa News,News,"$1,250",68,73,1-2 Weeks,"Alabama
+Tuscaloosa News,News,"$1,250 ",68,73,1-2 Weeks,"Alabama
 United States",No,Yes,No
-Panama City News-Herald,News,"$1,250",68,72,1-2 Weeks,"Florida
+Panama City News-Herald,News,"$1,250 ",68,72,1-2 Weeks,"Florida
 United States",No,Yes,No
-VC Star,News,"$1,250",73,76,1-2 Weeks,"California
+VC Star,News,"$1,250 ",73,76,1-2 Weeks,"California
 United States",No,Yes,No
-The News Leader,News,"$1,250",62,70,1-2 Weeks,"Virginia
+The News Leader,News,"$1,250 ",62,70,1-2 Weeks,"Virginia
 United States",No,Yes,No
-Taunton Daily Gazette,News,"$1,250",63,67,1-2 Weeks,"Massachusetts
+Taunton Daily Gazette,News,"$1,250 ",63,67,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-Ithaca Journal,News,"$1,250",63,66,1-2 Weeks,"New York
+Ithaca Journal,News,"$1,250 ",63,66,1-2 Weeks,"New York
 United States",No,Yes,No
-The Town Talk,News,"$1,250",62,64,1-2 Weeks,"Louisiana
+The Town Talk,News,"$1,250 ",62,64,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Hattiesburg American,News,"$1,250",66,67,1-2 Weeks,"Mississippi
+Hattiesburg American,News,"$1,250 ",66,67,1-2 Weeks,"Mississippi
 United States",No,Yes,No
-Bustle,3 genres,"$1,250",91,89,1-2 Weeks,"United States
+Bustle,3 genres,"$1,250 ",91,89,1-2 Weeks,"United States
 Global",No,Yes,No
-Daily News Journal,News,"$1,250",64,69,1-2 Weeks,"Tennessee
+Daily News Journal,News,"$1,250 ",64,69,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-Abilene Reporter News,News,"$1,250",66,70,1-2 Weeks,"Texas
+Abilene Reporter News,News,"$1,250 ",66,70,1-2 Weeks,"Texas
 United States",No,Yes,No
-Zanesville Times Recorder,News,"$1,250",65,62,1-2 Weeks,"Ohio
+Zanesville Times Recorder,News,"$1,250 ",65,62,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Enterprise News,News,"$1,250",70,72,1-2 Weeks,"Massachusetts
+Enterprise News,News,"$1,250 ",70,72,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The Pueblo Chieftain,News,"$1,250",69,72,1-2 Weeks,"Colorado
+The Pueblo Chieftain,News,"$1,250 ",69,72,1-2 Weeks,"Colorado
 United States",No,Yes,No
-Robb Report Mexico (English Language),3 genres,"$1,250",44,60,1-2 Weeks,Mexico,No,Yes,No
-Delmarva Now,News,"$1,250",70,72,1-2 Weeks,"Maryland
+Robb Report Mexico (English Language),3 genres,"$1,250 ",44,60,1-2 Weeks,Mexico,No,Yes,No
+Delmarva Now,News,"$1,250 ",70,72,1-2 Weeks,"Maryland
 Delaware
 United States",No,Yes,No
-Rockford Register Star,News,"$1,250",71,73,1-2 Weeks,"Illinois
+Rockford Register Star,News,"$1,250 ",71,73,1-2 Weeks,"Illinois
 United States",No,Yes,No
-The News Star,News,"$1,250",66,71,1-2 Weeks,"Louisiana
+The News Star,News,"$1,250 ",66,71,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Wichita Falls Times-Record-News,News,"$1,250",70,71,1-2 Weeks,"Texas
+Wichita Falls Times-Record-News,News,"$1,250 ",70,71,1-2 Weeks,"Texas
 United States",No,Yes,No
-Pocono Record,News,"$1,250",67,71,1-2 Weeks,"Pennsylvania
+Pocono Record,News,"$1,250 ",67,71,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Rolling Stone (UK),3 genres,"$1,250",61,70,1-2 Weeks,United Kingdom,Discrete,Yes,Yes
-Lansing State Journal,News,"$1,250",70,75,1-2 Weeks,"Michigan
+Rolling Stone (UK),3 genres,"$1,250 ",61,70,1-2 Weeks,United Kingdom,Discrete,Yes,Yes
+Lansing State Journal,News,"$1,250 ",70,75,1-2 Weeks,"Michigan
 United States",No,Yes,No
-The Zoe Report,3 genres,"$1,250",77,80,1-2 Weeks,"United States
+The Zoe Report,3 genres,"$1,250 ",77,80,1-2 Weeks,"United States
 Global",No,Yes,No
-Kitsap Sun,News,"$1,250",71,74,1-2 Weeks,"Washington State
+Kitsap Sun,News,"$1,250 ",71,74,1-2 Weeks,"Washington State
 United States",No,Yes,No
-Fatherly,News,"$1,250",80,79,1-2 Weeks,United States,No,Yes,No
-Wisconsin State Journal,News,"$1,250",87,81,1 Week,"Wisconsin
+Fatherly,News,"$1,250 ",80,79,1-2 Weeks,United States,No,Yes,No
+Wisconsin State Journal,News,"$1,250 ",87,81,1 Week,"Wisconsin
 United States",No,Yes,Yes
-Holland Sentinel,News,"$1,250",63,72,1-2 Weeks,"Michigan
+Holland Sentinel,News,"$1,250 ",63,72,1-2 Weeks,"Michigan
 United States",No,Yes,No
-The Hutchinson News,News,"$1,250",71,68,1-2 Weeks,"Kansas
+The Hutchinson News,News,"$1,250 ",71,68,1-2 Weeks,"Kansas
 United States",No,Yes,No
-Star Gazette,News,"$1,250",61,68,1-2 Weeks,"New York
+Star Gazette,News,"$1,250 ",61,68,1-2 Weeks,"New York
 United States",No,Yes,No
-Nylon,3 genres,"$1,250",76,80,1-2 Weeks,United States,No,Yes,No
-Press Connects,News,"$1,250",68,72,1-2 Weeks,"New York
+Nylon,3 genres,"$1,250 ",76,80,1-2 Weeks,United States,No,Yes,No
+Press Connects,News,"$1,250 ",68,72,1-2 Weeks,"New York
 United States",No,Yes,No
-Courier & Press,News,"$1,250",69,74,1-2 Weeks,"Indiana
+Courier & Press,News,"$1,250 ",69,74,1-2 Weeks,"Indiana
 United States",No,Yes,No
-The Register-Guard,News,"$1,250",71,76,1-2 Weeks,"Oregon
+The Register-Guard,News,"$1,250 ",71,76,1-2 Weeks,"Oregon
 United States",No,Yes,No
-Robb Report Mexico,3 genres,"$1,250",42,60,1-2 Weeks,Mexico,No,Yes,No
-Alamogordo Daily News,News,"$1,250",64,61,1-2 Weeks,"New Mexico
+Robb Report Mexico,3 genres,"$1,250 ",42,60,1-2 Weeks,Mexico,No,Yes,No
+Alamogordo Daily News,News,"$1,250 ",64,61,1-2 Weeks,"New Mexico
 United States",No,Yes,No
-The Leaf Chronicle,News,"$1,250",70,69,1-2 Weeks,"Tennessee
+The Leaf Chronicle,News,"$1,250 ",70,69,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-South Coast Today,News,"$1,250",68,75,1-2 Weeks,"Massachusetts
+South Coast Today,News,"$1,250 ",68,75,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The Star Press,News,"$1,250",66,70,1-2 Weeks,"Indiana
+The Star Press,News,"$1,250 ",66,70,1-2 Weeks,"Indiana
 United States",No,Yes,No
-Fall River Herald News,News,"$1,250",63,73,1-2 Weeks,"Massachusetts
+Fall River Herald News,News,"$1,250 ",63,73,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-Amarillo Globe-News,News,"$1,250",65,72,1-2 Weeks,"Texas
+Amarillo Globe-News,News,"$1,250 ",65,72,1-2 Weeks,"Texas
 United States",No,Yes,No
-South Jersey Courier Post,News,"$1,250",71,75,1-2 Weeks,"New Jersey
+South Jersey Courier Post,News,"$1,250 ",71,75,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Pensacola News Journal,News,"$1,250",74,76,1-2 Weeks,"Florida
+Pensacola News Journal,News,"$1,250 ",74,76,1-2 Weeks,"Florida
 United States",No,Yes,No
-Beaver County Times,News,"$1,250",63,72,1-2 Weeks,"Pennsylvania
+Beaver County Times,News,"$1,250 ",63,72,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Livingston Daily,News,"$1,250",61,66,1-2 Weeks,"Michigan
+Livingston Daily,News,"$1,250 ",61,66,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Chambersburg Public Opinion,News,"$1,250",61,63,1-2 Weeks,"Pennsylvania
+Chambersburg Public Opinion,News,"$1,250 ",61,63,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Visalia Times-Delta,News,"$1,250",74,70,1-2 Weeks,"California
+Visalia Times-Delta,News,"$1,250 ",74,70,1-2 Weeks,"California
 United States",No,Yes,No
-Mansfield News Journal,News,"$1,250",64,68,1-2 Weeks,"Ohio
+Mansfield News Journal,News,"$1,250 ",64,68,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Burlington County Times,News,"$1,250",66,68,1-2 Weeks,New Jersey,No,Yes,No
-Inverse,3 genres,"$1,250",83,83,1-2 Weeks,"United States
+Burlington County Times,News,"$1,250 ",66,68,1-2 Weeks,New Jersey,No,Yes,No
+Inverse,3 genres,"$1,250 ",83,83,1-2 Weeks,"United States
 Global",No,Yes,No
-Mic,NewsLifestyle,"$1,250",85,84,1-2 Weeks,United States,No,Yes,No
-Elle Canada,4 genres,"$1,250",74,74,2 Weeks,Canada,No,Yes,Yes
-Phillyburbs,News,"$1,250",70,73,1-2 Weeks,"Pennsylvania
+Mic,NewsLifestyle,"$1,250 ",85,84,1-2 Weeks,United States,No,Yes,No
+Elle Canada,4 genres,"$1,250 ",74,74,2 Weeks,Canada,No,Yes,Yes
+Phillyburbs,News,"$1,250 ",70,73,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Columbia Daily Herald,News,"$1,250",65,66,1-2 Weeks,"Tennessee
+Columbia Daily Herald,News,"$1,250 ",65,66,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-South Bend Tribune,News,"$1,250",73,75,1-2 Weeks,"Indiana
+South Bend Tribune,News,"$1,250 ",73,75,1-2 Weeks,"Indiana
 United States",No,Yes,No
-Gaston Gazette,News,"$1,250",69,70,1-2 Weeks,"North Carolina
+Gaston Gazette,News,"$1,250 ",69,70,1-2 Weeks,"North Carolina
 United States",No,Yes,No
-Greenville Online,News,"$1,250",77,76,1-2 Weeks,"South Carolina
+Greenville Online,News,"$1,250 ",77,76,1-2 Weeks,"South Carolina
 United States",No,Yes,No
-Hanover Evening Sun,News,"$1,250",60,63,1-2 Weeks,"Pennsylvania
+Hanover Evening Sun,News,"$1,250 ",60,63,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Las Cruces Sun-News,News,"$1,250",72,74,1-2 Weeks,"New Mexico
+Las Cruces Sun-News,News,"$1,250 ",72,74,1-2 Weeks,"New Mexico
 United States",No,Yes,No
-Lebanon Daily News,News,"$1,250",66,64,1-2 Weeks,"Pennsylvania
+Lebanon Daily News,News,"$1,250 ",66,64,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-FDL Reporter,News,"$1,250",62,64,1-2 Weeks,"Wisconsin
+FDL Reporter,News,"$1,250 ",62,64,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-MetroWest Daily News,News,"$1,250",70,74,1-2 Weeks,"Massachusetts
+MetroWest Daily News,News,"$1,250 ",70,74,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-Sheboygan Press,News,"$1,250",62,66,1-2 Weeks,"Wisconsin
+Sheboygan Press,News,"$1,250 ",62,66,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Arizona Daily Star,News,"$1,250",81,81,1 Week,"Arizona
+Arizona Daily Star,News,"$1,250 ",81,81,1 Week,"Arizona
 United States",No,Yes,Yes
-Palmbeach Daily News,News,"$1,250",73,73,1-2 Weeks,"Florida
+Palmbeach Daily News,News,"$1,250 ",73,73,1-2 Weeks,"Florida
 United States",No,Yes,No
-Houma Today,News,"$1,250",62,70,1-2 Weeks,"Louisiana
+Houma Today,News,"$1,250 ",62,70,1-2 Weeks,"Louisiana
 United States",No,Yes,No
-Cape Cod Times,News,"$1,250",68,76,1-2 Weeks,"Massachusetts
+Cape Cod Times,News,"$1,250 ",68,76,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The Patriot Ledger,News,"$1,250",67,75,1-2 Weeks,"Massachusetts
+The Patriot Ledger,News,"$1,250 ",67,75,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-Milford Daily News,News,"$1,250",61,67,1-2 Weeks,"Massachusetts
+Milford Daily News,News,"$1,250 ",61,67,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The State Journal-Register,News,"$1,250",74,75,1-2 Weeks,"Illinois
+The State Journal-Register,News,"$1,250 ",74,75,1-2 Weeks,"Illinois
 United States",No,Yes,No
-GoSanAngelo,News,"$1,250",74,70,1-2 Weeks,"Texas
+GoSanAngelo,News,"$1,250 ",74,70,1-2 Weeks,"Texas
 United States",No,Yes,No
-ITP.live,3 genres,"$1,250",35,45,1-2 Weeks,"UAE
+ITP.live,3 genres,"$1,250 ",35,45,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Marie Claire Ukraine (+ IG Post),3 genres,"$1,250",47,57,1 Week,Ukraine,No,Yes,Yes
-Scary Mommy,Lifestyle,"$1,250",80,79,1-2 Weeks,"United States
+Marie Claire Ukraine (+ IG Post),3 genres,"$1,250 ",47,57,1 Week,Ukraine,No,Yes,Yes
+Scary Mommy,Lifestyle,"$1,250 ",80,79,1-2 Weeks,"United States
 Global",No,Yes,No
-Edge Middle East,NewsLuxury,"$1,250",66,68,1-2 Weeks,"UAE
+Edge Middle East,NewsLuxury,"$1,250 ",66,68,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Treasure Coast News,News,"$1,250",74,77,1-2 Weeks,"Florida
+Treasure Coast News,News,"$1,250 ",74,77,1-2 Weeks,"Florida
 United States",No,Yes,No
-Times Record,News,"$1,250",62,71,1-2 Weeks,"Arkansas
+Times Record,News,"$1,250 ",62,71,1-2 Weeks,"Arkansas
 United States",No,Yes,No
-Latin Times,4 genres,"$1,300",81,71,1 Week,United States,No,Yes,Yes
-IB Times (NA),3 genres,"$1,300",91,86,1 Week,United States,No,Yes,No
-E! News / E Online,8 genres,"$1,350",92,86,1 Week,United States,Discrete,Yes,Yes
+Latin Times,4 genres,"$1,300 ",81,71,1 Week,United States,No,Yes,Yes
+IB Times (NA),3 genres,"$1,300 ",91,86,1 Week,United States,No,Yes,No
+E! News / E Online,8 genres,"$1,350 ",92,86,1 Week,United States,Discrete,Yes,Yes
 "Marie Claire Mexico
-Pitch",3 genres,"$1,500",57,45,1 - 2 Weeks,Mexico,No,Yes,No
+Pitch",3 genres,"$1,500 ",57,45,1 - 2 Weeks,Mexico,No,Yes,No
 "Windsor Star
-New",News,"$1,500",82,75,1 Week,Canada,Yes,Yes,No
+New",News,"$1,500 ",82,75,1 Week,Canada,Yes,Yes,No
 "Canada.com
-New",News,"$1,500",77,81,1 Week,Canada,Yes,Yes,No
-Palm Beach Post,4 genres,"$1,500",84,81,1-2 Weeks,"Florida
+New",News,"$1,500 ",77,81,1 Week,Canada,Yes,Yes,No
+Palm Beach Post,4 genres,"$1,500 ",84,81,1-2 Weeks,"Florida
 United States",No,Yes,No
-Worcester Telegram,News,"$1,500",81,87,1-2 Weeks,"Massachusetts
+Worcester Telegram,News,"$1,500 ",81,87,1-2 Weeks,"Massachusetts
 United States",No,Yes,No
-The Clarion-Ledger,News,"$1,500",79,77,1-2 Weeks,"Mississippi
+The Clarion-Ledger,News,"$1,500 ",79,77,1-2 Weeks,"Mississippi
 United States",No,Yes,No
-HappySprout,Lifestyle,"$1,500",34,46,1 Week,United States,No,Yes,No
-Cosmopolitan Australia,3 genres,"$1,500",75,,1-3 Weeks,Australia,No,Yes,Yes
-Detroit Free Press,4 genres,"$1,500",91,86,1-2 Weeks,"Michigan
+HappySprout,Lifestyle,"$1,500 ",34,46,1 Week,United States,No,Yes,No
+Cosmopolitan Australia,3 genres,"$1,500 ",75,,1-3 Weeks,Australia,No,Yes,Yes
+Detroit Free Press,4 genres,"$1,500 ",91,86,1-2 Weeks,"Michigan
 United States",No,Yes,No
-Forbes Israel,News,"$1,500",52,68,1-2 Weeks,Israel,No,Yes,Yes
-Statesman Journal,News,"$1,500",78,76,1-2 Weeks,"Oregon
+Forbes Israel,News,"$1,500 ",52,68,1-2 Weeks,Israel,No,Yes,Yes
+Statesman Journal,News,"$1,500 ",78,76,1-2 Weeks,"Oregon
 United States",No,Yes,No
-Delaware Online,News,"$1,500",78,79,1-2 Weeks,"Delaware
+Delaware Online,News,"$1,500 ",78,79,1-2 Weeks,"Delaware
 United States",No,Yes,No
-IGN (Nordic),GamingEntertainment,"$1,500",92,88,3-5 Days,Europe,Discrete,Yes,No
+IGN (Nordic),GamingEntertainment,"$1,500 ",92,88,3-5 Days,Europe,Discrete,Yes,No
 "Toronto Sun
-New",News,"$1,500",88,82,1 Week,Canada,Yes,Yes,No
-Green Bay Press Gazette,News,"$1,500",75,75,1-2 Weeks,"Wisconsin
+New",News,"$1,500 ",88,82,1 Week,Canada,Yes,Yes,No
+Green Bay Press Gazette,News,"$1,500 ",75,75,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
 "Vancouver Sun
-New",News,"$1,500",86,84,1 Week,Canada,Yes,Yes,No
-Forbes Australia,4 genres,"$1,500",48,70,3-4 Weeks,Australia,Discrete,Yes,Yes
-Blissmark,Lifestyle,"$1,500",20,26,1 Week,United States,No,Yes,No
-The Californian,News,"$1,500",67,69,1-2 Weeks,"California
+New",News,"$1,500 ",86,84,1 Week,Canada,Yes,Yes,No
+Forbes Australia,4 genres,"$1,500 ",48,70,3-4 Weeks,Australia,Discrete,Yes,Yes
+Blissmark,Lifestyle,"$1,500 ",20,26,1 Week,United States,No,Yes,No
+The Californian,News,"$1,500 ",67,69,1-2 Weeks,"California
 United States",No,Yes,No
-Cineserie,Entertainment,"$1,500",72,65,1 Week,France,No,Yes,Yes
+Cineserie,Entertainment,"$1,500 ",72,65,1 Week,France,No,Yes,Yes
 "Newsweek
-NewContributor",NewsLifestyle,"$1,500",93,91,1-2 Weeks,United States,No,Yes,Yes
-The Tennessean,News,"$1,500",83,84,1-2 Weeks,"Tennessee
+NewContributor",NewsLifestyle,"$1,500 ",93,91,1-2 Weeks,United States,No,Yes,Yes
+The Tennessean,News,"$1,500 ",83,84,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-The Citizen-Times,News,"$1,500",77,77,1-2 Weeks,"North Carolina
+The Citizen-Times,News,"$1,500 ",77,77,1-2 Weeks,"North Carolina
 United States",No,Yes,No
-The Columbus Dispatch,News,"$1,500",79,83,1-2 Weeks,"Ohio
+The Columbus Dispatch,News,"$1,500 ",79,83,1-2 Weeks,"Ohio
 United States",No,Yes,No
 "The Province
-New",News,"$1,500",73,76,1 Week,Canada,Yes,Yes,No
-Democrat & Chronicle,News,"$1,500",78,79,1-2 Weeks,"New York
+New",News,"$1,500 ",73,76,1 Week,Canada,Yes,Yes,No
+Democrat & Chronicle,News,"$1,500 ",78,79,1-2 Weeks,"New York
 United States",No,Yes,No
 "Bitcoin.com
-Press Release",Web 3,"$1,500",88,89,3 Days,Global,Discrete,Yes,No
-CantonRep,News,"$1,500",80,75,1-2 Weeks,"Ohio
+Press Release",Web 3,"$1,500 ",88,89,3 Days,Global,Discrete,Yes,No
+CantonRep,News,"$1,500 ",80,75,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Indianapolis Star,News,"$1,500",83,83,1-2 Weeks,"Indiana
+Indianapolis Star,News,"$1,500 ",83,83,1-2 Weeks,"Indiana
 United States",No,Yes,No
-The Independent,News,"$1,500",94,91,1-2 Weeks,United Kingdom,Yes,Yes,No
-Grazia Magazine,4 genres,"$1,500",71,74,1-2 Weeks,"Middle East
+The Independent,News,"$1,500 ",94,91,1-2 Weeks,United Kingdom,Yes,Yes,No
+Grazia Magazine,4 genres,"$1,500 ",71,74,1-2 Weeks,"Middle East
 UAE",No,Yes,Yes
 "Montreal Gazette
-New",News,"$1,500",84,81,1 Week,Canada,Yes,Yes,No
-York Daily Record,News,"$1,500",79,74,1-2 Weeks,"Pennsylvania
+New",News,"$1,500 ",84,81,1 Week,Canada,Yes,Yes,No
+York Daily Record,News,"$1,500 ",79,74,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Tallahassee Democrat,News,"$1,500",77,78,1-2 Weeks,"Florida
+Tallahassee Democrat,News,"$1,500 ",77,78,1-2 Weeks,"Florida
 United States",No,Yes,No
-Masala,3 genres,"$1,500",60,55,1-2 Weeks,"UAE
+Masala,3 genres,"$1,500 ",60,55,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Investing.com,3 genres,"$1,500",90,88,1-2 Weeks,United States,No,Yes,No
-The Providence Journal,News,"$1,500",78,80,1-2 Weeks,"Rhode Island
+Investing.com,3 genres,"$1,500 ",90,88,1-2 Weeks,United States,No,Yes,No
+The Providence Journal,News,"$1,500 ",78,80,1-2 Weeks,"Rhode Island
 United States",No,Yes,No
-Independent-Mail,6 genres,"$1,500",69,69,1-2 Weeks,"Global
+Independent-Mail,6 genres,"$1,500 ",69,69,1-2 Weeks,"Global
 South Carolina",No,Yes,No
-My Central Jersey,News,"$1,500",81,75,1-2 Weeks,"New Jersey
+My Central Jersey,News,"$1,500 ",81,75,1-2 Weeks,"New Jersey
 United States",No,Yes,No
 "The Star Phoenix
-New",News,"$1,500",81,74,1 Week,Canada,Yes,Yes,No
-Burlington Free Press,News,"$1,500",75,76,1-2 Weeks,"Vermont
+New",News,"$1,500 ",81,74,1 Week,Canada,Yes,Yes,No
+Burlington Free Press,News,"$1,500 ",75,76,1-2 Weeks,"Vermont
 United States",No,Yes,No
-Construction Week Online,News,"$1,500",62,74,1-2 Weeks,"UAE
+Construction Week Online,News,"$1,500 ",62,74,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-21 Oak,News,"$1,500",35,46,1 Week,United States,No,Yes,No
-Aberdeen News,6 genres,"$1,500",63,66,1-2 Weeks,"Global
+21 Oak,News,"$1,500 ",35,46,1 Week,United States,No,Yes,No
+Aberdeen News,6 genres,"$1,500 ",63,66,1-2 Weeks,"Global
 Virginia",No,Yes,No
-Knox News,News,"$1,500",84,79,1-2 Weeks,"Tennessee
+Knox News,News,"$1,500 ",84,79,1-2 Weeks,"Tennessee
 United States",No,Yes,No
-Commercial Appeal,News,"$1,500",78,78,1-2 Weeks,"Tennessee
+Commercial Appeal,News,"$1,500 ",78,78,1-2 Weeks,"Tennessee
 United States",No,Yes,No
 "Edmonton Journal
-New",News,"$1,500",84,79,1 Week,Canada,Yes,Yes,No
-Lubbock Avalanche-Journal,News,"$1,500",81,74,1-2 Weeks,"Texas
+New",News,"$1,500 ",84,79,1 Week,Canada,Yes,Yes,No
+Lubbock Avalanche-Journal,News,"$1,500 ",81,74,1-2 Weeks,"Texas
 United States",No,Yes,No
-Springfield News Leader,6 genres,"$1,500",78,76,1-2 Weeks,"Global
+Springfield News Leader,6 genres,"$1,500 ",78,76,1-2 Weeks,"Global
 Missouri",No,Yes,No
-Post Crescent,News,"$1,500",76,73,1-2 Weeks,"Wisconsin
+Post Crescent,News,"$1,500 ",76,73,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Arizona Central,4 genres,"$1,500",90,87,1-2 Weeks,"Arizona
+Arizona Central,4 genres,"$1,500 ",90,87,1-2 Weeks,"Arizona
 United States",No,Yes,No
-The Des Moines Register,News,"$1,500",82,82,1-2 Weeks,"Iowa
+The Des Moines Register,News,"$1,500 ",82,82,1-2 Weeks,"Iowa
 United States",No,Yes,No
-Florida Today,News,"$1,500",77,78,1-2 Weeks,"Florida
+Florida Today,News,"$1,500 ",77,78,1-2 Weeks,"Florida
 United States",No,Yes,No
-High Times,LifestyleBusiness,"$1,500",79,80,6 Weeks,"United States
+High Times,LifestyleBusiness,"$1,500 ",79,80,6 Weeks,"United States
 California",Yes,Yes,No
-Arabian Business,NewsBusiness,"$1,500",85,80,1-2 Weeks,"UAE
+Arabian Business,NewsBusiness,"$1,500 ",85,80,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Wicked Local,News,"$1,500",81,81,1-2 Weeks,Massachusetts,No,Yes,No
-The News-Press,News,"$1,500",78,78,1-2 Weeks,"Florida
+Wicked Local,News,"$1,500 ",81,81,1-2 Weeks,Massachusetts,No,Yes,No
+The News-Press,News,"$1,500 ",78,78,1-2 Weeks,"Florida
 United States",No,Yes,No
-The Journal News,News,"$1,500",80,79,1-2 Weeks,"New York
+The Journal News,News,"$1,500 ",80,79,1-2 Weeks,"New York
 United States",No,Yes,No
 "Ottawa Citizen
-New",News,"$1,500",85,81,1 Week,Canada,Yes,Yes,No
+New",News,"$1,500 ",85,81,1 Week,Canada,Yes,Yes,No
 "Canoe.com
-New",News,"$1,500",82,73,1 Week,Canada,Yes,Yes,No
+New",News,"$1,500 ",82,73,1 Week,Canada,Yes,Yes,No
 "Sports Illustrated
-NewContributor",3 genres,"$1,500",92,88,1-2 Weeks,United States,No,Yes,Yes
-Reno Gazette-Journal,News,"$1,500",78,77,1-2 Weeks,"Nevada
+NewContributor",3 genres,"$1,500 ",92,88,1-2 Weeks,United States,No,Yes,Yes
+Reno Gazette-Journal,News,"$1,500 ",78,77,1-2 Weeks,"Nevada
 United States",No,Yes,No
-Akron Beacon Journal,News,"$1,500",80,76,1-2 Weeks,"Ohio
+Akron Beacon Journal,News,"$1,500 ",80,76,1-2 Weeks,"Ohio
 United States",No,Yes,No
 "Edmonton Sun
-New",News,"$1,500",70,71,1 Week,Canada,Yes,Yes,No
-The Oklahoman,News,"$1,500",82,81,1-2 Weeks,"Oklahoma
+New",News,"$1,500 ",70,71,1 Week,Canada,Yes,Yes,No
+The Oklahoman,News,"$1,500 ",82,81,1-2 Weeks,"Oklahoma
 United States",No,Yes,No
-GQ Middle East,3 genres,"$1,500",59,64,1-2 Weeks,"UAE
+GQ Middle East,3 genres,"$1,500 ",59,64,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Asbury Park Press,News,"$1,500",81,79,1-2 Weeks,"New Jersey
+Asbury Park Press,News,"$1,500 ",81,79,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Harper's Bazaar Arabia,4 genres,"$1,500",66,74,1-2 Weeks,"UAE
+Harper's Bazaar Arabia,4 genres,"$1,500 ",66,74,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
 "Ottawa Sun
-New",News,"$1,500",73,72,1 Week,Canada,Yes,Yes,No
-Naples Daily News,News,"$1,500",79,78,1-2 Weeks,"Florida
+New",News,"$1,500 ",73,72,1 Week,Canada,Yes,Yes,No
+Naples Daily News,News,"$1,500 ",79,78,1-2 Weeks,"Florida
 United States",No,Yes,No
-The Fayetteville Observer,News,"$1,500",76,76,1-2 Weeks,"North Carolina
+The Fayetteville Observer,News,"$1,500 ",76,76,1-2 Weeks,"North Carolina
 United States",No,Yes,No
-Wausau Daily Herald,News,"$1,500",76,69,1-2 Weeks,"Wisconsin
+Wausau Daily Herald,News,"$1,500 ",76,69,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-GoErie,News,"$1,500",77,75,1-2 Weeks,"Pennsylvania
+GoErie,News,"$1,500 ",77,75,1-2 Weeks,"Pennsylvania
 United States",No,Yes,No
-Louisville News,News,"$1,500",81,81,1-2 Weeks,"Kentucky
+Louisville News,News,"$1,500 ",81,81,1-2 Weeks,"Kentucky
 United States",No,Yes,No
 "Leader Post
-New",News,"$1,500",72,74,1 Week,Canada,Yes,Yes,No
+New",News,"$1,500 ",72,74,1 Week,Canada,Yes,Yes,No
 "Marie Claire Argentina
-Pitch",Lifestyle,"$1,500",88,79,1 - 2 Weeks,Argentina,No,Yes,No
-Record Searchlight,News,"$1,500",68,73,1-2 Weeks,"California
+Pitch",Lifestyle,"$1,500 ",88,79,1 - 2 Weeks,Argentina,No,Yes,No
+Record Searchlight,News,"$1,500 ",68,73,1-2 Weeks,"California
 United States",No,Yes,No
-Cincinnati News,News,"$1,500",84,82,1-2 Weeks,"Ohio
+Cincinnati News,News,"$1,500 ",84,82,1-2 Weeks,"Ohio
 United States",No,Yes,No
-Austin American-Statesman,News,"$1,500",87,83,1-2 Weeks,"Texas
+Austin American-Statesman,News,"$1,500 ",87,83,1-2 Weeks,"Texas
 United States",No,Yes,No
 "Calgary Sun
-New",News,"$1,500",74,72,1 Week,Canada,Yes,Yes,No
-Watch Pro,NewsLuxury,"$1,500",52,67,1-2 Weeks,"UAE
+New",News,"$1,500 ",74,72,1 Week,Canada,Yes,Yes,No
+Watch Pro,NewsLuxury,"$1,500 ",52,67,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
 "National Post
-New",News,"$1,500",90,86,1 Week,Canada,Yes,Yes,No
-PawTracks,Lifestyle,"$1,500",45,53,1 Week,United States,No,Yes,No
-Florida Times-Union,News,"$1,500",79,80,1-2 Weeks,"Florida
+New",News,"$1,500 ",90,86,1 Week,Canada,Yes,Yes,No
+PawTracks,Lifestyle,"$1,500 ",45,53,1 Week,United States,No,Yes,No
+Florida Times-Union,News,"$1,500 ",79,80,1-2 Weeks,"Florida
 United States",No,Yes,No
-Caller Times,3 genres,"$1,500",76,73,1-2 Weeks,"Texas
+Caller Times,3 genres,"$1,500 ",76,73,1-2 Weeks,"Texas
 United States",No,Yes,No
-Esquire Middle East,News,"$1,500",69,71,1-2 Weeks,"UAE
+Esquire Middle East,News,"$1,500 ",69,71,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-NewFolks,News,"$1,500",27,38,1 Week,United States,No,Yes,No
-The Coloradoan,News,"$1,500",75,76,1-2 Weeks,"Colorado
+NewFolks,News,"$1,500 ",27,38,1 Week,United States,No,Yes,No
+The Coloradoan,News,"$1,500 ",75,76,1-2 Weeks,"Colorado
 United States",No,Yes,No
-Milwaukee Journal Sentinel,News,"$1,500",89,85,1-2 Weeks,"Wisconsin
+Milwaukee Journal Sentinel,News,"$1,500 ",89,85,1-2 Weeks,"Wisconsin
 United States",No,Yes,No
-Cosmopolitan Middle East,4 genres,"$1,500",57,65,1-2 Weeks,"UAE
+Cosmopolitan Middle East,4 genres,"$1,500 ",57,65,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-Journal & Courier,News,"$1,500",72,72,1-2 Weeks,"Indiana
+Journal & Courier,News,"$1,500 ",72,72,1-2 Weeks,"Indiana
 United States",No,Yes,No
 "Calgary Herald
-New",News,"$1,500",85,81,1 Week,Canada,Yes,Yes,No
-CEO Middle East,4 genres,"$1,500",23,53,1-2 Weeks,"UAE
+New",News,"$1,500 ",85,81,1 Week,Canada,Yes,Yes,No
+CEO Middle East,4 genres,"$1,500 ",23,53,1-2 Weeks,"UAE
 Middle East",No,Yes,Yes
-The Desert Sun,4 genres,"$1,500",79,78,1-2 Weeks,"California
+The Desert Sun,4 genres,"$1,500 ",79,78,1-2 Weeks,"California
 United States",No,Yes,No
-Tough Jobs,News,"$1,500",15,17,1 Week,United States,No,Yes,No
+Tough Jobs,News,"$1,500 ",15,17,1 Week,United States,No,Yes,No
 "Financial Post
-New",News,"$1,500",88,86,1 Week,Canada,Yes,Yes,No
-Montgomery Advertiser,News,"$1,500",77,75,1-2 Weeks,"Alabama
+New",News,"$1,500 ",88,86,1 Week,Canada,Yes,Yes,No
+Montgomery Advertiser,News,"$1,500 ",77,75,1-2 Weeks,"Alabama
 United States",No,Yes,No
-The Gainesville Sun,News,"$1,500",76,76,1-2 Weeks,"Florida
+The Gainesville Sun,News,"$1,500 ",76,76,1-2 Weeks,"Florida
 United States",No,Yes,No
-Sarasota Herald-Tribune,News,"$1,500",79,80,1-2 Weeks,"Florida
+Sarasota Herald-Tribune,News,"$1,500 ",79,80,1-2 Weeks,"Florida
 United States",No,Yes,No
-North Jersey News,News,"$1,500",78,82,1-2 Weeks,"New Jersey
+North Jersey News,News,"$1,500 ",78,82,1-2 Weeks,"New Jersey
 United States",No,Yes,No
-Galore Magazine + IG Story,4 genres,"$1,750",78,67,3-5 Days,United States,No,Yes,Yes
-Digital Trends,3 genres,"$1,750",92,90,1 Week,United States,No,Yes,No
-The Manuel,LifestyleNews,"$1,750",76,77,1 Week,United States,No,Yes,No
-LA Weekly (DO-FOLLOW),6 genres,"$1,750",76,84,1 Day,"California
+Galore Magazine + IG Story,4 genres,"$1,750 ",78,67,3-5 Days,United States,No,Yes,Yes
+Digital Trends,3 genres,"$1,750 ",92,90,1 Week,United States,No,Yes,No
+The Manuel,LifestyleNews,"$1,750 ",76,77,1 Week,United States,No,Yes,No
+LA Weekly (DO-FOLLOW),6 genres,"$1,750 ",76,84,1 Day,"California
 United States",Discrete,Yes,Yes
-Organic Coverage (NY Post / The Sun / The Mirror / Daily Star / Daily Mirror / The Express / Daily Mail),News,"$1,800",1,,3-4 Weeks,"United Kingdom
+Organic Coverage (NY Post / The Sun / The Mirror / Daily Star / Daily Mirror / The Express / Daily Mail),News,"$1,800 ",1,,3-4 Weeks,"United Kingdom
 Global",No,Yes,No
 "Muscle & Fitness (Includes Social Post)
-Includes Social Posts",3 genres,"$2,000",84,78,4 Weeks,United States,No,Yes,Yes
-Saudia Gazette,News,"$2,000",77,76,1 Week,"UAE
+Includes Social Posts",3 genres,"$2,000 ",84,78,4 Weeks,United States,No,Yes,Yes
+Saudia Gazette,News,"$2,000 ",77,76,1 Week,"UAE
 Middle East",Discrete,Yes,No
-Paper Mag,NewsEntertainment,"$2,000",82,80,1-3 Days,United States,No,Yes,No
-USA Today,6 genres,"$2,000",94,92,1-2 Weeks,Global,No,Yes,No
-Geekwire,TechBusiness,"$2,000",88,86,3-5 Days,Global,Discrete,Yes,No
-Entrepreneur (Asia Pacific),5 genres,"$2,250",92,91,1 - 3 Days,Asia Pacific,No,Yes,No
+Paper Mag,NewsEntertainment,"$2,000 ",82,80,1-3 Days,United States,No,Yes,No
+USA Today,6 genres,"$2,000 ",94,92,1-2 Weeks,Global,No,Yes,No
+Geekwire,TechBusiness,"$2,000 ",88,86,3-5 Days,Global,Discrete,Yes,No
+Entrepreneur (Asia Pacific),5 genres,"$2,250 ",92,91,1 - 3 Days,Asia Pacific,No,Yes,No
 "Inman.com
-Contributor",Real Estate,"$2,250",76,83,2-3 Weeks,United States,No,Yes,No
-BizJournals.com (New York),NewsBusiness,"$2,250",92,91,1-2 Weeks,"United States
+Contributor",Real Estate,"$2,250 ",76,83,2-3 Weeks,United States,No,Yes,No
+BizJournals.com (New York),NewsBusiness,"$2,250 ",92,91,1-2 Weeks,"United States
 New York",Discrete,Yes,No
-BizJournals.com (Los Angeles),NewsBusiness,"$2,250",92,91,1-2 Weeks,"United States
+BizJournals.com (Los Angeles),NewsBusiness,"$2,250 ",92,91,1-2 Weeks,"United States
 Los Angeles",Discrete,Yes,No
 "GamesBeat
-Lowered",Gaming,"$2,500",92,91,1-2 Weeks,United States,No,Yes,Yes
+Lowered",Gaming,"$2,500 ",92,91,1-2 Weeks,United States,No,Yes,Yes
 "Consequence.net
-Staff",Music,"$2,500",81,79,1 Week,"New York
+Staff",Music,"$2,500 ",81,79,1 Week,"New York
 United States",No,Yes,No
-Maxim Full Feature,7 genres,"$2,500",85,78,1 - 3 Weeks,"New York
+Maxim Full Feature,7 genres,"$2,500 ",85,78,1 - 3 Weeks,"New York
 United States",Discrete,Yes,Yes
 "Venture Beat
-Lowered",4 genres,"$2,500",91,91,1 Week,Global,No,Yes,Yes
-Bitcoin.com (Sponsored),Web 3,"$2,500",88,89,3 Days,Global,Yes,Yes,Yes
+Lowered",4 genres,"$2,500 ",91,91,1 Week,Global,No,Yes,Yes
+Bitcoin.com (Sponsored),Web 3,"$2,500 ",88,89,3 Days,Global,Yes,Yes,Yes
 "USA Today (50,000 Impressions)
-Guaranteed Impressions",News,"$3,000",94,92,2-4 Weeks,United States,No,Yes,No
+Guaranteed Impressions",News,"$3,000 ",94,92,2-4 Weeks,United States,No,Yes,No
 "Harvard Business Review
-Contributor",NewsBusiness,"$3,000",92,92,4-8 Weeks,United States,No,Yes,Yes
-The Hill,Political,"$3,000",92,90,1-2 Weeks,"Washington DC
+Contributor",NewsBusiness,"$3,000 ",92,92,4-8 Weeks,United States,No,Yes,Yes
+The Hill,Political,"$3,000 ",92,90,1-2 Weeks,"Washington DC
 United States",Yes,No,No
-The Epoch Times,News,"$3,000",89,84,1-2 Weeks,United States,Yes,Yes,No
+The Epoch Times,News,"$3,000 ",89,84,1-2 Weeks,United States,Yes,Yes,No
 "Radar Online + Social Post
-Staff",Entertainment,"$3,000",81,78,3-5 Days,"Global
+Staff",Entertainment,"$3,000 ",81,78,3-5 Days,"Global
 United States",No,Yes,Yes
 "OK! Magazine + Social Post
-Staff",Entertainment,"$3,000",81,75,3-5 Days,"Global
+Staff",Entertainment,"$3,000 ",81,75,3-5 Days,"Global
 United States",No,Yes,Yes
 "Inc Magazine (Mention)
-Contributor",BusinessNews,"$3,500",92,91,4-6 Weeks,United States,No,Yes,Yes
-The Hollywood Reporter,News,"$3,500",93,90,1-2 Weeks,"California
+Contributor",BusinessNews,"$3,500 ",92,91,4-6 Weeks,United States,No,Yes,Yes
+The Hollywood Reporter,News,"$3,500 ",93,90,1-2 Weeks,"California
 United States",Yes,Yes,No
-US Weekly,5 genres,"$3,500",90,84,1 Week,"Global
+US Weekly,5 genres,"$3,500 ",90,84,1 Week,"Global
 United States",Discrete,Yes,Yes
-LA Times,News,"$3,750",93,92,1-2 Weeks,"California
+LA Times,News,"$3,750 ",93,92,1-2 Weeks,"California
 United States",Yes,Yes,No
-WWD,5 genres,"$4,000",87,87,1-2 Weeks,United States,Discrete,Yes,No
-Sourcing Journal,4 genres,"$4,000",74,78,1-2 Weeks,United States,No,Yes,Yes
-The Real Deal,3 genres,"$4,000",81,84,1-2 Weeks,United States,Discrete,Yes,No
+WWD,5 genres,"$4,000 ",87,87,1-2 Weeks,United States,Discrete,Yes,No
+Sourcing Journal,4 genres,"$4,000 ",74,78,1-2 Weeks,United States,No,Yes,Yes
+The Real Deal,3 genres,"$4,000 ",81,84,1-2 Weeks,United States,Discrete,Yes,No
 "USA Today (100,000 Impressions)
-Guaranteed Impressions",News,"$4,000",94,92,2-4 Weeks,United States,No,Yes,No
-Foot Wear News,3 genres,"$4,000",84,80,1-2 Weeks,Global,No,Yes,Yes
+Guaranteed Impressions",News,"$4,000 ",94,92,2-4 Weeks,United States,No,Yes,No
+Foot Wear News,3 genres,"$4,000 ",84,80,1-2 Weeks,Global,No,Yes,Yes
 "Radar Online (Homepage 4 Weeks)
-StaffNew",4 genres,"$4,500",81,78,1 Week,United States,No,Yes,Yes
+StaffNew",4 genres,"$4,500 ",81,78,1 Week,United States,No,Yes,Yes
 "OK! Magazine (Homepage 4 Weeks)
-StaffNew",5 genres,"$4,500",81,75,3-5 Days,"Global
+StaffNew",5 genres,"$4,500 ",81,75,3-5 Days,"Global
 United States",No,Yes,Yes
-Vogue (Ukraine),3 genres,"$4,500",60,71,1-2 Weeks,Ukraine,No,Yes,Yes
+Vogue (Ukraine),3 genres,"$4,500 ",60,71,1-2 Weeks,Ukraine,No,Yes,Yes
 "USA Today (250,000 Impressions)
-Guaranteed Impressions",News,"$6,000",94,92,2-4 Weeks,United States,No,Yes,No
-She Knows,Lifestyle,"$6,500",87,83,1-2 Weeks,United States,Discrete,Yes,No
-Stylecaster,FashionNews,"$6,500",77,81,1-2 Weeks,Global,Discrete,Yes,No
+Guaranteed Impressions",News,"$6,000 ",94,92,2-4 Weeks,United States,No,Yes,No
+She Knows,Lifestyle,"$6,500 ",87,83,1-2 Weeks,United States,Discrete,Yes,No
+Stylecaster,FashionNews,"$6,500 ",77,81,1-2 Weeks,Global,Discrete,Yes,No
 "Wall Street Journal
-Contributor",Business,"$7,500",93,92,4-8 Weeks,United States,No,Yes,Yes
+Contributor",Business,"$7,500 ",93,92,4-8 Weeks,United States,No,Yes,Yes
 "Billboard Magazine
-Contributor",NewsLifestyle,"$7,500",92,90,5-8 Weeks,United States,No,Yes,Yes
-Coindesk,3 genres,"$10,000",91,90,1-2 Weeks,"New York
+Contributor",NewsLifestyle,"$7,500 ",92,90,5-8 Weeks,United States,No,Yes,Yes
+Coindesk,3 genres,"$10,000 ",91,90,1-2 Weeks,"New York
 Global",Yes,Yes,No
 "Variety (400,000 Impressions)
-Guaranteed Impressions",4 genres,"$10,000",93,91,1-2 Weeks,Global,No,Yes,No
+Guaranteed Impressions",4 genres,"$10,000 ",93,91,1-2 Weeks,Global,No,Yes,No
 "Rolling Stone (400,000 Impressions)
-Guaranteed Impressions",MusicEntertainment,"$12,500",92,90,1-2 Weeks,United States,Discrete,Yes,No
-Billboard.com,5 genres,"$25,000",92,90,1-2 Weeks,Global,Discrete,Yes,No
+Guaranteed Impressions",MusicEntertainment,"$12,500 ",92,90,1-2 Weeks,United States,Discrete,Yes,No
+Billboard.com,5 genres,"$25,000 ",92,90,1-2 Weeks,Global,Discrete,Yes,No
 "Tech Crunch
-Includes Social Posts",3 genres,"$30,000",93,92,2-3 Weeks,Global,Yes,Yes,No
-"Wall Street Journal (500,000 Impressions)",NewsBusiness,"$85,000",93,92,3-4 Weeks,United States,Yes,Yes,No
-Bloomberg,News,"$100,000",94,92,1 Month,United States,Yes,Yes,Yes
+Includes Social Posts",3 genres,"$30,000 ",93,92,2-3 Weeks,Global,Yes,Yes,No
+"Wall Street Journal (500,000 Impressions)",NewsBusiness,"$85,000 ",93,92,3-4 Weeks,United States,Yes,Yes,No
+Bloomberg,News,"$100,000 ",94,92,1 Month,United States,Yes,Yes,Yes

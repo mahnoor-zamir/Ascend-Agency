@@ -35,11 +35,13 @@ const TableComponent = ({ tableType, filters }) => {
     } else if (tableType === 'television') {
       if (filters.TVName && !row.affiliate.toLowerCase().includes(filters.TVName.toLowerCase())) return false;
     } else if (tableType === 'socialposts') {
-      if (filters.PubName && !row.publication_name.toLowerCase().includes(filters.PubName.toLowerCase())) return false;
+      console.log('Filtering with PubName:', filters.PubName);
+      console.log('Row publication_name:', row.publication_name);
+
+        if (filters.PubName && !row.publication_name.toLowerCase().includes(filters.PubName.toLowerCase())) return false;
     }
     return true;
   });
-
   
   const sortedData = filteredData.sort((a, b) => {
     const getPrice = (price) => {
