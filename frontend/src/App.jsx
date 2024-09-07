@@ -4,7 +4,7 @@ import SelectBusinessPage from './components/BusinessPage/BusinessPage.jsx';
 import MainApp from './pages/MainApp.jsx';
 import LoginPage from './components/Login/Login.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import Modal from './components/Modal/Modal.jsx'; // Import your Modal component
+import Modal from './components/Modal/Modal.jsx'; 
 import './App.css';
 
 
