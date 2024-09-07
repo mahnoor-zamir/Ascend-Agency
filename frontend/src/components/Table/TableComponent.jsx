@@ -35,13 +35,20 @@ const TableComponent = ({ tableType, filters }) => {
     } else if (tableType === 'television') {
       if (filters.TVName && !row.affiliate.toLowerCase().includes(filters.TVName.toLowerCase())) return false;
     } else if (tableType === 'socialposts') {
-      if (filters.PubName && !row.publication_name.toLowerCase().includes(filters.PubName.toLowerCase())) return false;
+      console.log('Filtering with PubName:', filters.PubName);
+      console.log('Row publication_name:', row.publication_name);
+
+        if (filters.PubName && !row.publication_name.toLowerCase().includes(filters.PubName.toLowerCase())) return false;
     }
     return true;
   });
-
+  
   const sortedData = filteredData.sort((a, b) => {
-    const getPrice = (price) => Number(price.replace(/[^0-9.-]+/g, "")); // Strip non-numeric characters
+    const getPrice = (price) => {
+      if (price === undefined || price === null) return 0;
+      return Number(price.replace(/[^0-9.-]+/g, ""));
+    };
+  
     if (filters.sortBy === 'Price (Asc)') return getPrice(a.price) - getPrice(b.price);
     if (filters.sortBy === 'Price (Desc)') return getPrice(b.price) - getPrice(a.price);
     if (filters.sortBy === 'Domain Authority (Asc)') return a.da - b.da;
@@ -50,6 +57,7 @@ const TableComponent = ({ tableType, filters }) => {
     if (filters.sortBy === 'Domain Rating (Desc)') return b.dr - a.dr;
     return 0;
   });
+  
 
   const toggleFavorite = (publicationName) => {
     setFavorites((prevFavorites) =>
