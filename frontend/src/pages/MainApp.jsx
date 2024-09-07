@@ -9,7 +9,7 @@ import SocialPostFilter from '../components/Filter/SocialPostFilter.jsx';
 
 function MainApp() {
     const [activeTab, setActiveTab] = useState('publications');
-    
+
     const [filters, setFilters] = useState({
         sortBy: 'Price (Asc)',
         regions: [],
@@ -21,6 +21,7 @@ function MainApp() {
         image: null,
         niches: [],
         TVName: '',
+        PubName: '',
     });
 
     const tabs = [
@@ -30,7 +31,7 @@ function MainApp() {
         { id: 'bestsellers', label: 'Best Sellers' },
         { id: 'prBundles', label: 'PR Bundles' },
         { id: 'print', label: 'Print' },
-        { id: 'socialpost', label: 'Social Post' }
+        { id: 'socialposts', label: 'Social Post' }
     ];
 
     const renderContent = () => {
@@ -49,6 +50,13 @@ function MainApp() {
                         <TabContent activeTab={activeTab} filters={filters} />
                     </>
                 );
+            case 'socialposts':
+                return (
+                    <>
+                        <SocialPostFilter filters={filters} setFilters={setFilters} />
+                        <TabContent activeTab={activeTab} filters={filters} />
+                    </>
+                );
             case 'listicles':
                 return <TabContent activeTab={activeTab} filters={filters} />;
             case 'bestsellers':
@@ -57,13 +65,7 @@ function MainApp() {
                 return <PRBundles />;
             case 'print':
                 return <PrintPage />;
-            case 'socialpost':
-                return (
-                  <>
-                      <SocialPostFilter filters={filters} setFilters={setFilters} />
-                      <TabContent activeTab={activeTab} filters={filters} />
-                  </>
-              );
+
             default:
                 return null;
         }
