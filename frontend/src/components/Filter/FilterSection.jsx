@@ -1,74 +1,55 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './FilterSection.css';
 
-function FilterSection() {
-  const [showSortDropdown, setShowSortDropdown] = useState(false);
-  const [selectedSort, setSelectedSort] = useState("Price (Asc)");
-
+function FilterSection({ filters, setFilters }) {
   const toggleSortDropdown = () => {
-    setShowSortDropdown(!showSortDropdown);
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      showSortDropdown: !filters.showSortDropdown,
+    }));
   };
 
   const handleSortSelect = (option) => {
-    setSelectedSort(option);
-    setShowSortDropdown(false);
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      sortBy: option,
+      showSortDropdown: false,
+    }));
   };
 
-  // State for Select regions dropdown (multiple selection)
-  const [showSelectDropdown, setShowSelectDropdown] = useState(false);
-  const [selectedRegions, setSelectedRegions] = useState([]);
-
   const toggleSelectDropdown = () => {
-    setShowSelectDropdown(!showSelectDropdown);
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      showSelectDropdown: !filters.showSelectDropdown,
+    }));
   };
 
   const handleRegionSelect = (region) => {
-    if (selectedRegions.includes(region)) {
-      setSelectedRegions(selectedRegions.filter((r) => r !== region)); // Deselect region
-    } else {
-      setSelectedRegions([...selectedRegions, region]); // Add region to selection
-    }
+    const updatedRegions = filters.regions.includes(region)
+      ? filters.regions.filter((r) => r !== region)
+      : [...filters.regions, region];
+    setFilters(prevFilters => ({ ...prevFilters, regions: updatedRegions }));
   };
 
-  const isSelected = (region) => selectedRegions.includes(region);
-  const [selectedGenres, setSelectedGenres] = useState([]);
-  const [selectedTypes, setSelectedTypes] = useState([]);
-
-
-  const types = [
-    'New', 'Staff', 'Lowered', 'Raised', 'Press Release', 
-    'Contributor', '6 Month Lifespan', 'Under Development', 
-    'Pitch', 'Includes Social Posts', 'Guaranteed Impressions'
-  ];
-  const genres = [
-    'Entertainment', 'Business', 'Tech', 'News', 'Luxury', 'Lifestyle', 
-    'Music', 'Fashion', 'Web 3', 'Sports', 'Real Estate', 'Political', 
-    'Gaming', 'Alcohol', 'Legal'
-  ];
-
   const toggleGenreSelection = (genre) => {
-    setSelectedGenres(prev =>
-      prev.includes(genre) ? prev.filter(g => g !== genre) : [...prev, genre]
-    );
+    const updatedGenres = filters.genres.includes(genre)
+      ? filters.genres.filter(g => g !== genre)
+      : [...filters.genres, genre];
+    setFilters(prevFilters => ({ ...prevFilters, genres: updatedGenres }));
   };
 
   const toggleTypeSelection = (type) => {
-    setSelectedTypes(prev =>
-      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
-    );
+    const updatedTypes = filters.types.includes(type)
+      ? filters.types.filter(t => t !== type)
+      : [...filters.types, type];
+    setFilters(prevFilters => ({ ...prevFilters, types: updatedTypes }));
   };
-  const [selectedSponsored, setSelectedSponsored] = useState(null);
-  const [selectedDoFollow, setSelectedDoFollow] = useState(null);
-  const [selectedIndexed, setSelectedIndexed] = useState(null);
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [selectedNiches, setSelectedNiches] = useState([]);
 
   const toggleNicheSelection = (niche) => {
-    setSelectedNiches((prevNiches) =>
-      prevNiches.includes(niche)
-        ? prevNiches.filter((item) => item !== niche)
-        : [...prevNiches, niche]
-    );
+    const updatedNiches = filters.niches.includes(niche)
+      ? filters.niches.filter(n => n !== niche)
+      : [...filters.niches, niche];
+    setFilters(prevFilters => ({ ...prevFilters, niches: updatedNiches }));
   };
 
   const sponsoredOptions = ['Yes', 'No', 'Discrete'];
@@ -76,11 +57,37 @@ function FilterSection() {
   const indexedOptions = ['Yes', 'Maybe', 'No'];
   const imageOptions = ['Yes', 'Maybe'];
   const niches = ['Health', 'Crypto', 'Cbd', 'Gambling', 'Erotic'];
+
+  const types = [
+    'New', 'Staff', 'Lowered', 'Raised', 'Press Release', 
+    'Contributor', '6 Month Lifespan', 'Under Development', 
+    'Pitch', 'Includes Social Posts', 'Guaranteed Impressions'
+  ];
+
+  const genres = [
+    'Entertainment', 'Business', 'Tech', 'News', 'Luxury', 'Lifestyle', 
+    'Music', 'Fashion', 'Web 3', 'Sports', 'Real Estate', 'Political', 
+    'Gaming', 'Alcohol', 'Legal'
+  ];
+
+  const handlePublicationNameChange = (e) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      publicationName: e.target.value,
+    }));
+  };
+
   return (
     <div className="filter-section">
       <div className="filter-group">
         <label className="filter-label">Publication name</label>
-        <input type="text" placeholder="Search publication name" className="search-input" />
+        <input 
+          type="text" 
+          placeholder="Search publication name" 
+          className="search-input" 
+          value={filters.publicationName || ''}
+          onChange={handlePublicationNameChange}
+        />
       </div>
 
       {/* Sort by Dropdown */}
@@ -88,9 +95,9 @@ function FilterSection() {
         <label className="filter-label">Sort by</label>
         <div className="custom-dropdown">
           <button className="dropdown-button" onClick={toggleSortDropdown}>
-            {selectedSort}
+            {filters.sortBy}
           </button>
-          {showSortDropdown && (
+          {filters.showSortDropdown && (
             <ul className="dropdown-menu">
               <li onClick={() => handleSortSelect("Price (Asc)")}>Price (Asc)</li>
               <li onClick={() => handleSortSelect("Price (Desc)")}>Price (Desc)</li>
@@ -107,29 +114,28 @@ function FilterSection() {
       <div className="filter-group">
         <label className="filter-label">Select regions</label>
         <div className="custom-dropdown">
-       
           <button className="dropdown-button" onClick={toggleSelectDropdown}>
-          <div className="region-tags" onClick={toggleSelectDropdown}>
-      {selectedRegions.length === 0 ? (
-        <span className="placeholder">Select regions</span>
-      ) : (
-        selectedRegions.map((region) => (
-          <div className="region-tag" key={region}>
-            {region}
-            <button onClick={(e) => handleRegionRemove(e, region)}>x</button>
-          </div>
-        ))
-      )}
-    </div>
+            <div className="region-tags">
+              {filters.regions.length === 0 ? (
+                <span className="placeholder">Select regions</span>
+              ) : (
+                filters.regions.map((region) => (
+                  <div className="region-tag" key={region}>
+                    {region}
+                    <button onClick={() => handleRegionSelect(region)}>x</button>
+                  </div>
+                ))
+              )}
+            </div>
           </button>
-          {showSelectDropdown && (
+          {filters.showSelectDropdown && (
             <ul className="dropdown-menu">
-              <li onClick={() => handleRegionSelect("California")} className={isSelected("California") ? "selected" : ""}>California</li>
-              <li onClick={() => handleRegionSelect("United States")} className={isSelected("United States") ? "selected" : ""}>United States</li>
-              <li onClick={() => handleRegionSelect("Utah")} className={isSelected("Utah") ? "selected" : ""}>Utah</li>
-              <li onClick={() => handleRegionSelect("New York")} className={isSelected("New York") ? "selected" : ""}>New York</li>
-              <li onClick={() => handleRegionSelect("Global")} className={isSelected("Global") ? "selected" : ""}>Global</li>
-              <li onClick={() => handleRegionSelect("Illinois")} className={isSelected("Illinois") ? "selected" : ""}>Illinois</li>
+              <li onClick={() => handleRegionSelect("California")} className={filters.regions.includes("California") ? "selected" : ""}>California</li>
+              <li onClick={() => handleRegionSelect("United States")} className={filters.regions.includes("United States") ? "selected" : ""}>United States</li>
+              <li onClick={() => handleRegionSelect("Utah")} className={filters.regions.includes("Utah") ? "selected" : ""}>Utah</li>
+              <li onClick={() => handleRegionSelect("New York")} className={filters.regions.includes("New York") ? "selected" : ""}>New York</li>
+              <li onClick={() => handleRegionSelect("Global")} className={filters.regions.includes("Global") ? "selected" : ""}>Global</li>
+              <li onClick={() => handleRegionSelect("Illinois")} className={filters.regions.includes("Illinois") ? "selected" : ""}>Illinois</li>
             </ul>
           )}
         </div>
@@ -142,7 +148,7 @@ function FilterSection() {
           {genres.map((genre) => (
             <button
               key={genre}
-              className={`genre-button ${selectedGenres.includes(genre) ? 'selected' : ''}`}
+              className={`genre-button ${filters.genres.includes(genre) ? 'selected' : ''}`}
               onClick={() => toggleGenreSelection(genre)}
             >
               {genre}
@@ -158,7 +164,7 @@ function FilterSection() {
           {types.map((type) => (
             <button
               key={type}
-              className={`type-button ${selectedTypes.includes(type) ? 'selected' : ''}`}
+              className={`type-button ${filters.types.includes(type) ? 'selected' : ''}`}
               onClick={() => toggleTypeSelection(type)}
             >
               {type}
@@ -166,85 +172,85 @@ function FilterSection() {
           ))}
         </div>
       </div>
+
       <div className="filter-group">
-  <label className="filter-label">Sponsored:</label>
-  <div>
-    {sponsoredOptions.map((option) => (
-      <button
-        key={option}
-        className={`filter-options ${selectedSponsored === option ? 'active' : ''}`}
-        onClick={() => setSelectedSponsored(option)}
-      >
-        {option}
-      </button>
-    ))}
-  </div>
-</div>
+        <label className="filter-label">Sponsored:</label>
+        <div>
+          {sponsoredOptions.map((option) => (
+            <button
+              key={option}
+              className={`filter-options ${filters.sponsored === option ? 'active' : ''}`}
+              onClick={() => setFilters(prevFilters => ({ ...prevFilters, sponsored: option }))}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </div>
 
-{/* Do Follow Filter */}
-<div className="filter-group">
-  <label className="filter-label">Do Follow:</label>
-  <div>
-    {doFollowOptions.map((option) => (
-      <button
-        key={option}
-        className={`filter-options ${selectedDoFollow === option ? 'active' : ''}`}
-        onClick={() => setSelectedDoFollow(option)}
-      >
-        {option}
-      </button>
-    ))}
-  </div>
-</div>
+      {/* Do Follow Filter */}
+      <div className="filter-group">
+        <label className="filter-label">Do Follow:</label>
+        <div>
+          {doFollowOptions.map((option) => (
+            <button
+              key={option}
+              className={`filter-options ${filters.doFollow === option ? 'active' : ''}`}
+              onClick={() => setFilters(prevFilters => ({ ...prevFilters, doFollow: option }))}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </div>
 
-{/* Indexed Filter */}
-<div className="filter-group">
-  <label className="filter-label">Indexed:</label>
-  <div>
-    {indexedOptions.map((option) => (
-      <button
-        key={option}
-        className={`filter-options ${selectedIndexed === option ? 'active' : ''}`}
-        onClick={() => setSelectedIndexed(option)}
-      >
-        {option}
-      </button>
-    ))}
-  </div>
-</div>
+      {/* Indexed Filter */}
+      <div className="filter-group">
+        <label className="filter-label">Indexed:</label>
+        <div>
+          {indexedOptions.map((option) => (
+            <button
+              key={option}
+              className={`filter-options ${filters.indexed === option ? 'active' : ''}`}
+              onClick={() => setFilters(prevFilters => ({ ...prevFilters, indexed: option }))}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </div>
 
-{/* Image Filter */}
-<div className="filter-group">
-  <label className="filter-label">Image:</label>
-  <div>
-    {imageOptions.map((option) => (
-      <button
-        key={option}
-        className={`filter-options ${selectedImage === option ? 'active' : ''}`}
-        onClick={() => setSelectedImage(option)}
-      >
-        {option}
-      </button>
-    ))}
-  </div>
-</div>
+      {/* Image Filter */}
+      <div className="filter-group">
+        <label className="filter-label">Image:</label>
+        <div>
+          {imageOptions.map((option) => (
+            <button
+              key={option}
+              className={`filter-options ${filters.image === option ? 'active' : ''}`}
+              onClick={() => setFilters(prevFilters => ({ ...prevFilters, image: option }))}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </div>
 
-{/* Niche Filter */}
-<div className="filter-group">
-  <label className="filter-label">Niche:</label>
-  <div>
-    {niches.map((niche) => (
-      <button
-        key={niche}
-        className={`filter-options ${selectedNiches.includes(niche) ? 'active' : ''}`}
-        onClick={() => toggleNicheSelection(niche)}
-      >
-        {niche}
-      </button>
-    ))}
-  </div>
-</div>
-
+      {/* Niche Filter */}
+      <div className="filter-group">
+        <label className="filter-label">Niche:</label>
+        <div>
+          {niches.map((niche) => (
+            <button
+              key={niche}
+              className={`filter-options ${filters.niches.includes(niche) ? 'active' : ''}`}
+              onClick={() => toggleNicheSelection(niche)}
+            >
+              {niche}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-// App.js
 import React, { useState } from 'react';
 import PricingHeader from '../components/Header/PricingHeader.jsx';
 import FilterSection from '../components/Filter/FilterSection.jsx';
@@ -7,8 +6,22 @@ import PRBundles from '../components/PRBundles/PRBundles.jsx';
 import PrintPage from '../components/PrintPage/PrintPage.jsx';
 import TelevisionFilterSection from '../components/Filter/TelevisionFilter.jsx';
 import SocialPostFilter from '../components/Filter/SocialPostFilter.jsx';
+
 function MainApp() {
     const [activeTab, setActiveTab] = useState('publications');
+    
+    const [filters, setFilters] = useState({
+        sortBy: 'Price (Asc)',
+        regions: [],
+        genres: [],
+        types: [],
+        sponsored: null,
+        doFollow: null,
+        indexed: null,
+        image: null,
+        niches: [],
+        TVName: '',
+    });
 
     const tabs = [
         { id: 'publications', label: 'Publications' },
@@ -25,56 +38,36 @@ function MainApp() {
             case 'publications':
                 return (
                     <>
-                        <FilterSection />
-                        <TabContent activeTab={activeTab} />
+                        <FilterSection filters={filters} setFilters={setFilters} />
+                        <TabContent activeTab={activeTab} filters={filters} />
                     </>
                 );
             case 'television':
                 return (
                     <>
-                        {/* <div className="filter-section">
-                            <div className="filter-group">
-                                <label className="filter-label">Search by TV</label>
-                                <input type="text" placeholder="Enter TV name" className="search-input" />
-                            </div>
-                            <p>Turn Around Time: 2-4 Weeks</p>
-                            <p>Segment Times vary between 2-4 minutes</p>
-                            <p>Zoom & In Person Options Available</p>
-                        </div> */}
-                        <TelevisionFilterSection/>
-                        <TabContent activeTab={activeTab} />
+                        <TelevisionFilterSection filters={filters} setFilters={setFilters} />
+                        <TabContent activeTab={activeTab} filters={filters} />
                     </>
                 );
             case 'listicles':
-                return <TabContent activeTab={activeTab} />;
+                return <TabContent activeTab={activeTab} filters={filters} />;
             case 'bestsellers':
-                return <TabContent activeTab={activeTab} />;
+                return <TabContent activeTab={activeTab} filters={filters} />;
             case 'prBundles':
                 return <PRBundles />;
             case 'print':
                 return <PrintPage />;
             case 'socialpost':
-             
                 return (
                   <>
-                      {/* <div className="filter-section">
-                          <div className="filter-group">
-                              <label className="filter-label">Search by TV</label>
-                              <input type="text" placeholder="Enter TV name" className="search-input" />
-                          </div>
-                          <p>Turn Around Time: 2-4 Weeks</p>
-                          <p>Segment Times vary between 2-4 minutes</p>
-                          <p>Zoom & In Person Options Available</p>
-                      </div> */}
-                      <SocialPostFilter/>
-                      <TabContent activeTab={activeTab} />
+                      <SocialPostFilter filters={filters} setFilters={setFilters} />
+                      <TabContent activeTab={activeTab} filters={filters} />
                   </>
               );
-
             default:
                 return null;
-        } // <- Make sure this closing brace is here
-    }; // <- Closing for renderContent function
+        }
+    };
 
     return (
         <div className="app">
@@ -98,4 +91,3 @@ function MainApp() {
 }
 
 export default MainApp;
-
