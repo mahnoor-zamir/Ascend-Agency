@@ -11,6 +11,7 @@ export const ensureArray = (value) => {
       genres: ensureArray(item.genres),
       region: ensureArray(item.region),
       location: ensureArray(item.location),
+      Region: ensureArray(item.Region),
 
     }));
   };

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './TableSection.css';
-import { processData } from '../../utils'; 
+import { processData } from '../../utils';
 import { FaStar, FaRegStar, FaRegQuestionCircle, FaImage, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const TableComponent = ({ tableType, filters }) => {
@@ -8,79 +8,47 @@ const TableComponent = ({ tableType, filters }) => {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-
     const fetchData = async () => {
       try {
-        // Dummy data for testing
-        // const dummyData = [
-        //   { publication: "Publication 1", genres: ["Genre 1", "Genre 2"], price: "$10", da: 80, dr: 90, tat: "2 days", region: ["Region 1", "Region 2"], sponsored: true, indexed: true, do_follow: true, example: "Example 1", image: "image1.png", niches: "Niche 1", platform: ["facebook", "instagram"] },
-        //   { publication: "Publication 2", genres: ["Genre 3", "Genre 4"], price: "$15", da: 70, dr: 85, tat: "3 days", region: ["Region 3", "Region 4"], sponsored: false, indexed: false, do_follow: false, example: "Example 2", image: "image2.png", niches: "Niche 2", platform: ["twitter", "linkedin"] },
-        //   { publication: "Publication 3", genres: ["Genre 5", "Genre 6"], price: "$20", da: 90, dr: 95, tat: "1 day", region: ["Region 5", "Region 6"], sponsored: true, indexed: true, do_follow: true, example: "Example 3", image: "image3.png", niches: "Niche 3", platform: ["facebook", "twitter", "linkedin"] },
-        // ];
-        // const processedData = processData(dummyData);
-
-
-      const endpoint = `/api/${tableType}`;
-      const response = await fetch(endpoint);
-      const result = await response.json();
-      console.log('Fetched Data:', result);  
-      const processedData = processData(result);
-      console.log('Processed Data:', processedData); 
-      setData(processedData);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
- 
-
+        const endpoint = `/api/${tableType}`;
+        const response = await fetch(endpoint);
+        const result = await response.json();
+        const processedData = processData(result);
+        setData(processedData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
     fetchData();
   }, [tableType, filters]);
 
   const filteredData = data.filter((row) => {
     if (tableType === 'publications') {
-      // Publication specific filters
-      if (filters.publicationName && !row.publication.toLowerCase().includes(filters.publicationName.toLowerCase())) {
-        return false;
-      }
-      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.includes(region))) {
-        return false;
-      }
-      if (filters.genres.length > 0 && !filters.genres.some(genre => row.genres.includes(genre))) {
-        return false;
-      }
-      if (filters.sponsored && filters.sponsored !== (row.sponsored ? 'Yes' : 'No')) {
-        return false;
-      }
-      if (filters.doFollow && filters.doFollow !== (row.do_follow ? 'Yes' : 'No')) {
-        return false;
-      }
-      if (filters.indexed && filters.indexed !== (row.indexed ? 'Yes' : 'No')) {
-        return false;
-      }
-      if (filters.image && filters.image !== (row.image ? 'Yes' : 'No')) {
-        return false;
-      }
-      if (filters.niches.length > 0 && !filters.niches.some(niche => row.niches.includes(niche))) {
-        return false;
-      }
+      if (filters.publicationName && !row.publication.toLowerCase().includes(filters.publicationName.toLowerCase())) return false;
+      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.includes(region))) return false;
+      if (filters.genres.length > 0 && !filters.genres.some(genre => row.genres.includes(genre))) return false;
+      if (filters.sponsored && filters.sponsored !== (row.sponsored ? 'Yes' : 'No')) return false;
+      if (filters.doFollow && filters.doFollow !== (row.do_follow ? 'Yes' : 'No')) return false;
+      if (filters.indexed && filters.indexed !== (row.indexed ? 'Yes' : 'No')) return false;
+      if (filters.image && filters.image !== (row.image ? 'Yes' : 'No')) return false;
+      if (filters.niches.length > 0 && !filters.niches.some(niche => row.niches.includes(niche))) return false;
     } else if (tableType === 'television') {
-        if (filters.TVName && !row.affiliate.toLowerCase().includes(filters.TVName.toLowerCase())) {
-          console.log('Row excluded:', row); // Log rows that do not match the filter
-          return false;
-      }
+      if (filters.TVName && !row.affiliate.toLowerCase().includes(filters.TVName.toLowerCase())) return false;
+    } else if (tableType === 'socialposts') {
+      if (filters.PubName && !row.publication_name.toLowerCase().includes(filters.PubName.toLowerCase())) return false;
     }
     return true;
   });
 
-  // Sort filtered data based on the selected sort option
   const sortedData = filteredData.sort((a, b) => {
-    if (filters.sortBy === 'Price (Asc)') return a.price - b.price;
-    if (filters.sortBy === 'Price (Desc)') return b.price - a.price;
+    const getPrice = (price) => Number(price.replace(/[^0-9.-]+/g, "")); // Strip non-numeric characters
+    if (filters.sortBy === 'Price (Asc)') return getPrice(a.price) - getPrice(b.price);
+    if (filters.sortBy === 'Price (Desc)') return getPrice(b.price) - getPrice(a.price);
     if (filters.sortBy === 'Domain Authority (Asc)') return a.da - b.da;
     if (filters.sortBy === 'Domain Authority (Desc)') return b.da - a.da;
     if (filters.sortBy === 'Domain Rating (Asc)') return a.dr - b.dr;
     if (filters.sortBy === 'Domain Rating (Desc)') return b.dr - a.dr;
-    return 0; // No sorting if none selected
+    return 0;
   });
 
   const toggleFavorite = (publicationName) => {
@@ -95,10 +63,121 @@ const TableComponent = ({ tableType, filters }) => {
     if (sortedData.length === 0) {
       return <p>No data available</p>;
     }
-  
     switch (tableType) {
       case 'publications':
+        return (
+          <div className="table-section">
+            <p className="table-header">SHOWING PUBLICATION DATA</p>
+            <table className="styled-table">
+              <thead>
+                <tr>
+                  <th>Publication</th>
+                  <th>Genres</th>
+                  <th>Price</th>
+                  <th>DA</th>
+                  <th>DR</th>
+                  <th>TAT</th>
+                  <th>Region</th>
+                  <th>Sponsored</th>
+                  <th>Indexed</th>
+                  <th>Do Follow</th>
+                  <th>Example</th>
+                  <th>Image</th>
+                  <th>Niches</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sortedData.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.publication || 'N/A'}</td>
+                    <td>{row.genres?.join(', ') || 'N/A'}</td>
+                    <td>{row.price || 'N/A'}</td>
+                    <td>{row.da || 'N/A'}</td>
+                    <td>{row.dr || 'N/A'}</td>
+                    <td>{row.tat || 'N/A'}</td>
+                    <td className='genres-cell'>
+                      {row.region?.map((region, idx) => (
+                        <div key={idx} className="region-item">{region}</div>
+                      )) || 'N/A'}
+                    </td>
+                    <td>{row.sponsored ? 'Yes' : 'No'}</td>
+                    <td>{row.indexed ? 'Yes' : 'No'}</td>
+                    <td>{row.do_follow ? 'Yes' : 'No'}</td>
+                    <td>{row.example || 'N/A'}</td>
+                    <td>
+                      {row.image ? (
+                        <div className="image-tooltip">
+                          <FaImage className="image-icon" />
+                          <div className="tooltip-text">
+                            <img src={row.image} alt="Publication" />
+                          </div>
+                        </div>
+                      ) : 'N/A'}
+                    </td>
+                    <td>{row.niches || 'N/A'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+
       case 'bestsellers':
+        return (
+          <div className="table-section">
+            <p className="table-header">SHOWING BESTSELLERS</p>
+            <table className="styled-table">
+              <thead>
+                <tr>
+                  <th>Publication</th>
+                  <th>Genres</th>
+                  <th>Price</th>
+                  <th>DA</th>
+                  <th>DR</th>
+                  <th>TAT</th>
+                  <th>Region</th>
+                  <th>Sponsored</th>
+                  <th>Indexed</th>
+                  <th>Do Follow</th>
+                  <th>Example</th>
+                  <th>Image</th>
+                  <th>Niches</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.Publication}</td>
+                    <td>{row.Genres}</td>
+                    <td>{row.Price}</td>
+                    <td>{row.DA}</td>
+                    <td>{row.DR}</td>
+                    <td>{row.TAT}</td>
+                    <td className='genres-cell'>
+                      {row.Region.map((Region, idx) => (
+                        <div key={idx} className="genre-item">{Region}</div>
+                      ))}
+                    </td>
+                    <td>{row.Sponsored ? 'Yes' : 'No'}</td>
+                    <td>{row.Indexed ? 'Yes' : 'No'}</td>
+                    <td>{row.Do_Follow ? 'Yes' : 'No'}</td>
+                    <td>{row.Example || 'N/A'}</td>
+                    <td>
+                      {row.Image ? (
+                        <div className="image-tooltip">
+                          <FaImage className="image-icon" />
+                          <div className="tooltip-text">
+                            <img src={row.Image} alt="Publication" />
+                          </div>
+                        </div>
+                      ) : 'N/A'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
       case 'listicles':
         return (
           <div className="table-section">
@@ -240,7 +319,7 @@ const TableComponent = ({ tableType, filters }) => {
             </table>
           </div>
         );
-      case 'socialpost':
+      case 'socialposts':
         return (
           <div className="table-section">
             <p className="table-header">SHOWING SOCIAL POSTS</p>
@@ -256,7 +335,7 @@ const TableComponent = ({ tableType, filters }) => {
               <tbody>
                 {data.map((row, index) => (
                   <tr key={index}>
-                    <td>{row.publication}</td>
+                    <td>{row.publication_name}</td>
                     <td className='platform-cell'>
                       <FaFacebook className={`platform-icon ${row.platform.includes('facebook') ? 'solid' : 'faded'}`} />
                       <FaInstagram className={`platform-icon ${row.platform.includes('instagram') ? 'solid' : 'faded'}`} />

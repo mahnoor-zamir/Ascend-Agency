@@ -11,7 +11,7 @@ function TabContent({ activeTab, filters }) {
       {activeTab === 'bestsellers' && <TableComponent tableType="bestsellers" filters={filters} />}
       {activeTab === 'prBundles' }
       {activeTab === 'print' }
-      {activeTab === 'socialpost' && <TableComponent tableType="socialpost" filters={filters} />}
+      {activeTab === 'socialposts' && <TableComponent tableType="socialposts" filters={filters} />}
     </div>
   );
 }
