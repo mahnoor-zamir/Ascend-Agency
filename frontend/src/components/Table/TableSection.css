@@ -205,6 +205,24 @@
   cursor: pointer;
 }
 
+.platform-cell {
+  display: flex;
+  align-items: center;
+}
+
+.platform-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.platform-icon.solid {
+  opacity: 1;
+}
+
+.platform-icon.faded {
+  opacity: 0.3;
+}
+
 /* @media (max-width: 768px) {
   th, td {
     padding: 10px; 

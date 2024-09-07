@@ -1,15 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import './TableSection.css';
 import { processData } from '../../utils'; 
-import { FaStar, FaRegStar, FaRegQuestionCircle, FaImage } from 'react-icons/fa';
+import { FaStar, FaRegStar, FaRegQuestionCircle, FaImage, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const TableComponent = ({ tableType, filters }) => {
   const [data, setData] = useState([]);
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-  const fetchData = async () => {
-    try {
+
+    const fetchData = async () => {
+      try {
+        // Dummy data for testing
+        // const dummyData = [
+        //   { publication: "Publication 1", genres: ["Genre 1", "Genre 2"], price: "$10", da: 80, dr: 90, tat: "2 days", region: ["Region 1", "Region 2"], sponsored: true, indexed: true, do_follow: true, example: "Example 1", image: "image1.png", niches: "Niche 1", platform: ["facebook", "instagram"] },
+        //   { publication: "Publication 2", genres: ["Genre 3", "Genre 4"], price: "$15", da: 70, dr: 85, tat: "3 days", region: ["Region 3", "Region 4"], sponsored: false, indexed: false, do_follow: false, example: "Example 2", image: "image2.png", niches: "Niche 2", platform: ["twitter", "linkedin"] },
+        //   { publication: "Publication 3", genres: ["Genre 5", "Genre 6"], price: "$20", da: 90, dr: 95, tat: "1 day", region: ["Region 5", "Region 6"], sponsored: true, indexed: true, do_follow: true, example: "Example 3", image: "image3.png", niches: "Niche 3", platform: ["facebook", "twitter", "linkedin"] },
+        // ];
+        // const processedData = processData(dummyData);
+
+
       const endpoint = `/api/${tableType}`;
       const response = await fetch(endpoint);
       const result = await response.json();
@@ -224,6 +234,37 @@ const TableComponent = ({ tableType, filters }) => {
                     <td>{row.location}</td>
                     <td>{row.time}</td>
                     <td>{row.rate}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+      case 'socialpost':
+        return (
+          <div className="table-section">
+            <p className="table-header">SHOWING SOCIAL POSTS</p>
+            <table className="styled-table">
+              <thead>
+                <tr>
+                  <th>Publication Name</th>
+                  <th>Platform</th>
+                  <th>Price</th>
+                  <th>TAT</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.map((row, index) => (
+                  <tr key={index}>
+                    <td>{row.publication}</td>
+                    <td className='platform-cell'>
+                      <FaFacebook className={`platform-icon ${row.platform.includes('facebook') ? 'solid' : 'faded'}`} />
+                      <FaInstagram className={`platform-icon ${row.platform.includes('instagram') ? 'solid' : 'faded'}`} />
+                      <FaTwitter className={`platform-icon ${row.platform.includes('twitter') ? 'solid' : 'faded'}`} />
+                      <FaLinkedin className={`platform-icon ${row.platform.includes('linkedIn') ? 'solid' : 'faded'}`} />
+                    </td>
+                    <td>{row.price || 'N/A'}</td>
+                    <td>{row.tat || 'N/A'}</td>
                   </tr>
                 ))}
               </tbody>
