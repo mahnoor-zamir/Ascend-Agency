@@ -40,8 +40,13 @@ const TableComponent = ({ tableType, filters }) => {
     return true;
   });
 
+  
   const sortedData = filteredData.sort((a, b) => {
-    const getPrice = (price) => Number(price.replace(/[^0-9.-]+/g, "")); // Strip non-numeric characters
+    const getPrice = (price) => {
+      if (price === undefined || price === null) return 0;
+      return Number(price.replace(/[^0-9.-]+/g, ""));
+    };
+  
     if (filters.sortBy === 'Price (Asc)') return getPrice(a.price) - getPrice(b.price);
     if (filters.sortBy === 'Price (Desc)') return getPrice(b.price) - getPrice(a.price);
     if (filters.sortBy === 'Domain Authority (Asc)') return a.da - b.da;
@@ -50,6 +55,7 @@ const TableComponent = ({ tableType, filters }) => {
     if (filters.sortBy === 'Domain Rating (Desc)') return b.dr - a.dr;
     return 0;
   });
+  
 
   const toggleFavorite = (publicationName) => {
     setFavorites((prevFavorites) =>
