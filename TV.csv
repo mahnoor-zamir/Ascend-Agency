@@ -1,130 +1,65 @@
-"CBS
-ExampleIntake form",WNCT,North Carolina,Greenville-New Bern-Washington,102,LifeStyle Segment,"Satellite, Studio,",$800 
-"NBC
-Example",WCMH,Ohio,Columbus,33,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"CW
-ExampleIntake form",KDAF,Texas,Dallas-Ft Worth,5,LifeStyle Segment,"Satellite, Studio,","$3,500 "
-"CW
-Example",KWBQ,New Mexico,Albuquerque,49,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"NBC
-Example",WHO,Iowa,Des Moines-Ames,68,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"ABC
-Example",WKRN,Tenesee,Nashville,100,LifeStyle Segment,"Satellite, Studio,","$2,000 "
-"CW
-Example",KIAH,TEXAS,HOUSTON,9,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"Fox
-Example",KHON,HI,Honolulu,65,LifeStyle Segment,"Satellite, Studio,","$2,500 "
-"Fox
-Example",KTVI,MO,St. Louis,23,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"CBS
-Example",WHBF,Illinois,Davenport,100,LifeStyle Segment,"Zoom,",$400 
-"CBS
-Example",KLBK,Texas,Lubbock,146,LifeStyle Segment,"Satellite, Studio,",$750 
-"CBS
-Example",WBTW,SC-NC,Myrtle Beach-Florence,101,LifeStyle Segment,"Satellite, Studio,",$500 
-"CW
-ExampleIntake form",KTLA,CA,Los Angeles,2,LifeStyle Segment,"Satellite, Studio,","$15,500 "
-"Fox
-Example",WQRF,Illinois,Rockford,139,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"ABC
-Example",WJBF,GA,AUGUSTA,120,LifeStyle Segment,"Satellite, Studio,",$600 
-"Fox
-Example",WJW,Ohio,Cleveland,19,LifeStyle Segment,"Satellite, Studio,","$5,000 "
-"ABC
-Example",KTVX,UTAH,Salt Lake City,29,LifeStyle Segment,"Satellite, Studio,","$3,000 "
-"NBC
-ExampleIntake form",KGET,CALIFORNIA,BAKERSFIELD,126,LifeStyle Segment,"Satellite, Studio,",$400 
-"CBS
-Example",WMBD,Illinois,Peoria-Bloomington,123,LifeStyle Segment,"Satellite, Studio,",$500 
-"NBC
-Example",KXAN,Texas,Austin,40,LifeStyle Segment,"Satellite, Studio,","$2,000 "
-"Fox
-Example",NRQE,New Mexico,Albuquerque,49,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"CBS
-Example",KELO,South Dakota,Sioux Falls,100,LifeStyle Segment,"Satellite, Studio,",$600 
-"CBS
-Example",WNCN,North Carolina,Raleigh,24,LifeStyle Segment,"Satellite, Studio,","$2,000 "
-"CW
-Example",WPIX,New York,New York,1,LifeStyle Segment,"Satellite, Studio,","$12,500 "
-"ABC
-ExampleIntake form",KTNV,Nevada,Las Vegas,40,Tampa Morning Blend,"Satellite, Studio,",$850 
-"ABC
-ExampleIntake form",WSYR,New York,Syracuse,87,LifeStyle Segment,"Satellite, Studio,",$500 
-"CBS
-Example",KLAS,Nevada,Las Vegas,40,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"NBC
-ExampleIntake form",WFLA,FL,Tampa,13,LifeStyle Segment,"Satellite, Studio,","$1,800 "
-"NBC
-Example",KTAL,LOUISIANA,SHREVEPORT,86,LifeStyle Segment,"Satellite, Studio,",$500 
-"CBS
-Example",KCLO,South Dakota,Rapid City,100,LifeStyle Segment,"Satellite, Studio,",$400 
-"Fox
-Example",KTXL,California,Sacramento,20,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"NBC
-Example",KTSM,Texas,El Paso (Las Cruces),93,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"Fox
-ExampleIntake form",KSWB,California,San Diego,28,The LOCAList SD,"Satellite, Studio,","$1,250 "
-"NBC
-Example",WTWO,Indiana,Terre Haute,153,LifeStyle Segment,"Satellite, Studio,",$500 
-"ABC
-Example",WRIC,Virginia,Richmond,56,LifeStyle Segment,"Satellite, Studio,","$2,500 "
-"CW
-ExampleIntake form",WSFL-TV,Florida,South Florida,100,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"NBC
-Example",WOOD,MICHIGAN,GRAND RAPIDS,41,LifeStyle Segment,"Satellite, Studio,","$2,000 "
-"Fox
-Example",WXIN,Indiana,Indianapolis,25,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"ABC
-ExampleIntake form",WFTS,Florida,Tampa,13,Tampa Morning Blend,"Satellite, Studio,",$900 
-"NBC
-Example",KSEE,CA,Fresno-Visalia,55,LifeStyle Segment,"Satellite, Studio,",$400 
-"NBC
-Example",KMIR-TV,California,Palm Springs,100,LifeStyle Segment,"Satellite, Studio,",$600 
-"CBS
-Example",KVEO,Texas,Harlingen,89,LifeStyle Segment,"Satellite, Studio,",$500 
-"CBS
-Example",KTAB,TEXAS,Abilene/Sweetwater,165,LifeStyle Segment,"Satellite, Studio,",$500 
-"NBC
-Example",KAMR,Texas,Amarillo,131,LifeStyle Segment,"Satellite, Studio,",$500 
-"NBC
-ExampleIntake form",KETK,TEXAS,TYLER/LONGVIEW,110,LifeStyle Segment,"Satellite, Studio,",$500 
-"CBS
-Example",WFRV,Wisconsin,Green Bay-Appleton,68,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"CBS
-Example",WPRI,Rhode Island,Providence,53,LifeStyle Segment,"Satellite, Studio,","$3,000 "
-"CW
-Example",KRCW,Oregon,Portland,21,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"NBC
-Example",WAVY,Virginia,Norfolk,45,LifeStyle Segment,"Satellite, Studio,","$1,250 "
-"NBC
-Example",KSNW,KANSAS,WICHITA-HUTCHINSON,70,LifeStyle Segment,"Satellite, Studio,",$500 
-"CW
-Example",KWGN,COLORADO,DENVER,16,LifeStyle Segment,"Satellite, Studio,","$2,000 "
-"NBC
-Example",WBRE,Pennsylvania,Wilkes Barre,58,LifeStyle Segment,"Satellite, Studio,",$500 
-"Fox
-Example",KXRM,Colorado,Colorado Springs,82,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"CBS
-Example",KLST,Texas,San Angelo,195,LifeStyle Segment,"Satellite, Studio,",$400 
-"INDIE
-Example",WGN,Illinois,Chicago,3,LifeStyle Segment,"Satellite, Studio,","$8,000 "
-"CBS
-Example",WJHL,Tennessee,Tri-Cities,100,LifeStyle Segment,"Satellite, Studio,","$1,250 "
-"NBC
-ExampleIntake form",WSAV,Georgia,Savannah,91,The Bridge,"Satellite, Studio,","$1,000 "
-"NBC
-Example",WCBD,South Carolina,Charleston,89,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"CBS
-Example",KOLR,MISSOURI,SPRINGFIELD,74,LifeStyle Segment,"Satellite, Studio,",$750 
-"NBC
-Example",KNWA,ARKANSAS,Fay/Ft.Smith,95,LifeStyle Segment,"Satellite, Studio,",$500 
-"NBC
-Example",WDTN,Ohio,Dayton,65,LifeStyle Segment,"Satellite, Studio,","$1,000 "
-"Fox
-Example",KHMT,Montana,Billings,100,LifeStyle Segment,"Satellite, Studio,",$600 
-"CBS
-Example",WSPA,South Carolina,Greenville-Spartanburg,38,LifeStyle Segment,"Satellite, Studio,","$1,500 "
-"INDIE
-Example",KRON,CALIFORNIA,SF/OAKLAND/SANJOSE,8,LifeStyle Segment,"Satellite, Studio,","$1,250 "
-"Fox
-Example",KTMJ,KANSAS,TOPEKA,135,LifeStyle Segment,"Satellite, Studio,",$400 
+CBS,WNCT,North Carolina,Greenville-New Bern-Washington,102,LifeStyle Segment,"Satellite, Studio,",$800 
+NBC,WCMH,Ohio,Columbus,33,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+CW,KDAF,Texas,Dallas-Ft Worth,5,LifeStyle Segment,"Satellite, Studio,","$3,500 "
+CW,KWBQ,New Mexico,Albuquerque,49,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+NBC,WHO,Iowa,Des Moines-Ames,68,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+ABC,WKRN,Tenesee,Nashville,100,LifeStyle Segment,"Satellite, Studio,","$2,000 "
+CW,KIAH,TEXAS,HOUSTON,9,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+Fox,KHON,HI,Honolulu,65,LifeStyle Segment,"Satellite, Studio,","$2,500 "
+Fox,KTVI,MO,St. Louis,23,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+CBS,WHBF,Illinois,Davenport,100,LifeStyle Segment,"Zoom,",$400 
+CBS,KLBK,Texas,Lubbock,146,LifeStyle Segment,"Satellite, Studio,",$750 
+CBS,WBTW,SC-NC,Myrtle Beach-Florence,101,LifeStyle Segment,"Satellite, Studio,",$500 
+CW,KTLA,CA,Los Angeles,2,LifeStyle Segment,"Satellite, Studio,","$15,500 "
+Fox,WQRF,Illinois,Rockford,139,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+ABC,WJBF,GA,AUGUSTA,120,LifeStyle Segment,"Satellite, Studio,",$600 
+Fox,WJW,Ohio,Cleveland,19,LifeStyle Segment,"Satellite, Studio,","$5,000 "
+ABC,KTVX,UTAH,Salt Lake City,29,LifeStyle Segment,"Satellite, Studio,","$3,000 "
+NBC,KGET,CALIFORNIA,BAKERSFIELD,126,LifeStyle Segment,"Satellite, Studio,",$400 
+CBS,WMBD,Illinois,Peoria-Bloomington,123,LifeStyle Segment,"Satellite, Studio,",$500 
+NBC,KXAN,Texas,Austin,40,LifeStyle Segment,"Satellite, Studio,","$2,000 "
+Fox,NRQE,New Mexico,Albuquerque,49,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+CBS,KELO,South Dakota,Sioux Falls,100,LifeStyle Segment,"Satellite, Studio,",$600 
+CBS,WNCN,North Carolina,Raleigh,24,LifeStyle Segment,"Satellite, Studio,","$2,000 "
+CW,WPIX,New York,New York,1,LifeStyle Segment,"Satellite, Studio,","$12,500 "
+ABC,KTNV,Nevada,Las Vegas,40,Tampa Morning Blend,"Satellite, Studio,",$850 
+ABC,WSYR,New York,Syracuse,87,LifeStyle Segment,"Satellite, Studio,",$500 
+CBS,KLAS,Nevada,Las Vegas,40,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+NBC,WFLA,FL,Tampa,13,LifeStyle Segment,"Satellite, Studio,","$1,800 "
+NBC,KTAL,LOUISIANA,SHREVEPORT,86,LifeStyle Segment,"Satellite, Studio,",$500 
+CBS,KCLO,South Dakota,Rapid City,100,LifeStyle Segment,"Satellite, Studio,",$400 
+Fox,KTXL,California,Sacramento,20,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+NBC,KTSM,Texas,El Paso (Las Cruces),93,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+Fox,KSWB,California,San Diego,28,The LOCAList SD,"Satellite, Studio,","$1,250 "
+NBC,WTWO,Indiana,Terre Haute,153,LifeStyle Segment,"Satellite, Studio,",$500 
+ABC,WRIC,Virginia,Richmond,56,LifeStyle Segment,"Satellite, Studio,","$2,500 "
+CW,WSFL-TV,Florida,South Florida,100,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+NBC,WOOD,MICHIGAN,GRAND RAPIDS,41,LifeStyle Segment,"Satellite, Studio,","$2,000 "
+Fox,WXIN,Indiana,Indianapolis,25,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+ABC,WFTS,Florida,Tampa,13,Tampa Morning Blend,"Satellite, Studio,",$900 
+NBC,KSEE,CA,Fresno-Visalia,55,LifeStyle Segment,"Satellite, Studio,",$400 
+NBC,KMIR-TV,California,Palm Springs,100,LifeStyle Segment,"Satellite, Studio,",$600 
+CBS,KVEO,Texas,Harlingen,89,LifeStyle Segment,"Satellite, Studio,",$500 
+CBS,KTAB,TEXAS,Abilene/Sweetwater,165,LifeStyle Segment,"Satellite, Studio,",$500 
+NBC,KAMR,Texas,Amarillo,131,LifeStyle Segment,"Satellite, Studio,",$500 
+NBC,KETK,TEXAS,TYLER/LONGVIEW,110,LifeStyle Segment,"Satellite, Studio,",$500 
+CBS,WFRV,Wisconsin,Green Bay-Appleton,68,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+CBS,WPRI,Rhode Island,Providence,53,LifeStyle Segment,"Satellite, Studio,","$3,000 "
+CW,KRCW,Oregon,Portland,21,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+NBC,WAVY,Virginia,Norfolk,45,LifeStyle Segment,"Satellite, Studio,","$1,250 "
+NBC,KSNW,KANSAS,WICHITA-HUTCHINSON,70,LifeStyle Segment,"Satellite, Studio,",$500 
+CW,KWGN,COLORADO,DENVER,16,LifeStyle Segment,"Satellite, Studio,","$2,000 "
+NBC,WBRE,Pennsylvania,Wilkes Barre,58,LifeStyle Segment,"Satellite, Studio,",$500 
+Fox,KXRM,Colorado,Colorado Springs,82,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+CBS,KLST,Texas,San Angelo,195,LifeStyle Segment,"Satellite, Studio,",$400 
+INDIE,WGN,Illinois,Chicago,3,LifeStyle Segment,"Satellite, Studio,","$8,000 "
+CBS,WJHL,Tennessee,Tri-Cities,100,LifeStyle Segment,"Satellite, Studio,","$1,250 "
+NBC,WSAV,Georgia,Savannah,91,The Bridge,"Satellite, Studio,","$1,000 "
+NBC,WCBD,South Carolina,Charleston,89,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+CBS,KOLR,MISSOURI,SPRINGFIELD,74,LifeStyle Segment,"Satellite, Studio,",$750 
+NBC,KNWA,ARKANSAS,Fay/Ft.Smith,95,LifeStyle Segment,"Satellite, Studio,",$500 
+NBC,WDTN,Ohio,Dayton,65,LifeStyle Segment,"Satellite, Studio,","$1,000 "
+Fox,KHMT,Montana,Billings,100,LifeStyle Segment,"Satellite, Studio,",$600 
+CBS,WSPA,South Carolina,Greenville-Spartanburg,38,LifeStyle Segment,"Satellite, Studio,","$1,500 "
+INDIE,KRON,CALIFORNIA,SF/OAKLAND/SANJOSE,8,LifeStyle Segment,"Satellite, Studio,","$1,250 "
+Fox,KTMJ,KANSAS,TOPEKA,135,LifeStyle Segment,"Satellite, Studio,",$400 

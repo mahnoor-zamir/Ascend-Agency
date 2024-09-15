@@ -111,13 +111,12 @@ const TableComponent = ({ tableType, filters }) => {
                     <td>{row.sponsored ? 'Yes' : 'No'}</td>
                     <td>{row.indexed ? 'Yes' : 'No'}</td>
                     <td>{row.do_follow ? 'Yes' : 'No'}</td>
-                    <td>{row.example || 'N/A'}</td>
                     <td>
-                      {row.image ? (
+                      {row.example_image ? (
                         <div className="image-tooltip">
                           <FaImage className="image-icon" />
                           <div className="tooltip-text">
-                            <img src={row.image} alt="Publication" />
+                            <img src={row.example_image} alt="Publication" />
                           </div>
                         </div>
                       ) : 'N/A'}
@@ -155,27 +154,26 @@ const TableComponent = ({ tableType, filters }) => {
               <tbody>
                 {data.map((row, index) => (
                   <tr key={index}>
-                    <td>{row.Publication}</td>
-                    <td>{row.Genres}</td>
-                    <td>{row.Price}</td>
-                    <td>{row.DA}</td>
-                    <td>{row.DR}</td>
-                    <td>{row.TAT}</td>
+                    <td>{row.publication}</td>
+                    <td>{row.genres}</td>
+                    <td>{row.price}</td>
+                    <td>{row.da}</td>
+                    <td>{row.dr}</td>
+                    <td>{row.tat}</td>
                     <td className='genres-cell'>
-                      {row.Region.map((Region, idx) => (
-                        <div key={idx} className="genre-item">{Region}</div>
+                      {row.region.map((region, idx) => (
+                        <div key={idx} className="genre-item">{region}</div>
                       ))}
                     </td>
-                    <td>{row.Sponsored ? 'Yes' : 'No'}</td>
-                    <td>{row.Indexed ? 'Yes' : 'No'}</td>
-                    <td>{row.Do_Follow ? 'Yes' : 'No'}</td>
-                    <td>{row.Example || 'N/A'}</td>
+                    <td>{row.sponsored ? 'Yes' : 'No'}</td>
+                    <td>{row.indexed ? 'Yes' : 'No'}</td>
+                    <td>{row.do_follow ? 'Yes' : 'No'}</td>
                     <td>
-                      {row.Image ? (
+                      {row.example_image ? (
                         <div className="image-tooltip">
                           <FaImage className="image-icon" />
                           <div className="tooltip-text">
-                            <img src={row.Image} alt="Publication" />
+                            <img src={row.example_image} alt="Publication" />
                           </div>
                         </div>
                       ) : 'N/A'}
@@ -275,13 +273,12 @@ const TableComponent = ({ tableType, filters }) => {
                     <td>{row.sponsored ? 'Yes' : 'No'}</td>
                     <td>{row.indexed ? 'Yes' : 'No'}</td>
                     <td>{row.do_follow ? 'Yes' : 'No'}</td>
-                    <td>{row.example || 'N/A'}</td>
                     <td>
-                      {row.image ? (
+                      {row.example_image ? (
                         <div className="image-tooltip">
                           <FaImage className="image-icon" />
                           <div className="tooltip-text">
-                            <img src={row.image} alt="Publication" />
+                            <img src={row.example_image} alt="Publication" />
                           </div>
                         </div>
                       ) : 'N/A'}
