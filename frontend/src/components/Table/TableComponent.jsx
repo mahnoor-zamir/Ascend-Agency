@@ -501,40 +501,68 @@ const TableComponent = ({ tableType, filters }) => {
           </div>
         );
 
-      case 'television':
-        return (
-          <div className="table-section">
-            <p className="table-header">SHOWING TELEVISION DATA</p>
-            <table className="styled-table">
-              <thead>
-                <tr>
-                  <th>Affiliate</th>
-                  <th>CALLS</th>
-                  <th>STATE</th>
-                  <th>MARKET</th>
-                  <th>PROGRAM NAME</th>
-                  <th>LOCATION</th>
-                  <th>TIME</th>
-                  <th>RATE</th>
-                </tr>
-              </thead>
-              <tbody>
-                {sortedData.map((row, index) => (
-                  <tr key={index}>
-                    <td>{row.affiliate}</td>
-                    <td>{row.calls}</td>
-                    <td>{row.state}</td>
-                    <td>{row.market}</td>
-                    <td>{row.program_name}</td>
-                    <td>{row.location}</td>
-                    <td>{row.time}</td>
-                    <td>{row.rate}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        );
+        case 'television':
+  return (
+    <div className="table-section">
+      <p className="table-header">SHOWING TELEVISION DATA</p>
+
+      <table className="styled-table">
+        <thead>
+          <tr>
+            <th>Affiliate</th>
+            <th>CALLS</th>
+            <th>STATE</th>
+            <th>MARKET</th>
+            <th>PROGRAM NAME</th>
+            <th>LOCATION</th>
+            <th>TIME</th>
+            <th>RATE</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sortedData.map((row, index) => (
+            <tr key={index}>
+              {/* Clicking on Affiliate will navigate to row.url */}
+              <td>
+                <a href={row.url} target="_blank" rel="noopener noreferrer" className="affiliate-link">
+                  {row.affiliate}
+                </a>
+                {/* If 'Example' is in row.affiliate, show intake form link */}
+                {row.affiliate.includes('Intake') && (
+                  <span className="intake-form-label">
+                    <a
+                      href="https://docs.google.com/document/d/1AHGeTyjzSDKwMz6BBxPKgdyRFfBh_4h3amXxVJGZVnA/edit" // Replace with actual Google Doc link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Intake form
+                    </a>
+                  </span>
+                )}
+              </td>
+
+              <td>{row.calls}</td>
+              <td>{row.state}</td>
+              <td>{row.market}</td>
+              
+              {/* Clicking on Program Name will navigate to row.url */}
+              <td>
+                <a href={row.url} target="_blank" rel="noopener noreferrer" className="program-link">
+                  {row.program_name}
+                </a>
+              </td>
+
+              <td>{row.location}</td>
+              <td>{row.time}</td>
+              <td>{row.rate}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+
+        
 
 
 
