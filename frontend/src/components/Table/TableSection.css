@@ -52,6 +52,40 @@
   font-weight: bold;
  
 }
+.affiliate-link {
+  text-decoration: none;
+  color: #000; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.intake-form-label {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 0px;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.intake-form-label a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intake-form-label a:hover {
+  text-decoration: underline;
+}
+
+.program-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.program-link:hover {
+  text-decoration: underline;
+}
 
 .styled-table tbody tr {
   border-bottom: 1px solid #ddd;
