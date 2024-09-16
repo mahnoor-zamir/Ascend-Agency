@@ -682,6 +682,7 @@ case 'listicles':
                         <FaTwitter className={`platform-icon ${row.platform.includes('twitter') ? 'solid' : 'faded'}`} />
                         <FaLinkedin className={`platform-icon ${row.platform.includes('linkedIn') ? 'solid' : 'faded'}`} />
                       </td>
+                      <td>{row.tat}</td>
                       <td>
   {row.example_image ? (
     <div className="image-tooltip">
