@@ -164,20 +164,25 @@ const TableComponent = ({ tableType, filters }) => {
                     <td>{row.indexed ? 'Yes' : 'No'}</td>
                     <td>{row.do_follow ? 'Yes' : 'No'}</td>
                     <td>
+                    <td>
   {row.example_image ? (
     <div className="image-tooltip">
-      {/* Click event to open full-size image in a new tab */}
+      {/* Click event to open full-size PDF in a new tab */}
       <a href={row.example_image} target="_blank" rel="noopener noreferrer">
         <FaImage className="image-icon" />
       </a>
-      {/* Hover event to display large image preview */}
-      <div className="tooltip-text" style={{ position: 'absolute', top: '100%', left: '0', zIndex: '1000' }}>
-        <img src={row.example_image} alt="Example" style={{ width: '300px', height: 'auto', border: '1px solid #ccc', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+      {/* Hover event to display image or PDF preview */}
+      <div className="tooltip-text">
+        {/* Ensure the PDF or image renders large */}
+        <object data={row.example_image} type="application/pdf" width="300" height="400">
+          <img src={row.example_image} alt="Example" style={{ maxWidth: '300px' }} />
+        </object>
       </div>
     </div>
   ) : (
-    ""
+    ''
   )}
+</td>
 </td>
               <td>
              
@@ -681,19 +686,22 @@ case 'listicles':
                         <FaTwitter className={`platform-icon ${row.platform.includes('twitter') ? 'solid' : 'faded'}`} />
                         <FaLinkedin className={`platform-icon ${row.platform.includes('linkedIn') ? 'solid' : 'faded'}`} />
                       </td>
-                      <td>{row.tat || 'N/A'}</td>
                       <td>
-                        {row.example_image ? (
-                          <div className="image-tooltip">
-                            <a href={row.example_image} target="_blank" rel="noopener noreferrer">
-                              <FaImage className="image-icon" />
-                            </a>
-                            <div className="tooltip-text">
-                              <img src={row.example_image} alt="Example" />
-                            </div>
-                          </div>
-                        ) : ''}
-                      </td>
+  {row.example_image ? (
+    <div className="image-tooltip">
+      {/* Click event to open full-size image in a new tab */}
+      <a href={row.example_image} target="_blank" rel="noopener noreferrer">
+        <FaImage className="image-icon" />
+      </a>
+      {/* Hover event to display large image preview */}
+      <div className="tooltip-text" style={{ position: 'absolute', top: '100%', left: '0', zIndex: '1000' }}>
+        <img src={row.example_image} alt="Example" style={{ width: '300px', height: 'auto', border: '1px solid #ccc', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />
+      </div>
+    </div>
+  ) : (
+    ''
+  )}
+</td>
                     </tr>
                   ))}
                 </tbody>
