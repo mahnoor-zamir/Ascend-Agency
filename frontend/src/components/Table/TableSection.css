@@ -1,16 +1,64 @@
-.table-section {
-  padding: 20px;
-  max-width: 1200px;
-  /* overflow-x: auto;  */
-  /* white-space: nowrap; */
-  width:140%;
-  /* width:80px; */
-}
+table section.css :
 
 .table-header {
   font-weight: bold;
   margin-bottom: 15px;
   color: #333;
+}
+.niche-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px; /* Adjust the width as needed */
+}
+.affiliate-link {
+  text-decoration: none;
+  color: #000; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.intake-form-label {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #656161;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 0px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.intake-form-label a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intake-form-label a:hover {
+  text-decoration: underline;
+}
+
+.program-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.program-link:hover {
+  text-decoration: underline;
+}
+.niche-icon {
+  font-size: 20px; /* Icon size */
+  color: #d3d3d3; /* Default color (gray) */
+  margin-right: 5px; /* Space between icons */
+}
+
+.niche-icon.heart i, 
+.niche-icon.cannabis i, 
+.niche-icon.circle i {
+  color: #000; /* Black for selected icons */
+}
+
+.niche-icon i:hover {
+  color: #ff0000; /* Change color on hover, e.g., red */
 }
 
 .styled-table {
@@ -23,7 +71,7 @@
 
 .styled-table th,
 .styled-table td {
-  padding: 12px 15px;
+  padding: 0px 15px;
   background-color: #ffffff;
   text-align: left;
   border: 1px solid #ddd;
@@ -32,12 +80,19 @@
 }
 
 .styled-table thead th {
-  background-color: #ffffff;
-  color: #ff0000; /* Red color for the header text */
-  text-transform: uppercase;
-  font-weight: bold;
+  
+    background-color: #ffffff;
+    color: #0c0c0c; /* Ensure bold visibility with a strong color */
+    text-transform: uppercase;
+    font-weight: 900; /* Increase boldness */
+    font-size: 1.1rem; /* Slightly larger font size */
+    letter-spacing: 0.05em; /* Space out the letters */
+    padding: 10px 10px; /* Add padding for better readability */
+    
+  }
+  
  
-}
+
 
 .styled-table tbody tr {
   border-bottom: 1px solid #ddd;

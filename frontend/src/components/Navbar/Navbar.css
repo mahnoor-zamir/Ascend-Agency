@@ -16,14 +16,18 @@
 }
 
 .logout-button {
-  background-color: white;
-  color: #f44336;
-  border: none;
+ 
   padding: 10px 20px;
   cursor: pointer;
+  background-color: #ffffff;
+    color: #0c0c0c; /* Ensure bold visibility with a strong color */
+    text-transform: uppercase;
+    font-weight: 900; /* Increase boldness */
+    font-size: 1.1rem; /* Slightly larger font size */
+    letter-spacing: 0.05em; /* Space out the letters */
 }
 
 .logout-button:hover {
-  color: #e7a7a7;
+  color: #646262;
 }
   

@@ -53,11 +53,11 @@
 }
 
 .business-button:hover {
-  background-color: red;;
+  background-color: #656161;
 }
 
 .sign-in-another a {
-  color: #d00;
+  color: #1c1b1b;
   text-decoration: none;
   transition: opacity 0.3s ease; /* Smooth opacity transition */
 }

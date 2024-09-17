@@ -4,13 +4,13 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'ascendagency',
-  port: 8111
+  database: 'pressagency',
+  port: 3308
 });
 
 db.connect((err) => {
   if (err) {
-    console.error('Error connecting to the database:', err.message);
+    console.error('Error connecting to the database:', err);
     return;
   }
   console.log('Connected to the MySQL database');
