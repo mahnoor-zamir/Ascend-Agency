@@ -6,11 +6,11 @@ const PricingHeader = () => {
   return (
     <div className="pricing-header">
       <div>
-        <h1><b>PRICING (ASCEND)</b></h1>
+        <h1 style={{ color:"white" }}><b>HIGH ROLLER AGENCY</b></h1>
         
-        <p>Once we have published the article for you, any further edits may include an extra charge.</p>
+        <p style={{ color:"white" }}>Once we have published the article for you, any further edits may include an extra charge.</p>
 
-<p>Ascend Agency will use reasonable good faith efforts to ensure that such article will remain publicly available in the applicable publication for at least 12 months.</p>
+<p style={{ color:"white" }}>High Roller Agency will use reasonable good faith efforts to ensure that such article will remain publicly available in the applicable publication for at least 12 months.</p>
       </div>
       <div className="buttons">
         <button>Video Tutorial</button>

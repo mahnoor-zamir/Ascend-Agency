@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f4f7;
+  background-color:  #000;
   /* font-family: 'Alumni Sans', sans-serif; */
   font-weight: 10000; 
 }
@@ -30,13 +30,13 @@ body {
   border-radius: 1px;
 }
 .tab:hover {
-  background-color: #656161;
+  background-color: #979696;
   color: #f1eded;
 }
 
 .tab.active {
-  background-color: #656161;
-  color: #f1eeee;
+  background-color: #a4a0a0;
+  color: #000
 }
 
 .content {

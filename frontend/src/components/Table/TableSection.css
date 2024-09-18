@@ -1,4 +1,4 @@
-table section.css :
+
 
 .table-header {
   font-weight: bold;
@@ -218,7 +218,7 @@ table section.css :
 }
 
 .heading-tooltip .heading-text .heading {
-  color: #ff0000;
+  color: black;
   font-size: 12px;
   font-weight: 600;
 }

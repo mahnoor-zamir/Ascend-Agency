@@ -1,4 +1,3 @@
-// LoginPage.jsx
 import React, { useState } from 'react';
 import './Login.css';
 
@@ -13,16 +12,23 @@ function LoginPage({ onLogin }) {
 
     return (
         <div className="login-wrapper">
+            {/* Logo above the login container */}
+            <div className="logo-container">
+                <img 
+                    src="../public/logos/HighRollerHorizontal.PNG" 
+                    alt="Highroller Agency Logo" 
+                    className="logo" 
+                />
+            </div>
+
             <div className="login-container">
-                <div className="logo">
-                    <img src="your-logo-url" alt="AscendAgency" />
+                <div className="welcome-text">
+                    <h1 className="bold">Welcome to Highroller Agency</h1>
                 </div>
-                <h2 className="login-title">
-                    <span className="bold">ASCEND</span>AGENCY
-                </h2>
+                
                 <form className="login-form" onSubmit={handleSubmit}>
                     <div className="form-group">
-                        <label htmlFor="email">EMAIL</label>
+                        <label htmlFor="email" style={{ color: "black" }}>EMAIL</label>
                         <input
                             type="email"
                             id="email"
@@ -32,7 +38,7 @@ function LoginPage({ onLogin }) {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="password">PASSWORD</label>
+                        <label htmlFor="password" style={{ color: "black" }}>PASSWORD</label>
                         <input
                             type="password"
                             id="password"
