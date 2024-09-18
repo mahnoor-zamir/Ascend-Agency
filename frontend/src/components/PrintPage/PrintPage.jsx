@@ -1,33 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './PrintPage.css';
 
 const PrintPage = () => {
-  const magazines = [
-    {
-      name: 'Billboard USA',
-      details: [
-        'Full Page $7500',
-        '2-Page Spread $15000',
-        'Turn Around: 1-2 Months'
-      ]
-    },
-    {
-      name: 'Billboard Argentina',
-      details: [
-        'Full Page $1000',
-        'Turn Around: 1-2 Months'
-      ]
-    },
-    {
-      name: 'Hamptons Magazine',
-      details: [
-        'Full Page $5000',
-        '2-Page Spread $10000',
-        'Turn Around: 1-2 Months',
-        '50,000+ Circulation'
-      ]
-    }
-  ];
+  const [magazines, setMagazines] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const endpoint = '/api/print';
+        const response = await fetch(endpoint);
+        const result = await response.json();
+        const processedData = processData(result);
+        setMagazines(processedData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const processData = (result) => {
+    return result;
+  };
 
   return (
     <div className="print-page">
@@ -35,12 +29,11 @@ const PrintPage = () => {
       <div className="magazine-list">
         {magazines.map((magazine, index) => (
           <div key={index} className="magazine-item">
-            <h2>{magazine.name}</h2>
-            <ul>
-              {magazine.details.map((detail, detailIndex) => (
-                <li key={detailIndex}>{detail}</li>
-              ))}
-            </ul>
+            <h2>{magazine.publication}</h2>
+            <p>Full page {magazine.full_page_cost}</p>
+            <p>Two-page spread {magazine.two_page_cost}</p>
+            <p>Turn around: {magazine.duration}</p>
+            <p>{magazine.additional} Circulations</p>
           </div>
         ))}
       </div>

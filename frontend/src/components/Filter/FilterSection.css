@@ -2,11 +2,13 @@
 .filter-section {
   background-color: #ffffff;
   width:20%;
+  height: fit-content;
+
   padding: 20px;
   /* border: 1px solid #ddd;
   border-radius: 10px; */
   margin-right: 20px;
-    font-family: 'Alumni Sans', sans-serif; 
+  font-family: 'Alumni Sans', sans-serif; 
 }
 
 .filter-group {
@@ -100,13 +102,13 @@
 
 .dropdown-menu li:hover {
   background-color: #f8e9e9;
-  color: red;
+  color: #000;
  
 }
 
 .dropdown-menu li.selected {
   background-color: #f8e9e9;
-  color: red;
+  color: #000;
 }
 .genre-button {
   background-color: #656161;
@@ -143,12 +145,12 @@
   margin:2px;
 }
 
-.genre-button.selected, .type-button.selected,.filter-options.active {
-  background-color: #d9534f; /* Red background for selected */
+.genre-button.selected, .type-button.selected, .filter-options.active {
+  background-color: #000; /* Red background for selected */
 }
 
-.genre-button:hover, .type-button:hover,.filter-options:hover {
-  background-color: #d7322c;
+.genre-button:hover, .type-button:hover, .filter-options:hover {
+  background-color: #000;
 }
 
 .genres, .types {

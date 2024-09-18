@@ -34,11 +34,13 @@ const TableComponent = ({ tableType, filters }) => {
 
   const filteredData = data.filter((row) => {
     if (tableType === 'publications') {
+      console.log('Filtering with PubName:', filters.publicationName);
+      console.log('Row publication_name:', row.publication);
       // Publication name filter (case-insensitive)
       if (filters.publicationName && !row.publication.toLowerCase().includes(filters.publicationName.toLowerCase())) return false;
 
       // Regions filter (check if at least one region matches, case-insensitive)
-      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.toLowerCase().includes(region.toLowerCase()))) return false;
+      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.some(r => r.toLowerCase().includes(region.toLowerCase())))) return false;
 
       // Genres filter (check if at least one genre matches)
       if (filters.genres.length > 0 && !filters.genres.some(genre => row.genres.includes(genre))) return false;
@@ -125,13 +127,13 @@ const TableComponent = ({ tableType, filters }) => {
                 {sortedData.map((row, index) => (
                   <tr key={index}>
                     <td style={{ width: '250px' }} className="publication-cell">
-                      <img src={`${row.publication}`} alt="Publication" />
+                      <img src={`${row.publication_image_url}`} alt="Publication" />
                       <a
                         href={row.publication_url}
                         target="_blank"  // This will open the link in a new tab
                         rel="noopener noreferrer"
                       >
-                        <span>{row.publication_url}</span>
+                        <span>{row.publication}</span>
                       </a>
                       {favorites.includes(row.publication_url) ? (
                         <FaStar
@@ -411,13 +413,13 @@ const TableComponent = ({ tableType, filters }) => {
                 {sortedData.map((row, index) => (
                   <tr key={index}>
                     <td style={{ width: '250px' }} className="publication-cell">
-                      <img src={`${row.publication}`} alt="Publication" />
+                      <img src={`${row.publication_image_url}`} alt="Publication" />
                       <a
                         href={row.publication_url}
                         target="_blank"  // This will open the link in a new tab
                         rel="noopener noreferrer"
                       >
-                        <span>{row.publication_url}</span>
+                        <span>{row.publication}</span>
                       </a>
                       {favorites.includes(row.publication_url) ? (
                         <FaStar

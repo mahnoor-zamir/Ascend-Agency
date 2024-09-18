@@ -4,6 +4,8 @@ const televisionRoutes = require('./Routes/televisionRoute');
 const listicleRoutes = require('./Routes/listicleRoute');
 const bestsellerRoutes = require('./Routes/bestsellerRoute');
 const socialpostRoutes = require('./Routes/socialpostRoute');
+const prbundlesRoutes = require('./Routes/prbundlesRoute');
+const printRoutes = require('./Routes/printRoute');
 
 const app = express();
 
@@ -16,6 +18,8 @@ app.use('/api/television', televisionRoutes);
 app.use('/api/listicles', listicleRoutes);
 app.use('/api/bestsellers', bestsellerRoutes);
 app.use('/api/socialposts', socialpostRoutes);
+app.use('/api/prbundles', prbundlesRoutes);
+app.use('/api/print', printRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
