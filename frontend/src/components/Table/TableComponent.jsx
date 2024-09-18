@@ -53,7 +53,7 @@ const TableComponent = ({ tableType, filters }) => {
       if (filters.indexed && filters.indexed !== row.indexed) return false;
 
       // Image filter
-      if (filters.image && filters.image !== (row.image ? 'Yes' : 'No')) return false;
+      if (filters.image && filters.image !== (row.example_image ? 'Yes' : 'No')) return false;
 
       // Niches filter (check if at least one niche matches)
       if (filters.niches.length > 0 && !filters.niches.some(niche => row.niches.includes(niche))) return false;
