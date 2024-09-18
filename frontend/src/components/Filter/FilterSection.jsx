@@ -56,6 +56,34 @@ function FilterSection({ filters, setFilters }) {
   const doFollowOptions = ['Yes', 'No'];
   const indexedOptions = ['Yes', 'Maybe', 'No'];
   const imageOptions = ['Yes', 'Maybe'];
+
+  const toggleSponsoredSelection = (option) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      sponsored: prevFilters.sponsored === option ? '' : option,
+    }));
+  };
+
+  const toggleDoFollowSelection = (option) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      doFollow: prevFilters.doFollow === option ? '' : option,
+    }));
+  };
+
+  const toggleIndexedSelection = (option) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      indexed: prevFilters.indexed === option ? '' : option,
+    }));
+  };
+
+  const toggleImageSelection = (option) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      image: prevFilters.image === option ? '' : option,
+    }));
+  };
   const niches = ['Health', 'Crypto', 'Cbd', 'Gambling', 'Erotic'];
 
   const types = [
@@ -180,7 +208,7 @@ function FilterSection({ filters, setFilters }) {
             <button
               key={option}
               className={`filter-options ${filters.sponsored === option ? 'active' : ''}`}
-              onClick={() => setFilters(prevFilters => ({ ...prevFilters, sponsored: option }))}
+              onClick={() => toggleSponsoredSelection(option)}
             >
               {option}
             </button>
@@ -196,7 +224,7 @@ function FilterSection({ filters, setFilters }) {
             <button
               key={option}
               className={`filter-options ${filters.doFollow === option ? 'active' : ''}`}
-              onClick={() => setFilters(prevFilters => ({ ...prevFilters, doFollow: option }))}
+              onClick={() => toggleDoFollowSelection(option)}
             >
               {option}
             </button>
@@ -212,7 +240,7 @@ function FilterSection({ filters, setFilters }) {
             <button
               key={option}
               className={`filter-options ${filters.indexed === option ? 'active' : ''}`}
-              onClick={() => setFilters(prevFilters => ({ ...prevFilters, indexed: option }))}
+              onClick={() => toggleIndexedSelection(option)}
             >
               {option}
             </button>
@@ -228,7 +256,7 @@ function FilterSection({ filters, setFilters }) {
             <button
               key={option}
               className={`filter-options ${filters.image === option ? 'active' : ''}`}
-              onClick={() => setFilters(prevFilters => ({ ...prevFilters, image: option }))}
+              onClick={() => toggleImageSelection(option)}
             >
               {option}
             </button>
@@ -237,7 +265,7 @@ function FilterSection({ filters, setFilters }) {
       </div>
 
       {/* Niche Filter */}
-      <div className="filter-group">
+      {/* <div className="filter-group">
         <label className="filter-label">Niche:</label>
         <div>
           {niches.map((niche) => (
@@ -250,7 +278,7 @@ function FilterSection({ filters, setFilters }) {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
