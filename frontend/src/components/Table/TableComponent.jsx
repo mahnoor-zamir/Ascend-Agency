@@ -102,7 +102,7 @@ const TableComponent = ({ tableType, filters }) => {
       case 'publications':
         return (
           <div className="table-section">
-            <p className="table-header">SHOWING PUBLICATION DATA</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING PUBLICATION DATA</p>
             <table className="styled-table">
               <thead>
                 <tr>
@@ -217,7 +217,7 @@ const TableComponent = ({ tableType, filters }) => {
       case 'bestsellers':
         return (
           <div className="table-section">
-            <p className="table-header">SHOWING BESTSELLERS</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING BESTSELLERS</p>
             <table className="styled-table">
               <thead>
                 <tr>
@@ -365,7 +365,7 @@ const TableComponent = ({ tableType, filters }) => {
       case 'listicles':
         return (
           <div className="table-section">
-            <p className="table-header">SHOWING {tableType.toUpperCase()}</p>
+            <p className="table-header"  style={{ color: "white" }}>SHOWING {tableType.toUpperCase()}</p>
             <table className="styled-table">
               <thead>
                 <tr>
@@ -504,7 +504,7 @@ const TableComponent = ({ tableType, filters }) => {
         case 'television':
   return (
     <div className="table-section">
-      <p className="table-header">SHOWING TELEVISION DATA</p>
+      <p className="table-header"  style={{ color: "white" }}>SHOWING TELEVISION DATA</p>
 
       <table className="styled-table">
         <thead>
@@ -569,7 +569,7 @@ const TableComponent = ({ tableType, filters }) => {
       case 'socialposts':
         return (
           <div className="table-section">
-            <p className="table-header">SHOWING {filteredData.length} OF {data.length} PUBLICATIONS</p>
+            <p className="table-header"  style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} PUBLICATIONS</p>
             <table className="styled-table">
               <thead>
                 <tr>

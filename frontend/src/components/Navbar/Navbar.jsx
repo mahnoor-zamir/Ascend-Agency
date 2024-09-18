@@ -5,7 +5,7 @@ const Navbar = ({ onLogout }) => {
   return (
     <nav className="navbar">
       <img 
-        src="../public/logos/logo_dark-3.png" 
+        src="../public/logos/HighRollerHorizontal.PNG"
         alt="Ascend Agency Logo" 
         className="logo" 
         style={{ width: '300px', height: 'auto' }} // Adjust the width here

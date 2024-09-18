@@ -1,67 +1,92 @@
+/* Container that centers everything */
 .select-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #0e0e0e;
+  margin-top: -85px;
 }
 
+/* Logo container to place the logo similar to login section */
+.logo-container {
+  margin-bottom: 10px; /* Space between logo and content */
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+/* Main box with frosted glass effect */
 .select-box {
   text-align: center;
-  padding: 20px;
+  padding: 40px 30px;
   width: 450px;
-  background-color:  #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8); /* Frosted glass background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(5px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(5px); /* Frosted glass for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light white border */
+  color: #000; /* Black text for readability */
 }
 
+/* Business title with styling */
 .business-title {
-  margin-bottom: 40px; /* Increased space between ASCENDAGENCY and Select a business */
+  margin-bottom: 20px; /* Space between title and subtitle */
   font-size: 24px;
-  color: #333;
-}
-
-.bold {
   font-weight: bold;
-  transition: color 0.3s ease; /* Smooth color transition on hover */
+  color: #1b1a1a;
 }
 
-.or-text {
-  color: #aaa; /* Light grey color */
-  font-size: 14px;
-  margin: 10px 0;
-}
-
+/* Subtitle text below title */
 .select-subtitle {
   margin-bottom: 20px;
   font-size: 18px;
   color: #666;
 }
 
+/* "or" text */
+.or-text {
+  color: #aaa; /* Light grey color */
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Button to select business */
 .business-button {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background-color: #333;
   color: #fff;
   border: none;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   margin-bottom: 20px;
+  text-transform: uppercase;
   transition: background-color 0.3s ease;
 }
 
 .business-button:hover {
-  background-color: #656161;
+  background-color: #585757;; /* Lighter on hover */
 }
 
+.business-button:active {
+  background-color: #656161; /* Darker when clicked */
+}
+
+/* Sign-in link style */
 .sign-in-another a {
   color: #1c1b1b;
   text-decoration: none;
-  transition: opacity 0.3s ease; /* Smooth opacity transition */
+  transition: opacity 0.3s ease;
 }
 
 .sign-in-another a:hover {
-  opacity: 0.6; /* Faint effect on hover */
+  opacity: 0.6; /* Faint hover effect */
 }

@@ -1,46 +1,40 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f7fa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-} */
-.bold {
-    font-weight: bold;
-}
-
-
 .login-wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin-top: 130px;
+    margin-top: 50px;
+}
+
+.logo-container {
+    margin-bottom: 100px; /* Adds space between logo and login form */
+}
+
+.logo {
+    width: 300px;
+    height: auto;
 }
 
 .login-container {
     width: 450px;
     padding: 40px 30px;
-    background-color: #f5f7fa;
-    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 8px; */
+    background: rgba(255, 255, 255, 0.8); /* White frosted glass effect */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
+    color: #000;
 }
 
-.logo img {
-    width: 80px;
-    margin-bottom: 20px;
-}
-
-.login-title {
-    margin: 10px 0;
-    font-size: 20px;
-    color: #333;
-    letter-spacing: 1px;
+.welcome-text h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
 
 .login-form {
@@ -63,7 +57,7 @@
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #efeded;
     border-radius: 4px;
     font-size: 14px;
     outline: none;
@@ -71,13 +65,13 @@
 }
 
 .form-group input:focus {
-    border-color: #888;
+    border-color: black; /* Black border on focus */
 }
 
 .login-button {
     width: 100%;
     padding: 12px;
-    background-color: #1c1b1b;
+    background-color: #1b1a1a;
     color: white;
     border: none;
     border-radius: 4px;
@@ -89,9 +83,13 @@
 }
 
 .login-button:hover {
-    background-color: #656161;
+    background-color: #585757;
 }
 
 .login-button:active {
     background-color: #656161;
+}
+
+.bold {
+    font-weight: bold;
 }
