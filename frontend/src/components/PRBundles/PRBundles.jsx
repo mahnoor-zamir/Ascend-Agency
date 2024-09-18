@@ -1,5 +1,5 @@
 // BundleItem.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './PRBundles.css';
 
 const BundleItem = ({ name, price, retailValue, publications }) => (
@@ -28,55 +28,50 @@ const BundleSection = ({ title, items }) => (
 
 // PRBundles.js (main component)
 
+
 const PRBundles = () => {
-  const bundles = [
-    {
-      title: 'BEGINNER WITH ASCEND',
-      items: [
-        {
-          name: 'Bundle 1',
-          price: '$800',
-          retailValue: '$925',
-          publications: ['Yahoo Finance', 'California Business Journal', 'Digital Journal']
-        },
-        {
-          name: 'Bundle 2',
-          price: '$1,850',
-          retailValue: '$2,075',
-          publications: ['Yahoo Finance', 'California Business Journal', 'Digital Journal', 'LA Weekly', 'Haute Living']
-        },
-        {
-          name: 'Bundle 3',
-          price: '$4,500',
-          retailValue: '$4,825',
-          publications: ['Yahoo Finance', 'California Business Journal', 'Digital Journal', 'LA Weekly', 'Haute Living', 'Hollywood Life', 'USA Today']
-        }
-      ]
-    },
-    {
-      title: 'INFLUENCER',
-      items: [
-        {
-          name: 'Bundle 1',
-          price: '$1,200',
-          retailValue: '$1,350',
-          publications: ['Cultr Magazine', 'Flaunt Magazine']
-        },
-        {
-          name: 'Bundle 2',
-          price: '$2,800',
-          retailValue: '$3,200',
-          publications: ['Cultr Magazine', 'Flaunt Magazine']
-        },
-        {
-          name: 'Bundle 3',
-          price: '$7,000',
-          retailValue: '$7,950',
-          publications: ['Cultr Magazine', 'Flaunt Magazine']
-        }
-      ]
-    }
-  ];
+  const [bundles, setBundles] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const endpoint = '/api/prbundles';
+        const response = await fetch(endpoint);
+        const result = await response.json();
+        const processedData = processData(result);
+        setBundles(processedData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  const processData = (result) => {
+    return result.reduce((acc, bundle) => {
+      console.log(bundle)
+      const { category, bundle_name, price, retail_price, inclusions } = bundle;
+      const existingCategory = acc.find(item => item.title === category);
+
+      const bundleItem = {
+        name: bundle_name,
+        price: `$${price}`,
+        retailValue: `$${retail_price}`,
+        publications: inclusions.split(', ')
+      };
+
+      if (existingCategory) {
+        existingCategory.items.push(bundleItem);
+      } else {
+        acc.push({
+          title: category,
+          items: [bundleItem]
+        });
+      }
+
+      return acc;
+    }, []);
+  };
 
   return (
     <div className="pr-bundles">

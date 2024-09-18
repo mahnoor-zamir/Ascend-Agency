@@ -6,7 +6,7 @@ const Navbar = ({ onLogout }) => {
     <nav className="navbar">
       <img 
         src="../public/logos/HighRollerHorizontal.PNG"
-        alt="Ascend Agency Logo" 
+        alt="HighRoller Logo" 
         className="logo" 
         style={{ width: '300px', height: 'auto' }} // Adjust the width here
       />

@@ -145,11 +145,11 @@
   margin:2px;
 }
 
-.genre-button.selected, .type-button.selected,.filter-options.active {
+.genre-button.selected, .type-button.selected, .filter-options.active {
   background-color: #000; /* Red background for selected */
 }
 
-.genre-button:hover, .type-button:hover,.filter-options:hover {
+.genre-button:hover, .type-button:hover, .filter-options:hover {
   background-color: #000;
 }
 

@@ -70,7 +70,7 @@ function App() {
         <div>
             <Navbar onLogout={handleLogout} />
             <MainApp />
-            <Modal isOpen={isModalOpen} onClose={handleCloseModal} /> {/* Modal component */}
+            {/* <Modal isOpen={isModalOpen} onClose={handleCloseModal} /> Modal component */}
         </div>
     );
 }
