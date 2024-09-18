@@ -27,15 +27,19 @@ const PrintPage = () => {
     <div className="print-page">
       <h1>MAGAZINE PRINT</h1>
       <div className="magazine-list">
-        {magazines.map((magazine, index) => (
-          <div key={index} className="magazine-item">
-            <h2>{magazine.publication}</h2>
-            <p>Full page {magazine.full_page_cost}</p>
-            <p>Two-page spread {magazine.two_page_cost}</p>
-            <p>Turn around: {magazine.duration}</p>
-            <p>{magazine.additional} Circulations</p>
-          </div>
-        ))}
+        {magazines.length > 0 ? (
+          magazines.map((magazine, index) => (
+            <div key={index} className="magazine-item">
+              {magazine.publication && <h2>{magazine.publication}</h2>}
+              {magazine.full_page_cost && <p>Full page {magazine.full_page_cost}</p>}
+              {magazine.two_page_cost && <p>Two-page spread {magazine.two_page_cost}</p>}
+              {magazine.duration && <p>Turn around: {magazine.duration}</p>}
+              {magazine.additional_info && <p>{magazine.additional_info} Circulations</p>}
+            </div>
+          ))
+        ) : (
+          <p>No magazines available</p>
+        )}
       </div>
     </div>
   );

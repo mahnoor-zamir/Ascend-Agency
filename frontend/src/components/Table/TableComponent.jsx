@@ -75,6 +75,7 @@ const TableComponent = ({ tableType, filters }) => {
   const sortedData = filteredData.sort((a, b) => {
     const getPrice = (price) => {
       if (price === undefined || price === null) return 0;
+      if (typeof price === 'number') return price;
       return Number(price.replace(/[^0-9.-]+/g, ""));
     };
 
@@ -104,29 +105,53 @@ const TableComponent = ({ tableType, filters }) => {
       case 'publications':
         return (
           <div className="table-section">
-            <p className="table-header" style={{ color: "white" }}>SHOWING PUBLICATION DATA</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} PUBLICATIONS</p>
             <table className="styled-table">
               <thead>
                 <tr>
                   <th>Publication</th>
                   <th>Genres</th>
                   <th>Price</th>
-                  <th>DA</th>
-                  <th>DR</th>
-                  <th>TAT</th>
+                  <th>DA
+                    <div className="heading-tooltip">
+                      <FaRegQuestionCircle className='question-icon' />
+                      <div className="heading-text">
+                        <p className='heading'>Domain Authority</p>
+                        <p>Search engine ranking score (1 - 100)</p>
+                      </div>
+                    </div>
+                  </th>
+                  <th>DR
+                    <div className="heading-tooltip">
+                      <FaRegQuestionCircle className='question-icon' />
+                      <div className="heading-text">
+                        <p className='heading'>Domain Rating</p>
+                        <p>Search engine ranking score (1 - 100)</p>
+                      </div>
+                    </div>
+                  </th>
+                  <th>TAT
+                    <div className="heading-tooltip">
+                      <FaRegQuestionCircle className='question-icon' />
+                      <div className="heading-text">
+                        <p className='heading'>Turnaround Time</p>
+                        <p>Estimated time to deliver</p>
+                      </div>
+                    </div>
+                  </th>
                   <th>Region</th>
                   <th>Sponsored</th>
                   <th>Indexed</th>
                   <th>Do Follow</th>
                   <th>Example</th>
-                  <th>Image</th>
-                  <th>Niches</th>
+                  {/* <th>Image</th>
+                  <th>Niches</th> */}
                 </tr>
               </thead>
               <tbody>
                 {sortedData.map((row, index) => (
                   <tr key={index}>
-                    <td style={{ width: '250px' }} className="publication-cell">
+                    <td style={{ width: '200px' }} className="publication-cell">
                       <img src={`${row.publication_image_url}`} alt="Publication" />
                       <a
                         href={row.publication_url}
@@ -198,7 +223,7 @@ const TableComponent = ({ tableType, filters }) => {
                         ''
                       )}
                     </td>
-                    <td>
+                    {/* <td>
 
                       <div className="heading-tooltip">
                         <FaImage className="image-icon" />
@@ -208,7 +233,7 @@ const TableComponent = ({ tableType, filters }) => {
                         </div>
                       </div>
                     </td>
-                    <td>{row.niches || 'N/A'}</td>
+                    <td>{row.niches || 'N/A'}</td> */}
                   </tr>
                 ))}
               </tbody>
@@ -219,7 +244,7 @@ const TableComponent = ({ tableType, filters }) => {
       case 'bestsellers':
         return (
           <div className="table-section">
-            <p className="table-header" style={{ color: "white" }}>SHOWING BESTSELLERS</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} BESTSELLERS</p>
             <table className="styled-table">
               <thead>
                 <tr>
@@ -267,13 +292,13 @@ const TableComponent = ({ tableType, filters }) => {
                   <tr key={index}>
 
                     <td style={{ width: '400px' }} className="publication-cell">
-                      <img src={`${row.publication}`} alt="Publication" />
+                      <img src={`${row.publication_image_url}`} alt="Publication" />
                       <a
                         href={row.publication_url}
                         target="_blank"  // This will open the link in a new tab
                         rel="noopener noreferrer"
                       >
-                        <span>{row.publication_url}</span>
+                        <span>{row.publication}</span>
                       </a>
                       {favorites.includes(row.publication_url) ? (
                         <FaStar
@@ -306,9 +331,7 @@ const TableComponent = ({ tableType, filters }) => {
                       )}
                     </td>
                     <td className="price-cell" style={{ width: '100px' }}>
-                      {row.price.split(/(Top \d+:.*?)(?=Top|$)/g).map((pricePart, index) => (
-                        pricePart.trim() && <div key={index}>{pricePart}</div>
-                      ))}
+                      {row.price}
                     </td>
                     <td>{row.da}</td>
                     <td>{row.dr}</td>
@@ -367,7 +390,8 @@ const TableComponent = ({ tableType, filters }) => {
       case 'listicles':
         return (
           <div className="table-section">
-            <p className="table-header"  style={{ color: "white" }}>SHOWING {tableType.toUpperCase()}</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} Listicles</p>
+            
             <table className="styled-table">
               <thead>
                 <tr>
@@ -503,75 +527,71 @@ const TableComponent = ({ tableType, filters }) => {
           </div>
         );
 
-        case 'television':
-  return (
-    <div className="table-section">
-      <p className="table-header"  style={{ color: "white" }}>SHOWING TELEVISION DATA</p>
+      case 'television':
+        return (
+          <div className="table-section">
+            <p className="table-header" style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} TVs</p>
+            
+            <table className="styled-table">
+              <thead>
+                <tr>
+                  <th>Affiliate</th>
+                  <th>CALLS</th>
+                  <th>STATE</th>
+                  <th>MARKET</th>
+                  <th>PROGRAM NAME</th>
+                  <th>LOCATION</th>
+                  <th>TIME</th>
+                  <th>RATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                {sortedData.map((row, index) => (
+                  <tr key={index}>
+                    {/* Clicking on Affiliate will navigate to row.url */}
+                    <td>
+                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="affiliate-link">
+                        {row.affiliate}
+                      </a>
+                      {/* If 'Example' is in row.affiliate, show intake form link */}
+                      {row.affiliate.includes('Intake') && (
+                        <span className="intake-form-label">
+                          <a
+                            href="https://docs.google.com/document/d/1AHGeTyjzSDKwMz6BBxPKgdyRFfBh_4h3amXxVJGZVnA/edit" // Replace with actual Google Doc link
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Intake form
+                          </a>
+                        </span>
+                      )}
+                    </td>
 
-      <table className="styled-table">
-        <thead>
-          <tr>
-            <th>Affiliate</th>
-            <th>CALLS</th>
-            <th>STATE</th>
-            <th>MARKET</th>
-            <th>PROGRAM NAME</th>
-            <th>LOCATION</th>
-            <th>TIME</th>
-            <th>RATE</th>
-          </tr>
-        </thead>
-        <tbody>
-          {sortedData.map((row, index) => (
-            <tr key={index}>
-              {/* Clicking on Affiliate will navigate to row.url */}
-              <td>
-                <a href={row.url} target="_blank" rel="noopener noreferrer" className="affiliate-link">
-                  {row.affiliate}
-                </a>
-                {/* If 'Example' is in row.affiliate, show intake form link */}
-                {row.affiliate.includes('Intake') && (
-                  <span className="intake-form-label">
-                    <a
-                      href="https://docs.google.com/document/d/1AHGeTyjzSDKwMz6BBxPKgdyRFfBh_4h3amXxVJGZVnA/edit" // Replace with actual Google Doc link
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Intake form
-                    </a>
-                  </span>
-                )}
-              </td>
+                    <td>{row.calls}</td>
+                    <td>{row.state}</td>
+                    <td>{row.market}</td>
 
-              <td>{row.calls}</td>
-              <td>{row.state}</td>
-              <td>{row.market}</td>
-              
-              {/* Clicking on Program Name will navigate to row.url */}
-              <td>
-                <a href={row.url} target="_blank" rel="noopener noreferrer" className="program-link">
-                  {row.program_name}
-                </a>
-              </td>
+                    {/* Clicking on Program Name will navigate to row.url */}
+                    <td>
+                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="program-link">
+                        {row.program_name}
+                      </a>
+                    </td>
 
-              <td>{row.location}</td>
-              <td>{row.time}</td>
-              <td>{row.rate}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-
-        
-
-
+                    <td>{row.location}</td>
+                    <td>{row.time}</td>
+                    <td>{row.rate}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
 
       case 'socialposts':
         return (
           <div className="table-section">
-            <p className="table-header"  style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} PUBLICATIONS</p>
+            <p className="table-header" style={{ color: "white" }}>SHOWING {filteredData.length} OF {data.length} PUBLICATIONS</p>
             <table className="styled-table">
               <thead>
                 <tr>
@@ -632,8 +652,6 @@ const TableComponent = ({ tableType, filters }) => {
             </table>
           </div>
         );
-
-
 
       default:
         return null;

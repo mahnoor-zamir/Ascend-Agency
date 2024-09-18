@@ -50,13 +50,13 @@ const PRBundles = () => {
   const processData = (result) => {
     return result.reduce((acc, bundle) => {
       console.log(bundle)
-      const { category, bundle_name, price, retail_price, inclusions } = bundle;
+      const { category, bundle_name, price, retail_value, inclusions } = bundle;
       const existingCategory = acc.find(item => item.title === category);
 
       const bundleItem = {
         name: bundle_name,
         price: `$${price}`,
-        retailValue: `$${retail_price}`,
+        retailValue: `$${retail_value}`,
         publications: inclusions.split(', ')
       };
 
