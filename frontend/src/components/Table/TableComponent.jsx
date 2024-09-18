@@ -34,11 +34,13 @@ const TableComponent = ({ tableType, filters }) => {
 
   const filteredData = data.filter((row) => {
     if (tableType === 'publications') {
+      console.log('Filtering with PubName:', filters.publicationName);
+      console.log('Row publication_name:', row.publication);
       // Publication name filter (case-insensitive)
-      if (filters.publicationName && !row.publication.toLowerCase().includes(filters.publicationName.toLowerCase())) return false;
+      if (filters.publicationName && !row.publication_url.toLowerCase().includes(filters.publicationName.toLowerCase())) return false;
 
       // Regions filter (check if at least one region matches, case-insensitive)
-      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.toLowerCase().includes(region.toLowerCase()))) return false;
+      if (filters.regions.length > 0 && !filters.regions.some(region => row.region.some(r => r.toLowerCase().includes(region.toLowerCase())))) return false;
 
       // Genres filter (check if at least one genre matches)
       if (filters.genres.length > 0 && !filters.genres.some(genre => row.genres.includes(genre))) return false;

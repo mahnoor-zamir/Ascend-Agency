@@ -58,7 +58,7 @@
 }
 
 .niche-icon i:hover {
-  color: #ff0000; /* Change color on hover, e.g., red */
+  color: #000; /* Change color on hover, e.g., red */
 }
 
 .styled-table {
@@ -77,6 +77,7 @@
   border: 1px solid #ddd;
   vertical-align: middle;
   min-width: 70px;
+  min-height: 88px;
 }
 
 .styled-table thead th {
