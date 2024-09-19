@@ -11,7 +11,7 @@ import './App.css';
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [isBusinessSelected, setIsBusinessSelected] = useState(false);
-    const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
+    const [isModalOpen, setIsModalOpen] = useState(false); 
 
     useEffect(() => {
         const authState = localStorage.getItem('isAuthenticated');
