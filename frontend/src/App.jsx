@@ -21,8 +21,7 @@ function App() {
     }, []);
 
     const handleLogin = (email, password) => {
-        // Replace with your own authentication logic
-        if (email === 'your-email@example.com' && password === 'your-password') {
+        if (email === 'admin@highroller.com' && password === 'highroller@123') {
             setIsAuthenticated(true);
             localStorage.setItem('isAuthenticated', 'true');
         } else {
