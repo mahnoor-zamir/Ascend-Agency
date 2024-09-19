@@ -624,9 +624,9 @@ const TableComponent = ({ tableType, filters }) => {
                     </td>
                     <td>{row.price || 'N/A'}</td>
                     <td className='platform-cell'>
-                      <FaFacebook className={`platform-icon ${row.platform.includes('facebook') ? 'solid' : 'faded'}`} />
-                      <FaInstagram className={`platform-icon ${row.platform.includes('instagram') ? 'solid' : 'faded'}`} />
-                      <FaTwitter className={`platform-icon ${row.platform.includes('twitter') ? 'solid' : 'faded'}`} />
+                      <FaFacebook className={`platform-icon ${row.platform.includes('fb') ? 'solid' : 'faded'}`} />
+                      <FaInstagram className={`platform-icon ${row.platform.includes('insta') ? 'solid' : 'faded'}`} />
+                      <FaTwitter className={`platform-icon ${row.platform.includes('x') ? 'solid' : 'faded'}`} />
                       <FaLinkedin className={`platform-icon ${row.platform.includes('linkedIn') ? 'solid' : 'faded'}`} />
                     </td>
                     <td>{row.tat}</td>
