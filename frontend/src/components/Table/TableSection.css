@@ -1,19 +1,21 @@
-
-
 .table-header {
   font-weight: bold;
   margin-bottom: 15px;
   color: #333;
 }
+
 .niche-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100px; /* Adjust the width as needed */
+  width: 100px;
+  /* Adjust the width as needed */
 }
+
 .affiliate-link {
   text-decoration: none;
-  color: #000; /* Adjust as needed */
+  color: #000;
+  /* Adjust as needed */
   font-weight: bold;
 }
 
@@ -45,20 +47,26 @@
 .program-link:hover {
   text-decoration: underline;
 }
+
 .niche-icon {
-  font-size: 20px; /* Icon size */
-  color: #d3d3d3; /* Default color (gray) */
-  margin-right: 5px; /* Space between icons */
+  font-size: 20px;
+  /* Icon size */
+  color: #d3d3d3;
+  /* Default color (gray) */
+  margin-right: 5px;
+  /* Space between icons */
 }
 
-.niche-icon.heart i, 
-.niche-icon.cannabis i, 
+.niche-icon.heart i,
+.niche-icon.cannabis i,
 .niche-icon.circle i {
-  color: #000; /* Black for selected icons */
+  color: #000;
+  /* Black for selected icons */
 }
 
 .niche-icon i:hover {
-  color: #000; /* Change color on hover, e.g., red */
+  color: #000;
+  /* Change color on hover, e.g., red */
 }
 
 .styled-table {
@@ -66,42 +74,40 @@
   border-collapse: collapse;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: #333;
+  background-color: #1E2124;
+  color: white;
 }
 
 .styled-table th,
 .styled-table td {
   padding: 0px 15px;
-  background-color: #ffffff;
   text-align: left;
-  border: 1px solid #ddd;
   vertical-align: middle;
   min-width: 70px;
   min-height: 88px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .styled-table thead th {
-  
-    background-color: #ffffff;
-    color: #0c0c0c; /* Ensure bold visibility with a strong color */
-    text-transform: uppercase;
-    font-weight: 900; /* Increase boldness */
-    font-size: 1.1rem; /* Slightly larger font size */
-    letter-spacing: 0.05em; /* Space out the letters */
-    padding: 10px 10px; /* Add padding for better readability */
-    
-  }
-  
- 
-
+  color: #00C802;
+  /* Ensure bold visibility with a strong color */
+  text-transform: uppercase;
+  font-weight: 800;
+  /* Increase boldness */
+  font-size: 1.1rem;
+  /* Slightly larger font size */
+  letter-spacing: 0.05em;
+  /* Space out the letters */
+  padding: 10px 10px;
+  /* Add padding for better readability */
+  border-bottom: 2px solid #ddd;
+}
 
 .styled-table tbody tr {
   border-bottom: 1px solid #ddd;
 }
 
-.styled-table tbody tr:hover {
-  background-color: #d5d4d4;
-}
 
 .publication-cell {
   display: flex;
@@ -133,7 +139,7 @@
   cursor: pointer;
   position: absolute;
   right: 10px;
-  color: #000000;
+  color: white;
 }
 
 .star-icon.favorite {
@@ -145,16 +151,17 @@
 }
 
 .genre-item {
-  background-color: rgb(240, 240, 240);
+  background-color: #00C802;
   border-radius: 3px;
   margin-bottom: 0px;
   text-align: center;
-  padding:1px 5px;
+  padding: 1px 5px;
   display: block;
   width: fit-content;
   margin: 0 auto;
   width: max-content;
 }
+
 .genre-tooltip {
   cursor: pointer;
   position: relative;
@@ -177,7 +184,8 @@
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* Position above the icon */
+  bottom: 125%;
+  /* Position above the icon */
   left: 50%;
   margin-left: -60px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -208,7 +216,8 @@
   padding: 5px;
   position: absolute;
   z-index: 1;
-  top: -100%; /* Position above the icon */
+  top: -100%;
+  /* Position above the icon */
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -245,7 +254,8 @@
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* Position the tooltip above the text */
+  bottom: 125%;
+  /* Position the tooltip above the text */
   left: 50%;
   margin-left: -100px;
   opacity: 0;

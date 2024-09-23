@@ -23,9 +23,9 @@ function TelevisionFilterSection({ filters, setFilters }) {
                     onChange={handleTVNameChange}
                 />
             </div>
-            <p>Turn Around Time: 2-4 Weeks</p>
-            <p>Segment Times vary between 2-4 minutes</p>
-            <p>Zoom & In Person Options Available</p>
+            <p className='disc'>Turn Around Time: 2-4 Weeks</p>
+            <p className='disc'>Segment Times vary between 2-4 minutes</p>
+            <p className='disc'>Zoom & In Person Options Available</p>
         </div>
     );
 }

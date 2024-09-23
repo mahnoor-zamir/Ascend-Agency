@@ -550,7 +550,7 @@ const TableComponent = ({ tableType, filters }) => {
                   <tr key={index}>
                     {/* Clicking on Affiliate will navigate to row.url */}
                     <td>
-                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="affiliate-link">
+                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="affiliate-link" style={{'color': 'white'}}>
                         {row.affiliate}
                       </a>
                       {/* If 'Example' is in row.affiliate, show intake form link */}
@@ -573,7 +573,7 @@ const TableComponent = ({ tableType, filters }) => {
 
                     {/* Clicking on Program Name will navigate to row.url */}
                     <td>
-                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="program-link">
+                      <a href={row.url} target="_blank" rel="noopener noreferrer" className="program-link" style={{'color': 'white'}}>
                         {row.program_name}
                       </a>
                     </td>

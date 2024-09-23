@@ -1,6 +1,6 @@
 
 .filter-section {
-  background-color: #ffffff;
+  background-color: #1E2124;
   width:20%;
   height: fit-content;
 
@@ -14,6 +14,11 @@
 .filter-group {
   margin-bottom: 20px;
 }
+
+.filter-label {
+  color: #00C802;
+}
+
 
 .sort-select, .regions-select {
   width: 100%;
@@ -47,7 +52,9 @@
   border-radius: 0px;
 }
 
-
+.disc {
+  color: #00C802;
+}
 
 
 
@@ -79,7 +86,7 @@
 
 .dropdown-button:focus {
   outline: none;
-  border-color: #f8e9e9;
+  border-color: #ecfadf;
 }
 
 .dropdown-menu {
@@ -96,22 +103,23 @@
 .dropdown-menu li {
   padding: 10px;
   font-size: 16px;
-  color: #333;
+  color: #1E2124;
   cursor: pointer
 }
 
 .dropdown-menu li:hover {
-  background-color: #f8e9e9;
+  background-color: #ecfadf;
   color: #000;
  
 }
 
 .dropdown-menu li.selected {
-  background-color: #f8e9e9;
+  background-color: #ecfadf;
   color: #000;
 }
+
 .genre-button {
-  background-color: #656161;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 0;
@@ -122,7 +130,7 @@
   margin:-3px;}
 
 .filter-options {
-  background-color: #656161;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 0;
@@ -134,7 +142,7 @@
 }
 
 .type-button{
-  background-color: #656161;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 0;
@@ -146,11 +154,11 @@
 }
 
 .genre-button.selected, .type-button.selected, .filter-options.active {
-  background-color: #000; /* Red background for selected */
+  background-color: #00C802; /* Red background for selected */
 }
 
 .genre-button:hover, .type-button:hover, .filter-options:hover {
-  background-color: #000;
+  background-color: #00C802;
 }
 
 .genres, .types {
