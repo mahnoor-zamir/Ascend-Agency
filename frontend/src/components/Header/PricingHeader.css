@@ -8,7 +8,7 @@
   margin-top: 30px;
   background-color:  #000;
   border-bottom: 1px solid  #000;
-  color: #00c802;
+  color: white;
   font-family: 'Alumni Sans', sans-serif;
   font-weight: 500; 
 }
@@ -16,7 +16,7 @@
 .pricing-header h1 {
   font-size: 28px;
   margin: 0;
-  color: #00c802;
+  color: white;
 }
 
 .pricing-header .buttons {
@@ -26,7 +26,7 @@
 
 .pricing-header .buttons button {
   background-color: #00c802;
-  color: white;
+  color: black;
   border: none;
   padding: 5px 10px;
   font-size: 16px;

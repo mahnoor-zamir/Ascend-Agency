@@ -192,7 +192,7 @@ const TableComponent = ({ tableType, filters }) => {
                     </td>
                     <td className="price-cell" style={{ width: '100px' }}>
                       {row.price.split(/(Top \d+:.*?)(?=Top|$)/g).map((pricePart, index) => (
-                        pricePart.trim() && <div key={index}>{pricePart}</div>
+                        pricePart.trim() && <div key={index}>${pricePart.split('.')[0]}</div>
                       ))}
                     </td>
                     <td>{row.da || 'N/A'}</td>

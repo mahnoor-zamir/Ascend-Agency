@@ -151,7 +151,7 @@
 }
 
 .genre-item {
-  background-color: #00C802;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 3px;
   margin-bottom: 0px;
   text-align: center;

@@ -16,7 +16,7 @@
 }
 
 .filter-label {
-  color: #00C802;
+  color: white;
 }
 
 
@@ -119,8 +119,8 @@
 }
 
 .genre-button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #1E2124;
   border: none;
   border-radius: 0;
   padding: 2px 15px;
@@ -130,8 +130,8 @@
   margin:-3px;}
 
 .filter-options {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #1E2124;
   border: none;
   border-radius: 0;
   padding: 2px 15px;
@@ -142,8 +142,8 @@
 }
 
 .type-button{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #1E2124;
   border: none;
   border-radius: 0;
   padding: 2px 15px;
