@@ -81,7 +81,7 @@
 .styled-table th,
 .styled-table td {
   padding: 0px 15px;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
   min-width: 70px;
   min-height: 88px;
@@ -129,9 +129,7 @@
 }
 
 /* Optional: Adjustments for better spacing in certain columns */
-.styled-table td:nth-child(11),
-.styled-table td:nth-child(12),
-.styled-table td:nth-child(13) {
+.styled-table {
   text-align: center;
 }
 
