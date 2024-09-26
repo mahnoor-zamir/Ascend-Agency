@@ -11,7 +11,7 @@ import './App.css';
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [isBusinessSelected, setIsBusinessSelected] = useState(false);
-    const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
+    const [isModalOpen, setIsModalOpen] = useState(false); 
 
     useEffect(() => {
         const authState = localStorage.getItem('isAuthenticated');
@@ -21,8 +21,7 @@ function App() {
     }, []);
 
     const handleLogin = (email, password) => {
-        // Replace with your own authentication logic
-        if (email === 'your-email@example.com' && password === 'your-password') {
+        if (email === 'admin@highroller.com' && password === 'highroller@123') {
             setIsAuthenticated(true);
             localStorage.setItem('isAuthenticated', 'true');
         } else {
