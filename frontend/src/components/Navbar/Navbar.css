@@ -1,13 +1,13 @@
 /* src/components/Navbar.css */
 
 
-  /* src/components/Navbar.css */
+/* src/components/Navbar.css */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-   background: #000;
+  background: #000;
   color: white;
 }
 
@@ -16,18 +16,20 @@
 }
 
 .logout-button {
- 
+
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #ffffff;
-    color: #0c0c0c; /* Ensure bold visibility with a strong color */
-    text-transform: uppercase;
-    font-weight: 900; /* Increase boldness */
-    font-size: 1.1rem; /* Slightly larger font size */
-    letter-spacing: 0.05em; /* Space out the letters */
+  color: #00C802;
+  /* Ensure bold visibility with a strong color */
+  text-transform: uppercase;
+  font-weight: 900;
+  /* Increase boldness */
+  font-size: 1.1rem;
+  /* Slightly larger font size */
+  letter-spacing: 0.05em;
+  /* Space out the letters */
 }
 
 .logout-button:hover {
-  color: #646262;
+  color: #016802;
 }
-  

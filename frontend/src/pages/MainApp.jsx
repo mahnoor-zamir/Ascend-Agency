@@ -86,7 +86,7 @@ function MainApp() {
                     </button>
                 ))}
             </nav>
-            <div className="line" style={{ backgroundColor: 'lightgrey', width: '98%', height: '1px', margin: '0 auto', marginTop: '10px' }}></div>
+            <div className="line" style={{ backgroundColor: '#1E2124', width: '98%', height: '1px', margin: '0 auto', marginTop: '10px' }}></div>
             <div className="content">{renderContent()}</div>
         </div>
     );
