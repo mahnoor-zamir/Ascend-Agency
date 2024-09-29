@@ -1,6 +1,6 @@
 import React from 'react';
 import './FilterSection.css';
-
+import PriceRangeFilter from './PriceRange';
 function FilterSection({ filters, setFilters }) {
   const toggleSortDropdown = () => {
     setFilters(prevFilters => ({
@@ -8,6 +8,14 @@ function FilterSection({ filters, setFilters }) {
       showSortDropdown: !filters.showSortDropdown,
     }));
   };
+  const handlePriceRangeChange = ([min, max]) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      minPrice: min,
+      maxPrice: max,
+    }));
+  };
+
 
   const handleSortSelect = (option) => {
     setFilters(prevFilters => ({
@@ -117,7 +125,13 @@ function FilterSection({ filters, setFilters }) {
           onChange={handlePublicationNameChange}
         />
       </div>
-
+      <div className="filter-group">
+        <PriceRangeFilter
+          minPrice={0}
+          maxPrice={100000}
+          onChange={handlePriceRangeChange}
+        />
+      </div>
       {/* Sort by Dropdown */}
       <div className="filter-group">
         <label className="filter-label">Sort by</label>
