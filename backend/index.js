@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require('./config/db');
 const publicationRoutes = require('./Routes/publicationRoute');
 const televisionRoutes = require('./Routes/televisionRoute'); 
 const listicleRoutes = require('./Routes/listicleRoute');
