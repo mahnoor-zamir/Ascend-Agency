@@ -1,19 +1,16 @@
-const mysql = require('mysql2');
+const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
 
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'pressagency',
-  port: 8111
-});
+// Path to the SQLite database file
+const dbPath = path.resolve(__dirname, 'pressagency.sqlite');
 
-db.connect((err) => {
+// Create a new SQLite database connection
+const db = new sqlite3.Database(dbPath, (err) => {
   if (err) {
-    console.error('Error connecting to the database:', err);
+    console.error('Error connecting to the SQLite database:', err);
     return;
   }
-  console.log('Connected to the MySQL database');
+  console.log('Connected to the SQLite database');
 });
 
 module.exports = db;
