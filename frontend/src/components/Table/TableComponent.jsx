@@ -38,7 +38,10 @@ const TableComponent = ({ tableType, filters }) => {
       console.log('Row publication_name:', row.publication);
       // Publication name filter (case-insensitive)
       if (filters.publicationName && !row.publication.toLowerCase().includes(filters.publicationName.toLowerCase())) return false;
-
+      if (filters.minPrice !== undefined && filters.maxPrice !== undefined) {
+        const rowPrice = parseFloat(row.price.replace(/[^0-9.-]+/g, ""));
+        if (rowPrice < filters.minPrice || rowPrice > filters.maxPrice) return false;
+      }
       // Regions filter (check if at least one region matches, case-insensitive)
       if (filters.regions.length > 0 && !filters.regions.some(region => row.region.some(r => r.toLowerCase().includes(region.toLowerCase())))) return false;
 
