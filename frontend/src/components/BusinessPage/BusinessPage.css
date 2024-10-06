@@ -5,18 +5,17 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #0e0e0e;
+  background-color: black;
   margin-top: -85px;
 }
 
-/* Logo container to place the logo similar to login section */
 .logo-container {
-  margin-bottom: 10px; /* Space between logo and content */
+  margin-bottom: 30px; /* Adds space between logo and login form */
 }
 
 .logo {
-  width: 300px;
-  height: auto;
+  width: 100px;
+  height: 20px;
 }
 
 /* Main box with frosted glass effect */
@@ -24,13 +23,13 @@
   text-align: center;
   padding: 40px 30px;
   width: 450px;
-  background: rgba(255, 255, 255, 0.8); /* Frosted glass background */
+  background: black;
   border-radius: 16px; /* Rounded corners */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   backdrop-filter: blur(5px); /* Frosted glass effect */
   -webkit-backdrop-filter: blur(5px); /* Frosted glass for Safari */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Light white border */
-  color: #000; /* Black text for readability */
+  color: white; /* Black text for readability */
 }
 
 /* Business title with styling */
@@ -38,14 +37,13 @@
   margin-bottom: 20px; /* Space between title and subtitle */
   font-size: 24px;
   font-weight: bold;
-  color: #1b1a1a;
 }
 
 /* Subtitle text below title */
 .select-subtitle {
   margin-bottom: 20px;
   font-size: 18px;
-  color: #666;
+  color: #cbcbcb;
 }
 
 /* "or" text */
@@ -73,16 +71,16 @@
 }
 
 .business-button:hover {
-  background-color: #585757;; /* Lighter on hover */
+  background-color: #00C802; /* Lighter on hover */
 }
 
 .business-button:active {
-  background-color: #656161; /* Darker when clicked */
+  background-color: #00C802; /* Darker when clicked */
 }
 
 /* Sign-in link style */
 .sign-in-another a {
-  color: #1c1b1b;
+  color: #ffffff;
   text-decoration: none;
   transition: opacity 0.3s ease;
 }

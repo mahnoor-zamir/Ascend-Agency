@@ -4,38 +4,32 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
-    margin-top: 50px;
+    height: 100vh; /* Changed to 100vh to ensure it takes the full viewport height */
+    margin-top: 0; /* Removed margin-top to center vertically */
 }
 
 .logo-container {
-    margin-bottom: 100px; /* Adds space between logo and login form */
+    margin-bottom: 30px; /* Adds space between logo and login form */
 }
 
 .logo {
-    width: 300px;
-    height: auto;
+    width: 100px;
+    height: 20px;
 }
 
 .login-container {
     width: 450px;
     padding: 40px 30px;
-    background: rgba(255, 255, 255, 0.8); /* White frosted glass effect */
+    padding-top: 0px;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    color: #000;
+    align-items: center;
+    color: #ffffff;
 }
 
-.welcome-text h1 {
-    margin: 0 0 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-}
 
 .login-form {
     margin-top: 20px;
@@ -57,37 +51,58 @@
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #efeded;
-    border-radius: 4px;
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid rgb(116, 116, 116);
     font-size: 14px;
     outline: none;
     box-sizing: border-box;
 }
 
 .form-group input:focus {
-    border-color: black; /* Black border on focus */
+    border-color: white; /* Black border on focus */
+}
+
+.buttons {
+    padding-top: 10vh;
 }
 
 .login-button {
     width: 100%;
-    padding: 12px;
+    padding: 6px;
     background-color: #1b1a1a;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 20px;
-    text-transform: uppercase;
+}
+
+.help-button {
+    width: 100%;
+    padding: 6px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .login-button:hover {
-    background-color: #585757;
+    background-color: #00C802;;
 }
 
 .login-button:active {
-    background-color: #656161;
+    background-color: #00C802;;
+}
+
+.help-button:hover {
+    border: 1px solid white;
 }
 
 .bold {
