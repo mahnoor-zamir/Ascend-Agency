@@ -15,7 +15,7 @@ function LoginPage({ onLogin }) {
       {/* Logo above the login container */}
       <div className="logo-container">
         <img
-          src="../public/logos/HighRollerHorizontal.PNG"
+          src="/logos/HighRollerVertical.png"
           alt="Highroller Agency Logo"
           className="logo"
         />
