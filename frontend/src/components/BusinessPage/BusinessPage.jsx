@@ -14,12 +14,12 @@ function SelectBusinessPage({ onSelectBusiness }) {
             </div>
 
             <div className="select-box">
-                <h2 className="business-title" style={{ color: "black" }}>Welcome to Highroller Agency</h2>
-                <p className="select-subtitle" style={{ color: "black" }}>Select a business</p>
+                <h2 className="business-title" >Welcome to Highroller Agency</h2>
+                <p className="select-subtitle" >Select a business</p>
                 <button className="business-button" onClick={onSelectBusiness}>Ascend</button>
-                <p className="or-text" style={{ color: "black" }}>or</p>
+                <p className="or-text" >or</p>
                 <p className="sign-in-another">
-                    <a href="/login"style={{ color: "black" }}>Sign into another account</a>
+                    <a href="/login">Sign into another account</a>
                 </p>
             </div>
         </div>
